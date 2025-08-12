@@ -10,8 +10,8 @@ For ACCoRD project management, a private repository, please go to: [accord_proje
 
 ### Team
 
-- Project Lead: Dr Michelle Harricharan
-- Project Co-Lead: Dr Claire Ellul
-- Project Co-Lead: Dr James Wilson
-- Research & Innovation Associate: Katie Buntic
-- Professional Enabling Staff: Dr Rahil Alipour
+- Project Lead: Dr Michelle Harricharan, [m.harricharan@ucl.ac.uk](mailto:m.harricharan@ucl.ac.uk)
+- Project Co-Lead: Dr Claire Ellul, [c.ellul@ucl.ac.uk](mailto:c.ellul@ucl.ac.uk)
+- Project Co-Lead: Dr James Wilson, [j.a.j.wilson@ucl.ac.uk](mailto:j.a.j.wilson@ucl.ac.uk)
+- Research & Innovation Associate: Katie Buntic, [k.buntic@ucl.ac.uk](mailto:k.buntic@ucl.ac.uk)
+- Professional Enabling Staff: Dr Rahil Alipour, [r.alipour@ucl.ac.uk](mail.to:r.alipour@ucl.ac.uk)
