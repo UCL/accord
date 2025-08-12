@@ -10,8 +10,8 @@ For ACCoRD project management, a private repository, please go to: [accord_proje
 
 ### Team
 
-Project Lead: Dr Michelle Harricharan
-Project Co-Lead: Dr Claire Ellul
-Project Co-Lead: Dr James Wilson
-Research & Innovation Associate: Katie Buntic
-Professional Enabling Staff: Dr Rahil Alipour
+- Project Lead: Dr Michelle Harricharan
+- Project Co-Lead: Dr Claire Ellul
+- Project Co-Lead: Dr James Wilson
+- Research & Innovation Associate: Katie Buntic
+- Professional Enabling Staff: Dr Rahil Alipour
