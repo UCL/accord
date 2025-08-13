@@ -2,6 +2,7 @@ title: ACCoRD
 description: Aligning research data contracts to unlock the UK’s Digital Research Infrastructure
 theme: minima
 
-# Show "About" in the top nav (and control order)
 header_pages:
   - about.md
+  - events.md
+  - join.md
