@@ -16,5 +16,5 @@ ACCoRD aims to address barriers in data access and contracting that delay or blo
   <a href="https://www.ucl.ac.uk/foi">Freedom of Information</a> |
   <a href="https://www.ucl.ac.uk/accessibility">Accessibility</a> |
   <a href="https://www.ucl.ac.uk/commercial-procurement/modern-day-slavery-statement">Slavery statement</a> |
-  <a href="./contact.html"> Contact Us</a>
+  <a href="./contact.html">Contact Us</a>
 </footer>
