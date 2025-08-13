@@ -1,4 +1,7 @@
-title: ACCoRD
-description: A Community for Contract Regulation for Data
-theme: jekyll-theme-minimal
+title: ACCoRD – A Community for Contract Regulation for Data
+description: Aligning research data contracts to unlock the UK’s Digital Research Infrastructure
+theme: minima
 
+# Show "About" in the top nav (and control order)
+header_pages:
+  - about.md

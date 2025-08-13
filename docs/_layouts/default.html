@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body style="display:flex; flex-direction:column; min-height:100vh; margin:0;">
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content" style="flex:1;">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+  
+
+</html>
