@@ -15,3 +15,10 @@ For ACCoRD project management, a private repository, please go to: [accord_proje
 - Project Co-Lead: Dr James Wilson, [j.a.j.wilson@ucl.ac.uk](mailto:j.a.j.wilson@ucl.ac.uk)
 - Research & Innovation Associate: Katie Buntic, [k.buntic@ucl.ac.uk](mailto:k.buntic@ucl.ac.uk)
 - Professional Enabling Staff: Dr Rahil Alipour, [r.alipour@ucl.ac.uk](mailto:r.alipour@ucl.ac.uk)
+
+### Local Setup
+
+#### Previewing the GitHub Pages site with Jekyll
+
+To test this GitHub Pages site locally before deploying, follow the official  
+[GitHub guide on running a Jekyll site locally](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
