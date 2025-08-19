@@ -7,21 +7,46 @@
   margin-bottom: 0.5rem;
 }
 
-
 .people-grid {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   margin-top: 1.5rem;
+  background-color: #e9f3fa;
+  padding: 1rem;
+  border-radius: 12px;
 }
 
 .person {
-  border: 1px solid #eee;
+  border: 2px solid #000000;
   border-radius: 12px;
   padding: 1rem;
+  background-color: #cbe4f5;
 }
 
 .person h3 {
   margin: 0 0 0.25rem 0;
   font-size: 1rem;
+}
+
+.ucl-logo img {
+  height: 40px;
+}
+
+.ucl-footer-logo {
+  display: block;
+  text-align: center;
+  border-bottom: 1px solid #4f4f4f;
+}
+
+.ucl-footer-logo img {
+  height: 80px;
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }

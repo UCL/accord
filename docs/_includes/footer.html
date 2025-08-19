@@ -3,8 +3,6 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
@@ -28,6 +26,11 @@
       <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>
       </div>
+
+    <a class="ucl-footer-logo" href="https://www.ucl.ac.uk/">
+      <img src="{{ '/assets/images/ucl-logo.png' | relative_url }}" alt="UCL Logo">
+    </a>
+
     </div>
 
     <!-- Privacy and policy links -->
