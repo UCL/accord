@@ -7,36 +7,79 @@
   margin-bottom: 0.75rem;
 }
 
-/* Wider cards in the grid */
+/* ===== Members Section – gradient band + spacing ===== */
+.members-section {
+  margin-top: 1.5rem;
+  padding: 2rem 0 2.5rem;
+  background: linear-gradient(180deg, #f7fbff 0%, #e9f3fa 100%);
+  border-radius: 16px;
+}
+
+.members-intro {
+  text-align: center;
+  margin: 0 auto 1.25rem;
+}
+.members-intro h2 {
+  margin: 0 0 0.25rem;
+  font-size: 1.6rem;
+}
+.members-intro p {
+  margin: 0;
+  color: #284b63;
+  opacity: 0.85;
+}
+
+/* Grid – keep your wider cards */
 .people-grid {
   display: grid;
   gap: 1.25rem;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* was 220px */
-  margin-top: 1.5rem;
-  background-color: #e9f3fa;
-  padding: 1.25rem;
-  border-radius: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-top: 1rem;
+  background: transparent; /* section provides the background now */
+  padding: 0 0.5rem; /* light side breathing room */
 }
 
-/* Larger cards */
+/* Cards – centered layout preserved, now with polish */
 .person {
   display: flex;
-  flex-direction: column; /* stack avatar + info vertically */
-  justify-content: center; /* center vertically within card */
-  align-items: center; /* center horizontally */
-  text-align: center; /* center text */
+  flex-direction: column; /* avatar on top, text below */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   gap: 0.75rem;
-  border: 2px solid #000;
-  border-radius: 14px;
-  padding: 1.5rem;
-  background-color: #cbe4f5;
-  min-height: 220px; /* taller card for balanced look */
+
+  border: 1px solid rgba(11, 97, 164, 0.15);
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 1.4rem;
+
+  min-height: 240px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+  transition: transform 0.12s ease, box-shadow 0.12s ease,
+    border-color 0.12s ease;
+}
+.person:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+  border-color: rgba(11, 97, 164, 0.25);
 }
 
+/* Decorative top accent bar */
+.person::before {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 4px;
+  border-radius: 999px;
+  background: #0b61a4;
+  opacity: 0.12;
+  margin-top: -4px;
+}
+
+/* Fixed circular avatar */
 .person-media {
-  flex: 0 0 auto; /* no stretching */
+  flex: 0 0 auto;
 }
-
 .person-media img,
 .avatar-placeholder {
   width: 120px;
@@ -47,25 +90,39 @@
   border: 1px solid #b7d2e6;
 }
 
+/* Typography in cards */
 .person h3 {
-  margin: 0.25rem 0;
-  font-size: 1.1rem;
-  font-weight: 700;
+  margin: 0.2rem 0 0.1rem;
+  font-size: 1.12rem;
+  font-weight: 800;
 }
-
 .person-content p {
-  margin: 0.2rem 0;
+  margin: 0.18rem 0;
+}
+.person-content em {
+  color: #284b63;
 }
 
-/* Responsive: stack on very narrow screens */
+/* Link style inside cards */
+.person-content a {
+  color: #0b61a4;
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(11, 97, 164, 0.35);
+}
+.person-content a:hover {
+  border-bottom-style: solid;
+}
+
+/* Small screens */
 @media (max-width: 480px) {
-  .person {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  .members-section {
+    padding: 1.25rem 0 1.75rem;
   }
-  .person-content {
-    width: 100%;
+  .people-grid {
+    grid-template-columns: 1fr;
+  }
+  .person {
+    padding: 1.2rem;
   }
 }
 
@@ -89,4 +146,159 @@
   max-width: 1100px; /* was 900px */
   margin: 0 auto;
   padding: 0 1rem;
+}
+
+/* Hero with CTA and image */
+.hero {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 3rem;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.hero-text h1 {
+  margin: 0.25rem 0 0.75rem;
+  font-size: 1.9rem;
+  line-height: 1.25;
+}
+
+.hero-text p {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.btn-join {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  padding: 0.45rem 0.9rem;
+  border: 1px solid #0b61a4;
+  border-radius: 9999px;
+  text-decoration: none;
+  color: #0b61a4;
+  background-color: linear-gradient(
+    90deg,
+    #e9f3fa 0%,
+    #ffffff 50%,
+    #e9f3fa 100%
+  );
+  font-weight: 600;
+}
+.btn-join:hover {
+  background: #0b61a4;
+  color: #fff;
+}
+
+.hero-media img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
+
+/* Responsive: stack on narrow screens */
+@media (max-width: 860px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .hero-text h1 {
+    font-size: 1.6rem;
+  }
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: linear-gradient(90deg, #e9f3fa 0%, #ffffff 50%, #e9f3fa 100%);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  backdrop-filter: saturate(1.1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+}
+
+.nav-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 64px;
+}
+
+.site-title {
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+}
+
+.site-nav .nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.site-nav .page-link {
+  position: relative;
+  text-decoration: none;
+  padding: 0.3rem 0.2rem;
+}
+.site-nav .page-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0.1rem;
+  height: 2px;
+  transform: scaleX(0);
+  background: #0b61a4;
+  transition: transform 0.18s ease-in-out;
+  transform-origin: left;
+}
+.site-nav .page-link:hover::after {
+  transform: scaleX(1);
+}
+
+.site-nav .page-link.active {
+  color: #0b61a4;
+  font-weight: 700;
+}
+.site-nav .page-link.active::after {
+  transform: scaleX(1);
+}
+
+/* CTA pill */
+.site-nav .nav-cta {
+  padding: 0.35rem 0.8rem;
+  border: 1px solid #0b61a4;
+  border-radius: 999px;
+  font-weight: 700;
+}
+.site-nav .nav-cta:hover {
+  background: #0b61a4;
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-nav .burger {
+  cursor: pointer;
+  padding: 0.4rem;
+  border-radius: 8px;
+}
+.site-nav .burger:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+@media (max-width: 760px) {
+  .site-nav .nav-links {
+    gap: 0.6rem;
+  }
+  .site-nav .nav-cta {
+    padding: 0.35rem 0.7rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .nav-wrap {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
 }
