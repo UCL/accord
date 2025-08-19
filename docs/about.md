@@ -37,6 +37,7 @@ ACCoRD is building a community and a Governance Framework for Data Contracts to 
       {% if p.affiliation %}<p>{{ p.affiliation }}</p>{% endif %}
       {% if p.email %}<p><a href="mailto:{{ p.email }}">{{ p.email }}</a></p>{% endif %}
     </div>
+  
   </div>
   {% endfor %}
 </div>
