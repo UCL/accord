@@ -1,3 +1,6 @@
+# Ignore Jekyll build output inside docs
+/docs/_site/
+
 # Ignore Bundler lock file (not needed in repos for GitHub Pages)
 docs/Gemfile.lock
 
