@@ -1,0 +1,7 @@
+source "https://rubygems.org"
+
+# Use the GitHub Pages stack locally (pins Jekyll + plugins to the same versions GitHub uses)
+gem "github-pages", group: :jekyll_plugins
+
+# Needed on Ruby 3.x for the local server
+gem "webrick", "~> 1.8"

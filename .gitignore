@@ -1,0 +1,6 @@
+# Ignore Bundler lock file (not needed in repos for GitHub Pages)
+docs/Gemfile.lock
+
+# Ruby / Bundler files
+.bundle/
+vendor/

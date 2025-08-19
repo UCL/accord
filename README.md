@@ -20,5 +20,31 @@ For ACCoRD project management, a private repository, please go to: [accord_proje
 
 #### Previewing the GitHub Pages site with Jekyll
 
-To test this GitHub Pages site locally before deploying, follow the official  
-[GitHub guide on running a Jekyll site locally](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
+It’s often useful to test the GitHub Pages site **locally** before pushing changes.  
+This lets you check that pages render correctly, links work, and styles look as expected without having to commit and wait for GitHub Pages to rebuild.
+
+To test this GitHub Pages site locally before deploying, you need **Ruby**, **Bundler**, and **Jekyll** installed.  
+See the [GitHub guide on running a Jekyll site locally](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) for more details.
+
+---
+
+**Steps:**
+
+1. Install the required gems (only once):
+
+```bash
+   gem install bundler jekyll
+```
+
+2. From the project root (where the `Gemfile` lives), install dependencies:
+
+```bash
+bundle install
+```
+3. Serve the site locally:
+
+```bash
+bundle exec jekyll serve
+```
+
+4. Open your browser at http://127.0.0.1:4000
