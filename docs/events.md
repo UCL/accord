@@ -4,31 +4,28 @@ title: Events & Activities
 permalink: /events/
 ---
 
-<div class="events-hero">
-  <p class="eyebrow">Connect • Learn • Co-design</p>
+<section class="events-hero flow">
+  <p class="eyebrow">Community • Contracts • Clarity</p>
   <h2 class="page-title">Events & Activities</h2>
   <p class="lead">
     Our events bring the ACCoRD community together - data providers, researchers, legal and compliance teams, policy experts, and anyone curious about making data contracts work better.
   </p>
   <p class="cta-row">
-    <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Join the community</a>
-    <a class="btn btn-primary" href="#calendar">View calendar</a>
+    <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Join the community →</a>
+    <a class="btn btn-primary" href="#calendar">View calendar →</a>
   </p>
-</div>
+</section>
 
----
-<div class="spacer-sm"></div>
-## Upcoming
-<div class="spacer-sm"></div>
+<hr class="section-divider" />
 
-<div class="event-card">
-  <div class="event-card-body">
+<section class="flow">
+  <h3>Workshops</h3>
+  <p>Hands-on sessions that map current contracting workflows, identify challenges, and prototype improvements to wording and process. Outcomes feed directly into the ACCoRD framework.</p>
+
+  <article class="event-card flow">
     <span class="badge">Upcoming</span>
     <h3>ACCoRD Launch Workshop</h3>
-    <p class="event-meta">
-      <strong>8 October</strong> · 1:00–4:00pm · UCL, London
-    </p>
-
+    <p class="event-meta"><strong>8 October</strong> · 1:00–4:00pm · UCL, London</p>
     <p>
       Help shape a UK-wide governance framework for research data contracts.
       Hear a keynote (TBA) and join facilitated breakout sessions to map the contracting process, surface pain points, and co-design contract-enabled solutions.
@@ -52,49 +49,33 @@ permalink: /events/
     </details>
 
     <p class="cta-row">
-      <!-- Replace the # with your Pretix URL -->
-      <a class="btn btn-primary" href="#" rel="noopener">Register for the workshop</a>
-      <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Get project updates</a>
+      <a class="btn btn-primary" href="#" rel="noopener">Register for the workshop →</a>
+      <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Get project updates →</a>
     </p>
 
-    <p class="tiny">
-      Parts of the event may be audio recorded for summary purposes; photos may be taken. Let us know if you prefer not to be photographed.
-    </p>
+    <p class="tiny">Parts of the event may be audio recorded for summary purposes; photos may be taken. Let us know if you prefer not to be photographed.</p>
 
-  </div>
-</div>
+  </article>
+</section>
 
-<div class="spacer-sm"></div>
----
-<div class="spacer-sm"></div>
+<section class="flow">
+  <h3>Conferences</h3>
+  <p>We’ll share findings and invite feedback at relevant national events (details announced here).</p>
+</section>
 
-## Activities
-<div class="spacer-sm"></div>
+<hr class="section-divider" />
 
-### Workshops
+<section id="past" class="flow">
+  <h2>Past events</h2>
+  <p>Couldn’t make it? Browse summaries, slides, and resources from earlier sessions.</p>
+  <p><a class="btn btn-primary" href="{{ '/events/past/' | relative_url }}">See past events →</a></p>
+</section>
 
-Hands-on sessions that map current contracting workflows, identify challenges, and prototype improvements to wording and process. Outcomes feed directly into the ACCoRD framework.
+<hr class="section-divider" />
 
-### Conferences
-
-We’ll share findings and invite feedback at relevant national events (details announced here).
-
-<div class="spacer-sm"></div>
----
-<div class="spacer-sm"></div>
-
-## Past events
-
-Couldn’t make it? Browse summaries, slides, and resources from earlier sessions.
-
-<p><a class="btn btn-primary" href="{{ '/events/past/' | relative_url }}">See past events →</a></p>
-
-<div class="spacer-sm"></div>
----
-<div class="spacer-sm"></div>
-
-## Interactive calendar
-
-<p id="calendar" class="tiny">
-We’ll embed a live calendar here. In the meantime, join the community to get invites and reminders.
-</p>
+<section id="calendar" class="flow">
+  <h2>Interactive calendar</h2>
+  <p class="tiny">
+    We’ll embed a live calendar here. In the meantime, join the community to get invites and reminders.
+  </p>
+</section>
