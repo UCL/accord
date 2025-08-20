@@ -5,7 +5,7 @@ title: Home
 
 <section class="hero">
   <div class="hero-text">
-    <a class="btn-join" href="{{ '/join/' | relative_url }}">Join the community →</a>
+    <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Join the community →</a>
 
     <h1><strong>A</strong> <strong>C</strong>ommunity for <strong>Co</strong>ntract <strong>R</strong>egulation for <strong>D</strong>ata (ACCoRD)</h1>
 
