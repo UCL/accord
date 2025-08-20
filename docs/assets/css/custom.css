@@ -370,8 +370,7 @@ body {
   }
 }
 
-.btn,
-.btn-join {
+.btn {
   display: inline-block;
   padding: 0.5rem 0.95rem;
   border-radius: 9999px;
@@ -384,8 +383,7 @@ body {
   background: white;
   color: var(--clr-sun);
 }
-.btn:hover,
-.btn-join:hover {
+.btn:hover {
   transform: translateY(-1px);
   color: #fff;
   box-shadow: 0 6px 16px rgba(5, 51, 86, 0.15);
@@ -399,15 +397,6 @@ body {
 .btn-primary:hover {
   background: var(--clr-accent);
   color: white;
-}
-
-.btn-outline {
-  background: transparent;
-  color: var(--clr-ink);
-}
-.btn-outline:hover {
-  background: var(--clr-sun);
-  color: #fff;
 }
 
 .cta-row {
@@ -517,7 +506,10 @@ body {
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
 }
 
-/* Footer */
+.footer-col-wrapper {
+  color: var(--clr-wash);
+}
+
 .site-footer a,
 .site-footer .u-email {
   color: var(--clr-wash);

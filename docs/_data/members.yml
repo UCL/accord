@@ -1,31 +1,36 @@
 - name: Dr Michelle Harricharan
   role: Project Lead
   affiliation: UCL ARC
+  email: 
   photo: assets/images/michelle.jpg
 
 - name: Dr Claire Ellul
   role: Project Co‑Lead
   affiliation: UCL ARC
+  email:
   photo: assets/images/claire.png
 
 - name: Dr James Wilson
   role: Project Co‑Lead
   affiliation: UCL ARC
+  email:
   photo: assets/images/james.png
 
 - name: Katie Buntic
   role: Research & Innovation Associate
   affiliation: UCL ARC
+  email:
   photo: assets/images/katie.png
 
 - name: Dr Rahil Alipour
   role: Research & Innovation Associate
   affiliation: UCL ARC
+  email:
   photo: assets/images/rahil.jpeg
 
 - name: Our community!
   role: Join the ACCoRD community today
-  affiliation: Email to find out more:
+  affiliation: Email to find out more
   email: researchdata@ucl.ac.uk
   photo: assets/images/neutral.jpg
 
