@@ -142,13 +142,13 @@ body {
   border-radius: 16px;
   padding: 1.4rem;
   min-height: 240px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.198);
   transition: transform 0.12s ease, box-shadow 0.12s ease,
     border-color 0.12s ease;
 }
 .person:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.228);
   border-color: rgba(11, 97, 164, 0.25);
 }
 
