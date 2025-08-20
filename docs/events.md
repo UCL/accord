@@ -23,7 +23,7 @@ permalink: /events/
   <p>Hands-on sessions that map current contracting workflows, identify challenges, and prototype improvements to wording and process. Outcomes feed directly into the ACCoRD framework.</p>
 
   <article class="event-card flow">
-    <span class="badge">Upcoming</span>
+    <span class="upcoming-badge">Upcoming</span>
     <h3>ACCoRD Launch Workshop</h3>
     <p class="event-meta"><strong>8 October</strong> · 1:00–4:00pm · UCL, London</p>
     <p>
@@ -56,11 +56,51 @@ permalink: /events/
     <p class="tiny">Parts of the event may be audio recorded for summary purposes; photos may be taken. Let us know if you prefer not to be photographed.</p>
 
   </article>
+
+  <article class="event-card flow">
+    <span class="stay-tuned-badge">Stay tuned</span>
+    <h3>ACCoRD Workshop 2</h3>
+    <p class="event-meta"><strong>Date TBC</strong> · UCL, London</p>
+    <p>
+      Help shape a UK-wide governance framework for research data contracts.
+      Hear a keynote (TBA) and join facilitated breakout sessions to map the contracting process, surface pain points, and co-design contract-enabled solutions.
+    </p>
+
+    <details class="agenda">
+      <summary>Agenda (click to expand)</summary>
+      <p class="tiny">To be confirmed</p>
+    </details>
+
+    <p class="cta-row">
+      <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Register for updates →</a>
+    </p>
+
+    <p class="tiny">Parts of the event may be audio recorded for summary purposes; photos may be taken. Let us know if you prefer not to be photographed.</p>
+
+  </article>
+
 </section>
 
 <section class="flow">
   <h3>Conferences</h3>
   <p>We’ll share findings and invite feedback at relevant national events (details announced here).</p>
+
+  <article class="event-card flow">
+    <span class="upcoming-badge">Upcoming</span>
+    <h3>NFCS Edinburgh Conference</h3>
+    <p class="event-meta"><strong>22 – 23 September</strong> · Edinburgh</p>
+    <p>
+    Come and find us at the <strong>National Federated Compute Services</strong> NetworkPlus Autumn Conference. <strong>Dr Michelle Harricharan</strong> will be giving a lightning talk on the <strong>23rd September</strong> at <strong>10:40</strong>. 
+    </p>
+
+  <p class="cta-row">
+    <a class="btn btn-primary"
+       href="https://indico.ph.qmul.ac.uk/event/2299/overview"
+       target="_blank" rel="noopener">Conference site →</a>
+  </p>
+
+  </article>
+
 </section>
 
 <hr class="section-divider" />
