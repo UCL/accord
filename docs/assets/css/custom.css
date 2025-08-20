@@ -1,3 +1,20 @@
+:root {
+  --site-bg: #fafdff;
+}
+
+html,
+body {
+  background: var(--site-bg);
+  min-height: 100%;
+}
+
+.site-header,
+.site-footer,
+.page-content,
+.wrapper {
+  background: transparent;
+}
+
 .spacer-sm {
   margin: 2rem 0;
 }
@@ -7,7 +24,6 @@
   margin-bottom: 0.75rem;
 }
 
-/* ===== Members Section – gradient band + spacing ===== */
 .members-section {
   margin-top: 1.5rem;
   padding: 2rem 0 2.5rem;
@@ -29,20 +45,18 @@
   opacity: 0.85;
 }
 
-/* Grid – keep your wider cards */
 .people-grid {
   display: grid;
   gap: 1.25rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin-top: 1rem;
-  background: transparent; /* section provides the background now */
-  padding: 0 0.5rem; /* light side breathing room */
+  background: transparent;
+  padding: 0 0.5rem;
 }
 
-/* Cards – centered layout preserved, now with polish */
 .person {
   display: flex;
-  flex-direction: column; /* avatar on top, text below */
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -64,7 +78,6 @@
   border-color: rgba(11, 97, 164, 0.25);
 }
 
-/* Decorative top accent bar */
 .person::before {
   content: "";
   display: block;
@@ -76,7 +89,6 @@
   margin-top: -4px;
 }
 
-/* Fixed circular avatar */
 .person-media {
   flex: 0 0 auto;
 }
@@ -90,7 +102,6 @@
   border: 1px solid #b7d2e6;
 }
 
-/* Typography in cards */
 .person h3 {
   margin: 0.2rem 0 0.1rem;
   font-size: 1.12rem;
@@ -103,7 +114,6 @@
   color: #284b63;
 }
 
-/* Link style inside cards */
 .person-content a {
   color: #0b61a4;
   text-decoration: none;
@@ -126,7 +136,6 @@
   }
 }
 
-/* Header/Footer bits you already had */
 .ucl-logo img {
   height: 40px;
 }
@@ -141,14 +150,12 @@
   margin: 0 auto 1rem;
 }
 
-/* Slightly wider page */
 .wrapper {
-  max-width: 1100px; /* was 900px */
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0 1rem;
 }
 
-/* Hero with CTA and image */
 .hero {
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
@@ -211,7 +218,7 @@
   position: sticky;
   top: 0;
   z-index: 50;
-  background: linear-gradient(90deg, #e9f3fa 0%, #ffffff 50%, #e9f3fa 100%);
+  background: linear-gradient(90deg, #e6f4ff 0%, #ffffff 50%, #e1f0fb 100%);
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
   backdrop-filter: saturate(1.1);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
@@ -301,4 +308,111 @@
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
   }
+}
+
+.btn,
+.btn-join {
+  display: inline-block;
+  padding: 0.5rem 0.95rem;
+  border-radius: 9999px;
+  font-weight: 700;
+  text-decoration: none;
+  border: 1px solid #0b61a4;
+  transition: transform 0.08s ease, box-shadow 0.12s ease, background 0.2s ease,
+    color 0.2s ease;
+  will-change: transform;
+  background: linear-gradient(90deg, #f9fcfd 0%, #ffffff 50%, #f9fcfd 100%);
+  color: #0b61a4;
+}
+.btn:hover,
+.btn-join:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(11, 97, 164, 0.15);
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #f9fcfd 0%, #ffffff 50%, #f6fafc 100%);
+  color: #0b61a4;
+}
+.btn-primary:hover {
+  background: #0b61a4;
+  color: #fff;
+}
+
+.btn-outline {
+  background: transparent;
+  color: #0b61a4;
+}
+.btn-outline:hover {
+  background: #0b61a4;
+  color: #fff;
+}
+
+.cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.3rem;
+  padding: 1rem 0;
+}
+
+/* Hero block */
+.events-hero {
+  margin: 0 0 0.5rem;
+  padding: 1.25rem 0 0.5rem;
+}
+.eyebrow {
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  color: #284b63;
+  opacity: 0.8;
+  margin: 0 0 0.25rem;
+}
+.lead {
+  font-size: 1.05rem;
+  margin: 0.25rem 0 0.9rem;
+}
+
+/* Event card */
+.event-card {
+  border: 1px solid rgba(11, 97, 164, 0.15);
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+  padding: 1rem;
+}
+.event-card-body {
+  padding: 1.2rem 1.2rem 1rem;
+}
+
+.badge {
+  display: inline-block;
+  background: #ecffe9;
+  color: #0ba40b;
+  border: 1px solid #0ba40b;
+  border-radius: 999px;
+  padding: 0.15rem 0.55rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.event-meta {
+  margin: 0.25rem 0 0.6rem;
+  color: #284b63;
+  opacity: 0.9;
+}
+
+.agenda summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: #0b61a4;
+  margin: 0.25rem 0 0.5rem;
+}
+.agenda ul {
+  margin-top: 0.25rem;
+}
+.tiny {
+  font-size: 0.9rem;
+  opacity: 0.9;
 }

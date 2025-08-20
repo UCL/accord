@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
-  {%- include head.html -%}
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  <head>
+    {%- include head.html -%}
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+  </head>
 
   <body style="display:flex; flex-direction:column; min-height:100vh; margin:0;">
-
     {%- include header.html -%}
 
     <main class="page-content" aria-label="Content" style="flex:1;">
@@ -15,9 +15,5 @@
     </main>
 
     {%- include footer.html -%}
-
   </body>
-
-  
-
 </html>
