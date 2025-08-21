@@ -28,23 +28,30 @@ See the [GitHub guide on running a Jekyll site locally](https://docs.github.com/
 
 ---
 
-**Steps:**
+**Steps (after installing Ruby, Bundler and Jekyll):**
 
-1. Install the required gems (only once):
+1. Change into the docs directory (where the site lives):
+
+```bash
+   cd docs
+```
+
+2. Install the required gems within `docs` (only once):
 
 ```bash
    gem install bundler jekyll
 ```
 
-2. From the project root (where the `Gemfile` lives), install dependencies:
+3. From `/docs` (where the `Gemfile` lives), install dependencies:
 
 ```bash
-bundle install
+   bundle install
 ```
-3. Serve the site locally:
+
+4. Serve the site locally:
 
 ```bash
-bundle exec jekyll serve
+   bundle exec jekyll serve
 ```
 
-4. Open your browser at http://127.0.0.1:4000
+5. Open your browser at http://127.0.0.1:4000
