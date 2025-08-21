@@ -7,7 +7,13 @@ title: Home
   <div class="hero-text">
     <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Join the community →</a>
 
-    <h1><strong>A</strong> <strong>C</strong>ommunity for <strong>Co</strong>ntract <strong>R</strong>egulation for <strong>D</strong>ata (ACCoRD)</h1>
+    <h1>
+      <strong><span style="color: var(--clr-accent);">A</span></strong>
+      <strong><span style="color: var(--clr-accent);">C</span></strong>ommunity for
+      <strong><span style="color: var(--clr-accent);">Co</span></strong>ntract
+      <strong><span style="color: var(--clr-accent);">R</span></strong>egulation for
+      <strong><span style="color: var(--clr-accent);">D</span></strong>ata
+    </h1>
 
     <p>
       ACCoRD aims to address barriers in data access and contracting that delay or block research
