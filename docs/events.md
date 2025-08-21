@@ -4,17 +4,24 @@ title: Events & Activities
 permalink: /events/
 ---
 
-<section class="events-hero flow">
-  <p class="eyebrow">Community • Contracts • Clarity</p>
-  <h2 class="page-title">Events & Activities</h2>
-  <p class="lead">
-    Our events bring the ACCoRD community together - data providers, researchers, legal and compliance teams, policy experts, and anyone curious about making data contracts work better.
-  </p>
-  <p class="cta-row">
-    <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Join the community →</a>
-    <a class="btn btn-primary" href="#calendar">View calendar →</a>
-  </p>
+<section class="events-hero flow two-col">
+  <div class="events-text">
+    <p class="eyebrow">Community • Contracts • Clarity</p>
+    <h2 class="page-title">Events & Activities</h2>
+    <p class="lead">
+      Our events bring the ACCoRD community together - data providers, researchers, legal and compliance teams, policy experts, and anyone curious about making data contracts work better.
+    </p>
+    <p class="cta-row">
+      <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Join the community →</a>
+      <a class="btn btn-primary" href="#calendar">View calendar →</a>
+    </p>
+  </div>
+
+  <div class="events-image">
+    <img src="{{ '/assets/images/calender.png' | relative_url }}" alt="Events illustration" />
+  </div>
 </section>
+
 
 <hr class="section-divider" />
 

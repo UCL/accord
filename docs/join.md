@@ -4,17 +4,23 @@ title: Get Involved
 permalink: /join/
 ---
 
-<section class="events-hero flow">
-  <p class="eyebrow">Community • Contracts • Clarity</p>
-  <h2 class="page-title">Get involved with ACCoRD</h2>
-  <p class="lead">
-    Join a growing network of researchers, data providers, and infrastructure specialists working to make data contracts
-    <strong>more efficient, consistent, and easier to navigate</strong>.
-  </p>
-  <p class="cta-row">
-    <a class="btn btn-primary" href="#join-form">Join the community →</a>
-    <a class="btn btn-primary" href="{{ '/events/' | relative_url }}">See events →</a>
-  </p>
+<section class="events-hero flow two-col">
+  <div class="events-text">
+    <p class="eyebrow">Community • Contracts • Clarity</p>
+    <h2 class="page-title">Get involved with ACCoRD</h2>
+    <p class="lead">
+      Join a growing network of researchers, data providers, and infrastructure specialists working to make data contracts
+      <strong>more efficient, consistent, and easier to navigate</strong>.
+    </p>
+    <p class="cta-row">
+      <a class="btn btn-primary" href="#join-form">Join the community →</a>
+      <a class="btn btn-primary" href="{{ '/events/' | relative_url }}">See events →</a>
+    </p>
+  </div>
+
+  <div class="events-image">
+    <img src="{{ '/assets/images/get_involved.png' | relative_url }}" alt="Get involved illustration" />
+  </div>
 </section>
 
 <hr class="section-divider" />

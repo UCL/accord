@@ -437,6 +437,30 @@ body {
   padding: 1.2rem 1.2rem 1rem;
 }
 
+.events-hero.two-col {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem; /* spacing between text and image */
+  flex-wrap: wrap; /* keeps it responsive on smaller screens */
+}
+
+.events-text {
+  flex: 1 1 50%;
+}
+
+.events-image {
+  flex: 1 1 20%;
+  text-align: right;
+}
+
+.events-image img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
 .upcoming-badge {
   display: inline-block;
   background: #ecffe9;
