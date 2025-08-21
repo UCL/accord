@@ -25,7 +25,7 @@ title: Home
 
   <div class="hero-media">
     <img
-      src="{{ '/assets/images/teamwork-partnership-concept-hands-raised-600nw-2465435951.webp' | relative_url }}"
+      src="{{ '/assets/images/teamwork.png' | relative_url }}"
       alt="Hands raised together representing community and partnership">
   </div>
 </section>
