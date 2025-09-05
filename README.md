@@ -14,7 +14,7 @@ For ACCoRD project management, a private repository, please go to: [accord_proje
 - Project Co-Lead: Dr Claire Ellul, [c.ellul@ucl.ac.uk](mailto:c.ellul@ucl.ac.uk)
 - Project Co-Lead: Dr James Wilson, [j.a.j.wilson@ucl.ac.uk](mailto:j.a.j.wilson@ucl.ac.uk)
 - Research & Innovation Associate: Katie Buntic, [k.buntic@ucl.ac.uk](mailto:k.buntic@ucl.ac.uk)
-- Professional Enabling Staff: Dr Rahil Alipour, [r.alipour@ucl.ac.uk](mailto:r.alipour@ucl.ac.uk)
+- Research & Innovation Associate: Dr Rahil Alipour, [r.alipour@ucl.ac.uk](mailto:r.alipour@ucl.ac.uk)
 
 ### Local Setup
 
