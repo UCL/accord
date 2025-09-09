@@ -7,8 +7,29 @@ permalink: /about/
 <section class="events-hero flow">
   <p class="eyebrow">Community • Contracts • Clarity</p>
   <h2 class="page-title">About ACCoRD</h2>
-  <p class="lead"> ACCoRD is building a community and a Governance Framework for Data Contracts to unlock safe, efficient research with external and sensitive data.
-  </p>
+    <p class="lead">
+      Project ACCoRD addresses the contracting challenges that currently hinder
+      data from being accessed, moved and processed efficiently for ground-breaking research.
+    </p>
+
+    <p>
+      A research data contract stipulates the terms under which data is shared for research purposes. It forms the foundation for
+      the storage, management, transfer and use of data. However, the data contracting process is fraught with challenges, inefficiencies
+      and uncertainty, which significantly delay or block innovative research.
+    </p>
+
+    <p>ACCoRD brings together experts in community engagement and data governance to deliver:</p>
+
+    <ul class="deliverables-list">
+      <li>the evidence, components and roadmap for a governance framework for data contracts in research, and</li>
+      <li>a community to take that evidence forward</li>
+    </ul>
+
+    <p>
+      Through stakeholder engagement and community development, we will understand the challenges and opportunities for
+      data contracting, identify best practice models and produce solutions to unblock data for the UK’s Digital Research Infrastructure.
+    </p>
+
   <p class="cta-row">
     <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Join the community →</a>
     <a class="btn btn-primary" href="{{ '/events/' | relative_url }}">View upcoming events →</a>

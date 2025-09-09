@@ -233,7 +233,7 @@ body {
 
 .hero {
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
+  grid-template-columns: 1.2fr 0.8fr;
   gap: 3rem;
   align-items: center;
   padding: 1rem 0;
@@ -249,6 +249,10 @@ body {
 .hero-text p {
   margin: 0;
   font-size: 1.05rem;
+}
+
+.hero-text p + p {
+  margin-top: 1rem;
 }
 
 .hero-media img {
@@ -545,4 +549,19 @@ body {
   text-decoration: underline;
   background: transparent;
   outline: none;
+}
+
+/* Deliverables list (specific to hero section) */
+.deliverables-list {
+  list-style: disc;
+  display: block;
+  padding-left: 1.25rem;
+  margin: 0.5rem 0 1rem;
+}
+.deliverables-list li {
+  margin: 0.4rem 0;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
 }
