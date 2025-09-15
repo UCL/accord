@@ -16,7 +16,7 @@ title: Home
     </h1>
 
     <p class="lead">
-      Project ACCoRD addresses the contracting challenges that currently hinder
+      ACCoRD addresses the contracting challenges that currently hinder
       data from being accessed, moved and processed efficiently for ground-breaking research.
     </p>
 

@@ -8,7 +8,7 @@ permalink: /about/
   <p class="eyebrow">Community • Contracts • Clarity</p>
   <h2 class="page-title">About ACCoRD</h2>
     <p class="lead">
-      Project ACCoRD addresses the contracting challenges that currently hinder
+      ACCoRD addresses the contracting challenges that currently hinder
       data from being accessed, moved and processed efficiently for ground-breaking research.
     </p>
 
@@ -74,4 +74,15 @@ permalink: /about/
     {% endfor %}
 
   </div>
+</section>
+
+<section class="funding-section flow">
+  <h3>Funding & national impact</h3>
+  <p>
+    ACCoRD is funded through the 
+    <a href="https://nfcs-networkplus.ac.uk/" target="_blank" rel="noopener">National Research Foundation for Collaborative Science (NFCS)</a>.
+    What we develop will directly inform and contribute to the NFCS, ensuring that our work is not created in a vacuum but 
+    instead delivers lasting value at a national scale. Our community’s insights and solutions will shape how data contracts 
+    support research across the UK.
+  </p>
 </section>
