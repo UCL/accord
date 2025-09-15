@@ -33,9 +33,13 @@ permalink: /join/
   </p>
 
   <p class="cta-row">
-    <a class="btn btn-primary" href="#" target="_blank" rel="noopener">Open the sign‑up form →</a>
+    <a class="btn btn-primary" 
+       href="https://forms.office.com/?redirecturl=https%3a%2f%2fforms.office.com%2fPages%2fDesignPageV2.aspx%3fsubpage%3ddesign%26FormId%3d_oivH5ipW0yTySEKEdmlwvNrS4lV5ilIsuG4plfelThUNVkxRlZZTlhPOTU0NkZUQkVWNTBZUjUwVS4u&auth_pvr=OrgId" 
+       target="_blank" 
+       rel="noopener">
+       Open the sign-up form →
+    </a>
   </p>
-
 </section>
 
 <hr class="section-divider" />
