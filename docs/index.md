@@ -5,7 +5,7 @@ title: Home
 
 <section class="hero">
   <div class="hero-text flow">
-    <span class="eyebrow">Community  • Contracts • Clarity</span>
+    <span class="eyebrow">Partnership • Interoperability • Trust</span>
 
     <h1>
       <strong><span style="color: var(--clr-accent);">A</span></strong>

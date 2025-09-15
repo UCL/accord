@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <section class="events-hero flow">
-  <p class="eyebrow">Community • Contracts • Clarity</p>
+  <p class="eyebrow">Partnership • Interoperability • Trust</p>
   <h2 class="page-title">About ACCoRD</h2>
     <p class="lead">
       ACCoRD addresses the contracting challenges that currently hinder

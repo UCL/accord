@@ -6,7 +6,7 @@ permalink: /join/
 
 <section class="events-hero flow two-col">
   <div class="events-text">
-    <p class="eyebrow">Community • Contracts • Clarity</p>
+    <p class="eyebrow">Partnership • Interoperability • Trust</p>
     <h2 class="page-title">Get involved with ACCoRD</h2>
     <p class="lead">
       Join a growing network of researchers, data providers, and infrastructure specialists working to make data contracts

@@ -6,7 +6,7 @@ permalink: /events/
 
 <section class="events-hero flow two-col">
   <div class="events-text">
-    <p class="eyebrow">Community • Contracts • Clarity</p>
+    <p class="eyebrow">Partnership • Interoperability • Trust</p>
     <h2 class="page-title">Events & Activities</h2>
     <p class="lead">
       Our events bring the ACCoRD community together - data providers, researchers, legal and compliance teams, policy experts, and anyone curious about making data contracts work better.
