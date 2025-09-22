@@ -55,11 +55,13 @@ permalink: /events/
     </details>
 
     <p class="cta-row">
-      <a class="btn btn-primary" href="#" rel="noopener">Register for the workshop →</a>
+      <a class="btn btn-primary" href="https://www.eventbrite.co.uk/e/accord-a-community-for-contract-regulation-for-data-launch-workshop-tickets-1710041493139?aff=oddtdtcreator" target="_blank" rel="noopener">Register for workshop →</a>
       <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Get project updates →</a>
     <a class="btn btn-primary"
-      href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=ACCoRD+Launch+Workshop&dates=20241008T120000Z/20241008T150000Z&details=Help+shape+a+UK-wide+governance+framework+for+research+data+contracts.+Hear+a+keynote+and+join+breakouts.&location=UCL,+London&ctz=Europe/London"
+      href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=ACCoRD+Launch+Workshop&dates=20241022T120000Z/20241022T150000Z&details=Help+shape+a+UK-wide+governance+framework+for+research+data+contracts.+Hear+a+keynote+and+join+breakouts.&location=UCL,+London&ctz=Europe/London"
       target="_blank" rel="noopener">
+      Add to calendar →
+    </a>    target="_blank" rel="noopener">
       Add to calendar →
     </a>
     </p>
