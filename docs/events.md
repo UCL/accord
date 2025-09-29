@@ -12,7 +12,9 @@ permalink: /events/
       Our events bring the ACCoRD community together - data providers, researchers, legal and compliance teams, policy experts, and anyone curious about making data contracts work better.
     </p>
     <p class="cta-row">
-      <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Join the community →</a>
+      <a class="btn btn-primary" href="https://forms.office.com/pages/responsepage.aspx?id=_oivH5ipW0yTySEKEdmlwvNrS4lV5ilIsuG4plfelThUNVkxRlZZTlhPOTU0NkZUQkVWNTBZUjUwVS4u&route=shorturl" target="_blank" rel="noopener">
+      Join the community →
+      </a>
       <a class="btn btn-primary" href="#calendar">View calendar →</a>
     </p>
   </div>

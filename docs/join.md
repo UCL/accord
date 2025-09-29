@@ -13,7 +13,9 @@ permalink: /join/
       <strong>more efficient, consistent, and easier to navigate</strong>.
     </p>
     <p class="cta-row">
-      <a class="btn btn-primary" href="#join-form">Join the community →</a>
+      <a class="btn btn-primary" href="https://forms.office.com/pages/responsepage.aspx?id=_oivH5ipW0yTySEKEdmlwvNrS4lV5ilIsuG4plfelThUNVkxRlZZTlhPOTU0NkZUQkVWNTBZUjUwVS4u&route=shorturl" target="_blank" rel="noopener">
+      Join the community →
+      </a>
       <a class="btn btn-primary" href="{{ '/events/' | relative_url }}">See events →</a>
     </p>
   </div>

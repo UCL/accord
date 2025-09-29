@@ -22,7 +22,9 @@ title: Home
 
     <div class="cta-row">
       <a class="btn btn-primary" href="{{ '/about/' | relative_url }}">Find out more →</a>
-      <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Join the community →</a>
+      <a class="btn btn-primary" href="https://forms.office.com/pages/responsepage.aspx?id=_oivH5ipW0yTySEKEdmlwvNrS4lV5ilIsuG4plfelThUNVkxRlZZTlhPOTU0NkZUQkVWNTBZUjUwVS4u&route=shorturl" target="_blank" rel="noopener">
+      Join the community →
+      </a>
     </div>
 
 
