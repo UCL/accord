@@ -31,7 +31,7 @@ permalink: /events/
   <article class="event-card flow">
     <span class="upcoming-badge">Upcoming</span>
     <h3>ACCoRD Launch Workshop</h3>
-    <p class="event-meta"><strong>22 October</strong> · 1:00–4:00pm · UCL, London</p>
+    <p class="event-meta"><strong>22 October</strong> · 1:00 - 4:00pm · · UCL, 90 High Holborn, London</p>
     <p>
       Help shape a UK-wide governance framework for research data contracts.
       Hear a keynote (TBA) and join facilitated breakout sessions to map the contracting process, surface pain points, and co-design practical, real-world solutions.
