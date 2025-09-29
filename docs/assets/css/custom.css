@@ -489,6 +489,18 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.past-badge {
+  display: inline-block;
+  background: #e9f6ff;
+  color: #0b7ea4;
+  border: 1px solid #0b7ea4;
+  border-radius: 999px;
+  padding: 0.15rem 0.55rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
 .event-meta {
   margin: 0.25rem 0 0.6rem;
   color: var(--clr-ink);

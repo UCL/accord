@@ -97,7 +97,7 @@ permalink: /events/
   <p>We’ll share findings and invite feedback at relevant national events (details announced here).</p>
 
   <article class="event-card flow">
-    <span class="upcoming-badge">Upcoming</span>
+    <span class="past-badge">Past</span>
     <h3>NFCS Edinburgh Conference</h3>
     <p class="event-meta"><strong>22 – 23 September</strong> · Edinburgh</p>
     <p>
