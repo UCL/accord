@@ -97,7 +97,7 @@ permalink: /events/
 </section>
 
  <article class="event-card flow">
-    <span class="upcoming-badge">Upcoming</span>
+    <span class="past-badge">Past</span>
     <h3>ACCoRD Launch Workshop</h3>
     <p class="event-meta"><strong>22 October</strong> · 1:00 - 4:00pm · · UCL, 90 High Holborn, London</p>
     <p>
@@ -127,18 +127,17 @@ permalink: /events/
   </article>
 
     <article class="event-card flow">
-    <span class="past-badge">Past</span>
-    <h3>NFCS Edinburgh Conference</h3>
-    <p class="event-meta"><strong>22 – 23 September</strong> · Edinburgh</p>
-    <p>
-    Come and find us at the <strong>National Federated Compute Services</strong> NetworkPlus Autumn Conference. <strong>Dr Michelle Harricharan</strong> will be giving a lightning talk on the <strong>23rd September</strong> at <strong>10:40</strong>.
-    </p>
-
-  <p class="cta-row">
-    <a class="btn btn-primary"
-       href="https://indico.ph.qmul.ac.uk/event/2299/overview"
-       target="_blank" rel="noopener">Conference site →</a>
-  </p>
+      <span class="past-badge">Past</span>
+      <h3>NFCS Edinburgh Conference</h3>
+      <p class="event-meta"><strong>22 – 23 September</strong> · Edinburgh</p>
+      <p>
+      Come and find us at the <strong>National Federated Compute Services</strong> NetworkPlus Autumn Conference. <strong>Dr Michelle Harricharan</strong> will be giving a lightning talk on the <strong>23rd September</strong> at <strong>10:40</strong>.
+      </p>
+      <p class="cta-row">
+        <a class="btn btn-primary"
+          href="https://indico.ph.qmul.ac.uk/event/2299/overview"
+          target="_blank" rel="noopener">Conference site →</a>
+      </p>
 
   </article>
 
