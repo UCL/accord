@@ -54,6 +54,14 @@ permalink: /events/
       <p class="tiny">Agenda from the internal topic guide.</p>
     </details>
 
+    <p class="cta-row">
+     <a class="btn btn-primary" href="https://www.eventbrite.co.uk/e/accord-a-community-for-contract-regulation-for-data-online-focus-group-tickets-1841313631639?aff=oddtdtcreator" target="_blank" rel="noopener">Register for workshop →</a>
+     <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Get project updates →</a>
+    <a class="btn btn-primary" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=ACCoRD+Launch+Workshop&dates=20251110T100000Z/20251110T123000Z&details=Help+shape+a+UK-wide+governance+framework+for+research+data+contracts.+Hear+a+keynote+and+join+breakouts.&location=UCL,+London&ctz=Europe/London"
+      target="_blank" rel="noopener">
+      Add to calendar →
+    </a>
+
     <p class="tiny">Parts of the event may be audio recorded for summary purposes; photos may be taken. Let us know if you prefer not to be photographed.</p>
 
   </article>
