@@ -32,7 +32,7 @@ permalink: /events/
 
   <article class="event-card flow">
     <span class="upcoming-badge">Upcoming</span>
-    <h3>ACCoRD Launch Workshop</h3>
+    <h3>ACCoRD Online Focus Group</h3>
     <p class="event-meta"><strong>10 November</strong> · 10:00 - 12:30am · Online</p>
     <p>
       Help shape a UK-wide governance framework for research data contracts.
