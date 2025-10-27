@@ -126,7 +126,7 @@ permalink: /events/
 
   </article>
 
-    <article class="event-card flow">
+  <article class="event-card flow">
       <span class="past-badge">Past</span>
       <h3>NFCS Edinburgh Conference</h3>
       <p class="event-meta"><strong>22 – 23 September</strong> · Edinburgh</p>
