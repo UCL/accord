@@ -50,7 +50,7 @@ permalink: /join/
   <h3>Join the conversation</h3>
   <p>Stay connected and continue discussions with other members:</p>
   <p class="cta-row">
-    <a class="btn btn-primary" href="#" target="_blank" rel="noopener">NCRF Forum →</a>
+    <a class="btn btn-primary" href="#" target="_blank" rel="noopener">NFCS Forum →</a>
     <a class="btn btn-primary" href="#" target="_blank" rel="noopener">LinkedIn Group →</a>
   </p>
 </section>
