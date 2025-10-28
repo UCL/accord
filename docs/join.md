@@ -60,7 +60,7 @@ permalink: /join/
 <section class="flow">
   <h3>Ways to contribute</h3>
   <ul class="feature-list">
-    <li><strong>Attend events</strong>: workshops - in person and online, conferences, and one-to-one interviews/li>
+    <li><strong>Attend events</strong>: workshops - in person and online, conferences, and one-to-one interview</li>
     <li><strong>Share a case study</strong>: practical examples of contracting in action</li>
     <li><strong>Participate in surveys/interviews</strong>: help shape the framework</li>
     <li><strong>Contribute resources</strong>: templates, guidance, or tools</li>
