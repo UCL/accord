@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://github-pages.ucl.ac.uk/accord/sitemap.xml
