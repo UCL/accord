@@ -1,8 +1,8 @@
 # --- Site identity ---
 title: "ACCoRD"
 description: "Aligning research data contracts to unlock the UK’s Digital Research Infrastructure"
-url: "https://github-pages.ucl.ac.uk"   # no trailing slash
-baseurl: "/accord"                      # repo path
+url: "https://github-pages.ucl.ac.uk" # no trailing slash
+baseurl: "/accord" # repo path
 
 # --- Theme ---
 theme: minima
@@ -15,8 +15,8 @@ header_pages:
   - join.md
 
 # --- SEO & social (used by jekyll-seo-tag) ---
-logo: /assets/images/logo.png           # optional
-social_image: /assets/images/social-share.png  # 1200x630 recommended
+logo: /assets/images/logo.png # optional
+social_image: /assets/images/social-share.png # 1200x630 recommended
 social:
   name: "ACCoRD Project"
   links:
@@ -24,11 +24,11 @@ social:
     - https://www.linkedin.com/company/nfcs-np/posts/?feedView=all
 
 twitter:
-  username: "UCL"                       # change if you have a project handle
+  username: "UCL" # change if you have a project handle
   card: "summary_large_image"
 
 # Google Search Console verification (paste code from Search Console)
-google_site_verification: "PASTE_CODE_FROM_GOOGLE"
+google_site_verification: "ZVIZKoyYnw5zjwHER2jQF0EKnNuZBjd5imkLQ43JuKU"
 
 # Optional favicons (uncomment when files exist)
 # favicon: /assets/favicon.ico
