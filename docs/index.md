@@ -16,17 +16,20 @@ title: Home
     </h1>
 
     <p class="lead">
-      ACCoRD addresses the contracting challenges that currently hinder
-      data from being accessed, moved and processed efficiently for ground-breaking research.
+      The <strong>ACCoRD project</strong> at <strong>University College London (UCL)</strong> addresses the contracting challenges that currently hinder
+      data from being accessed, moved, and processed efficiently for ground-breaking research.
+    </p>
+
+    <p>
+      <strong>ACCoRD</strong> — <em>Aligning research data contracts to unlock the UK’s Digital Research Infrastructure</em> — brings together researchers, data providers, and legal and policy experts to improve how data contracts work in UK research and innovation.
     </p>
 
     <div class="cta-row">
-      <a class="btn btn-primary" href="{{ '/about/' | relative_url }}">Find out more →</a>
+      <a class="btn btn-primary" href="{{ '/about/' | relative_url }}">About the ACCoRD project at UCL →</a>
       <a class="btn btn-primary" href="https://forms.office.com/pages/responsepage.aspx?id=_oivH5ipW0yTySEKEdmlwvNrS4lV5ilIsuG4plfelThUNVkxRlZZTlhPOTU0NkZUQkVWNTBZUjUwVS4u&route=shorturl" target="_blank" rel="noopener">
       Join the community →
       </a>
     </div>
-
 
     <section class="survey-promo flow">
       <p>
@@ -37,15 +40,13 @@ title: Home
           Complete our survey →
         </a>
       </div>
-
-  </section>
-
+    </section>
   </div>
 
   <div class="hero-media">
     <img
       src="{{ '/assets/images/teamwork.png' | relative_url }}"
-      alt="Hands raised together representing community and partnership">
+      alt="Hands raised together representing community and partnership at UCL’s ACCoRD Project">
   </div>
 </section>
 
