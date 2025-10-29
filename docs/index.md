@@ -21,7 +21,7 @@ title: Home
     </p>
 
     <p>
-      <strong>ACCoRD</strong> — <em>Unblocking data contracts for research</em> — brings together researchers, data providers, and legal and policy experts to improve how data contracts work in UK research and innovation.
+      <strong>ACCoRD</strong> - <em>Unblocking data contracts for research</em> - brings together researchers, data providers, and legal and policy experts to improve how data contracts work in UK research and innovation.
     </p>
 
     <div class="cta-row">
