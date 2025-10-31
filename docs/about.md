@@ -82,7 +82,7 @@ permalink: /about/
   <h3>Funding & national impact</h3>
   <p>
     ACCoRD is funded through the 
-    <a href="https://nfcs-networkplus.ac.uk/" target="_blank" rel="noopener">National Research Foundation for Collaborative Science (NFCS)</a>.
+    <a href="https://nfcs-networkplus.ac.uk/" target="_blank" rel="noopener">National Federated Compute Services Network Plus</a>.
     What we develop will directly inform and contribute to the NFCS, ensuring that our work is not created in a vacuum but 
     instead delivers lasting value at a national scale. Our community’s insights and solutions will shape how data contracts 
     support research across the UK.
