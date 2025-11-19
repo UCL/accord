@@ -33,7 +33,7 @@ permalink: /events/
   <article class="event-card flow">
     <span class="upcoming-badge">Upcoming</span>
     <h3>ACCoRD Survey Results Webinar</h3>
-    <p class="event-meta"><strong>2 February · 10:00 - 12:00 </strong> · UCL, London</p>
+    <p class="event-meta"><strong>2 February 2026 · 10:00 - 12:00 </strong> · UCL, London</p>
     <p>
       Join us online for a hybrid webinar where we will share early findings from the ACCoRD community survey. We are now halfway through the project, and thanks to everyone who has contributed so far, we have a rich set of insights emerging. This session will walk through what we have learned from the survey, what’s coming next, and how you can stay involved.
     </p>
@@ -58,7 +58,7 @@ permalink: /events/
   <article class="event-card flow">
     <span class="upcoming-badge">Upcoming</span>
     <h3>ACCoRD Workshop 2</h3>
-    <p class="event-meta"><strong>11 March · 14:00 - 17:00 </strong> · UCL, London</p>
+    <p class="event-meta"><strong>11 March 2026 · 14:00 - 17:00 </strong> · UCL, London</p>
     <p>
       Help shape a UK-wide governance framework for research data contracts.
       Hear a keynote (TBA) and join facilitated breakout sessions to map the contracting process, surface pain points, and co-design practical, real-world solutions.
@@ -93,7 +93,7 @@ permalink: /events/
   <article class="event-card flow">
     <span class="past-badge">Past</span>
     <h3>ACCoRD Online Focus Group</h3>
-    <p class="event-meta"><strong>10 November</strong> · 10:00–12:30 · Online</p>
+    <p class="event-meta"><strong>10 November 2025</strong> · 10:00–12:30 · Online</p>
     <p>
       Help shape a UK-wide governance framework for research data contracts.
       Join facilitated breakout sessions to map the contracting process, surface pain points, and co-design practical, real-world solutions.
@@ -118,7 +118,7 @@ permalink: /events/
   <article class="event-card flow">
     <span class="past-badge">Past</span>
     <h3>ACCoRD Launch Workshop</h3>
-    <p class="event-meta"><strong>22 October</strong> · 13:00–16:00 · UCL, 90 High Holborn, London</p>
+    <p class="event-meta"><strong>22 October 2025</strong> · 13:00–16:00 · UCL, 90 High Holborn, London</p>
     <p>
       Help shape a UK-wide governance framework for research data contracts.
       Hear a keynote (TBA) and join facilitated breakout sessions to map the contracting process, surface pain points, and co-design practical, real-world solutions.
@@ -146,7 +146,7 @@ permalink: /events/
   <article class="event-card flow">
     <span class="past-badge">Past</span>
     <h3>NFCS Edinburgh Conference</h3>
-    <p class="event-meta"><strong>22 – 23 September</strong> · Edinburgh</p>
+    <p class="event-meta"><strong>22 – 23 September 2025</strong> · Edinburgh</p>
     <p>
       Come and find us at the <strong>National Federated Compute Services</strong> NetworkPlus Autumn Conference. <strong>Dr Michelle Harricharan</strong> will be giving a lightning talk on the <strong>23rd September</strong> at <strong>10:40</strong>.
     </p>
