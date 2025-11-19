@@ -32,32 +32,23 @@ permalink: /events/
 
   <article class="event-card flow">
     <span class="upcoming-badge">Upcoming</span>
-    <h3>ACCoRD Online Focus Group</h3>
-    <p class="event-meta"><strong>10 November</strong> · 10:00–12:30 · Online</p>
+    <h3>ACCoRD Survey Results Webinar</h3>
+    <p class="event-meta"><strong>2 February · 10:00 - 12:00 </strong> · UCL, London</p>
     <p>
-      Help shape a UK-wide governance framework for research data contracts.
-      Join facilitated breakout sessions to map the contracting process, surface pain points, and co-design practical, real-world solutions.
+      Join us online for a hybrid webinar where we will share early findings from the ACCoRD community survey. We are now halfway through the project, and thanks to everyone who has contributed so far, we have a rich set of insights emerging. This session will walk through what we have learned from the survey, what’s coming next, and how you can stay involved.
     </p>
 
     <details class="agenda">
       <summary>Agenda (click to expand)</summary>
       <ul>
-        <li><strong>10:00–10:10</strong> - Welcome and Icebreaker</li>
-        <li><strong>10:10–10:20</strong> - Introducing ACCoRD</li>
-        <li><strong>10:20–11:00</strong> - Breakout Session 1: Process Mapping and Stakeholder Identification</li>
-        <li><strong>11:00–11:10</strong> - Feedback from Breakout Session 1</li>
-        <li><strong>11:10–11:25</strong> - Coffee Break</li>
-        <li><strong>11:25–12:10</strong> - Breakout Session 2: Good Practice and Challenges</li>
-        <li><strong>12:10–12:20</strong> - Feedback from Breakout Session 2</li>
-        <li><strong>12:20–12:30</strong> - Wrap Up and Next Steps</li>
+        <li><strong>10:00–10:30</strong> - Networking and coffee [for in person attendees]</li>
+        <li><strong>10:30–11:30</strong> - Survey results webinar</li>
+        <li><strong>11:30–12:00</strong> - Networking and coffee [for in person attendees]</li>
       </ul>
-      <p class="tiny">Agenda from the internal topic guide.</p>
     </details>
 
     <p class="cta-row">
-      <a class="btn btn-primary" href="https://www.eventbrite.co.uk/e/accord-a-community-for-contract-regulation-for-data-online-focus-group-tickets-1841313631639?aff=oddtdtcreator" target="_blank" rel="noopener">Register for workshop →</a>
-      <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Get project updates →</a>
-      <a class="btn btn-primary" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=ACCoRD+Online+Focus+Group&dates=20251110T100000Z/20251110T123000Z&details=Help+shape+a+UK-wide+governance+framework+for+research+data+contracts.+Join+facilitated+breakouts+to+map+processes,+surface+pain+points,+and+co-design+solutions.&location=Online&ctz=Europe/London" target="_blank" rel="noopener">Add to calendar →</a>
+      <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Register for updates →</a>
     </p>
 
     <p class="tiny">Parts of the event may be audio recorded for summary purposes; photos may be taken. Let us know if you prefer not to be photographed.</p>
@@ -65,9 +56,9 @@ permalink: /events/
   </article>
 
   <article class="event-card flow">
-    <span class="stay-tuned-badge">Stay tuned</span>
+    <span class="upcoming-badge">Upcoming</span>
     <h3>ACCoRD Workshop 2</h3>
-    <p class="event-meta"><strong>Date TBC</strong> · UCL, London</p>
+    <p class="event-meta"><strong>11 March · 14:00 - 17:00 </strong> · UCL, London</p>
     <p>
       Help shape a UK-wide governance framework for research data contracts.
       Hear a keynote (TBA) and join facilitated breakout sessions to map the contracting process, surface pain points, and co-design practical, real-world solutions.
@@ -101,6 +92,31 @@ permalink: /events/
 
   <article class="event-card flow">
     <span class="past-badge">Past</span>
+    <h3>ACCoRD Online Focus Group</h3>
+    <p class="event-meta"><strong>10 November</strong> · 10:00–12:30 · Online</p>
+    <p>
+      Help shape a UK-wide governance framework for research data contracts.
+      Join facilitated breakout sessions to map the contracting process, surface pain points, and co-design practical, real-world solutions.
+    </p>
+
+    <details class="agenda">
+      <summary>Agenda (click to expand)</summary>
+      <ul>
+        <li><strong>10:00–10:10</strong> - Welcome and Icebreaker</li>
+        <li><strong>10:10–10:20</strong> - Introducing ACCoRD</li>
+        <li><strong>10:20–11:00</strong> - Breakout Session 1: Process Mapping and Stakeholder Identification</li>
+        <li><strong>11:00–11:10</strong> - Feedback from Breakout Session 1</li>
+        <li><strong>11:10–11:25</strong> - Coffee Break</li>
+        <li><strong>11:25–12:10</strong> - Breakout Session 2: Good Practice and Challenges</li>
+        <li><strong>12:10–12:20</strong> - Feedback from Breakout Session 2</li>
+        <li><strong>12:20–12:30</strong> - Wrap Up and Next Steps</li>
+      </ul>
+    </details>
+
+  </article>
+
+  <article class="event-card flow">
+    <span class="past-badge">Past</span>
     <h3>ACCoRD Launch Workshop</h3>
     <p class="event-meta"><strong>22 October</strong> · 13:00–16:00 · UCL, 90 High Holborn, London</p>
     <p>
@@ -124,8 +140,6 @@ permalink: /events/
       </ul>
       <p class="tiny">Agenda from the internal topic guide.</p>
     </details>
-
-    <p class="tiny">Parts of the event may be audio recorded for summary purposes; photos may be taken. Let us know if you prefer not to be photographed.</p>
 
   </article>
 
