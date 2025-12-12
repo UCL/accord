@@ -106,6 +106,30 @@ permalink: /events/
 <section class="flow">
   <h3>Conferences</h3>
   <p>We’ll share findings and invite feedback at relevant national events (details announced here).</p>
+
+  <article class="event-card flow">
+    <span class="upcoming-badge">Upcoming</span>
+    <h3>NFCS NetworkPlus Spring Conference 2026</h3>
+    <p class="event-meta"><strong>26 & 27 February 2026</strong> · MShed, Princes Wharf, Wapping Rd, Bristol, BS1 4RN</p>
+    <p>
+      ACCoRD will be represented at the <strong>National Federated Compute Services (NFCS) NetworkPlus Spring Conference</strong>.
+      The conference brings together the UK’s federated compute community to share developments, lessons learned, and future
+      directions.
+    </p>
+
+    <p class="cta-row">
+      <a
+        class="btn btn-primary"
+        href="https://nfcs-networkplus.ac.uk/events/nfcs-networkplus-spring-conference-2026/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Conference details →
+      </a>
+    </p>
+
+</article>
+
 </section>
 
 <hr class="section-divider" />
@@ -170,7 +194,7 @@ permalink: /events/
 
   <article class="event-card flow">
     <span class="past-badge">Past</span>
-    <h3>NFCS Edinburgh Conference</h3>
+    <h3>NFCS NetworkPlus Autumn Conference 2025</h3>
     <p class="event-meta"><strong>22 – 23 September 2025</strong> · Edinburgh</p>
     <p>
       Come and find us at the <strong>National Federated Compute Services</strong> NetworkPlus Autumn Conference. <strong>Dr Michelle Harricharan</strong> will be giving a lightning talk on the <strong>23rd September</strong> at <strong>10:40</strong>.
