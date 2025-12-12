@@ -81,9 +81,33 @@ permalink: /events/
   </article>
 
   <article class="event-card flow">
-    <span class="upcoming-badge">Upcoming</span>
+    <span class="stay-tuned-badge">Stay tuned</span>
+    <h3>ACCoRD Legal Perspectives Webinar</h3>
+    <p class="event-meta"><strong>27 March 2026 · 09:30 – 10:30</strong> · Online</p>
+    <p>
+      A focused webinar-style workshop exploring legal perspectives on research data contracts, hosted in collaboration
+      with the Association of University Legal Practitioners (AULP).
+      Designed to bring legal voices into the ACCoRD conversation, this session will invite views and practical insights from
+      university legal teams to help shape guidance and good practice.
+    </p>
+
+    <details class="agenda">
+      <summary>Agenda (click to expand)</summary>
+      <p class="tiny">To be confirmed</p>
+    </details>
+
+    <p class="cta-row">
+      <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Register for updates →</a>
+    </p>
+
+    <p class="tiny">Parts of the event may be audio recorded for summary purposes; photos may be taken. Let us know if you prefer not to be photographed.</p>
+
+  </article>
+
+  <article class="event-card flow">
+    <span class="stay-tuned-badge">Stay tuned</span>
     <h3>ACCoRD Workshop 2</h3>
-    <p class="event-meta"><strong>11 March 2026 · 14:00 - 17:00 </strong> · UCL, London</p>
+    <p class="event-meta"><strong> TBC </strong> · UCL, London</p>
     <p>
       Help shape a UK-wide governance framework for research data contracts.
       Hear a keynote (TBA) and join facilitated breakout sessions to map the contracting process, surface pain points, and co-design practical, real-world solutions.
@@ -101,6 +125,7 @@ permalink: /events/
     <p class="tiny">Parts of the event may be audio recorded for summary purposes; photos may be taken. Let us know if you prefer not to be photographed.</p>
 
   </article>
+
 </section>
 
 <section class="flow">
@@ -108,7 +133,7 @@ permalink: /events/
   <p>We’ll share findings and invite feedback at relevant national events (details announced here).</p>
 
   <article class="event-card flow">
-    <span class="upcoming-badge">Upcoming</span>
+    <span class="stay-tuned-badge">Stay tuned</span>
     <h3>NFCS NetworkPlus Spring Conference 2026</h3>
     <p class="event-meta"><strong>26 & 27 February 2026</strong> · MShed, Princes Wharf, Wapping Rd, Bristol, BS1 4RN</p>
     <p>
