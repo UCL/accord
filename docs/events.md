@@ -48,8 +48,33 @@ permalink: /events/
     </details>
 
     <p class="cta-row">
-      <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Register for updates →</a>
+      <a
+        class="btn btn-primary"
+        href="https://www.eventbrite.co.uk/e/accord-webinar-process-mapping-stakeholders-good-practice-challenges-tickets-1975178993540?aff=oddtdtcreator"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Register for the event →
+      </a>
+
+      <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">
+        Join our community →
+      </a>
+
+      <a
+        class="btn btn-primary"
+        href="https://calendar.google.com/calendar/render?action=TEMPLATE
+          &text=ACCoRD+Survey+Results+Webinar
+          &dates=20260202T100000/20260202T120000
+          &details=Hybrid+webinar+sharing+early+findings+from+the+ACCoRD+community+survey.
+          &location=UCL%2C+London"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Add to calendar →
+      </a>
     </p>
+
 
     <p class="tiny">Parts of the event may be audio recorded for summary purposes; photos may be taken. Let us know if you prefer not to be photographed.</p>
 
