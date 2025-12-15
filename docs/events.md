@@ -86,7 +86,7 @@ permalink: /events/
     <p class="event-meta"><strong>27 March 2026 · 09:30 – 10:30</strong> · Online</p>
     <p>
       A focused webinar-style workshop exploring legal perspectives on research data contracts, hosted in collaboration
-      with the Association of University Legal Practitioners (AULP). This session is primarily aimed at AULP members, providing space for legal insight, discussion, and reflection on current challenges and good practice.
+      with the Association of University Legal Practitioners (AULP). This session is for AULP members, providing space for legal insight, discussion, and reflection on current challenges and good practice.
     </p>
 
     <details class="agenda">
