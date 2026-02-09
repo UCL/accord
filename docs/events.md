@@ -32,56 +32,6 @@ permalink: /events/
 
   <article class="event-card flow">
     <span class="upcoming-badge">Upcoming</span>
-    <h3>ACCoRD Survey Results Webinar</h3>
-    <p class="event-meta"><strong>2 February 2026 · 10:00 - 12:00 </strong> · UCL, London</p>
-    <p>
-      Join us online for a hybrid webinar where we will share early findings from the ACCoRD community survey. We are now halfway through the project, and thanks to everyone who has contributed so far, we have a rich set of insights emerging. This session will walk through what we have learned from the survey, what’s coming next, and how you can stay involved.
-    </p>
-
-    <details class="agenda">
-      <summary>Agenda (click to expand)</summary>
-      <ul>
-        <li><strong>10:00–10:30</strong> - Networking and coffee [for in person attendees]</li>
-        <li><strong>10:30–11:30</strong> - Survey results webinar</li>
-        <li><strong>11:30–12:00</strong> - Networking and coffee [for in person attendees]</li>
-      </ul>
-    </details>
-
-    <p class="cta-row">
-      <a
-        class="btn btn-primary"
-        href="https://www.eventbrite.co.uk/e/accord-webinar-process-mapping-stakeholders-good-practice-challenges-tickets-1975178993540?aff=oddtdtcreator"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Register for the event →
-      </a>
-
-      <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">
-        Join our community →
-      </a>
-
-      <a
-        class="btn btn-primary"
-        href="https://calendar.google.com/calendar/render?action=TEMPLATE
-          &text=ACCoRD+Survey+Results+Webinar
-          &dates=20260202T100000/20260202T120000
-          &details=Hybrid+webinar+sharing+early+findings+from+the+ACCoRD+community+survey.
-          &location=UCL%2C+London"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Add to calendar →
-      </a>
-    </p>
-
-
-    <p class="tiny">Parts of the event may be audio recorded for summary purposes; photos may be taken. Let us know if you prefer not to be photographed.</p>
-
-  </article>
-
-  <article class="event-card flow">
-    <span class="stay-tuned-badge">Stay tuned</span>
     <h3>ACCoRD Legal Perspectives Webinar</h3>
     <p class="event-meta"><strong>27 March 2026 · 09:30 – 10:30</strong> · Online</p>
     <p>
@@ -103,12 +53,10 @@ permalink: /events/
   </article>
 
   <article class="event-card flow">
-    <span class="stay-tuned-badge">Stay tuned</span>
-    <h3>ACCoRD Workshop 2</h3>
-    <p class="event-meta"><strong> TBC </strong> · UCL, London</p>
-    <p>
-      Help shape a UK-wide governance framework for research data contracts.
-      Hear a keynote (TBA) and join facilitated breakout sessions to map the contracting process, surface pain points, and co-design practical, real-world solutions.
+    <span class="upcoming-badge">Upcoming</span>
+    <h3>ACCoRD Online Focus Group: Data Centres + Related Stakeholders</h3>
+    <p class="event-meta"><strong> 28 April 2026 · 10:00 – 11:30 </strong> · UCL, London</p>
+    <p> Join us for an ACCoRD's Online Focus Group dedicated to stakeholders working in data centres and related roles
     </p>
 
     <details class="agenda">
@@ -117,7 +65,15 @@ permalink: /events/
     </details>
 
     <p class="cta-row">
-      <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Register for updates →</a>
+      <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Join our community →</a>
+          <a
+      class="btn btn-primary"
+      href="https://www.eventbrite.co.uk/e/accord-online-focus-group-data-centres-related-stakeholders-tickets-1982526852183?aff=oddtdtcreator"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Register here →
+    </a>
     </p>
 
     <p class="tiny">Parts of the event may be audio recorded for summary purposes; photos may be taken. Let us know if you prefer not to be photographed.</p>
@@ -161,6 +117,25 @@ permalink: /events/
   <h2>Past events</h2>
   <p>Couldn’t make it? Browse summaries, slides, and resources from earlier sessions.</p>
   <p><a class="btn btn-primary" href="{{ '/events/past/' | relative_url }}">See past events →</a></p>
+
+  <article class="event-card flow">
+    <span class="past-badge">Past</span>
+    <h3>ACCoRD Survey Results Webinar</h3>
+    <p class="event-meta"><strong>2 February 2026 · 10:00 - 12:00 </strong> · UCL, London</p>
+    <p>
+      Join us online for a hybrid webinar where we will share early findings from the ACCoRD community survey. We are now halfway through the project, and thanks to everyone who has contributed so far, we have a rich set of insights emerging. This session will walk through what we have learned from the survey, what’s coming next, and how you can stay involved.
+    </p>
+
+    <details class="agenda">
+      <summary>Agenda (click to expand)</summary>
+      <ul>
+        <li><strong>10:00–10:30</strong> - Networking and coffee [for in person attendees]</li>
+        <li><strong>10:30–11:30</strong> - Survey results webinar</li>
+        <li><strong>11:30–12:00</strong> - Networking and coffee [for in person attendees]</li>
+      </ul>
+    </details>
+
+  </article>
 
   <article class="event-card flow">
     <span class="past-badge">Past</span>

@@ -31,16 +31,6 @@ title: Home
       </a>
     </div>
 
-    <section class="survey-promo flow">
-      <p>
-        By sharing your experience through our survey, you’ll help us build practical solutions and a community to improve data contracts for UK research.
-      </p>
-      <div class="cta-row">
-        <a class="btn btn-primary" href="https://qualtrics.ucl.ac.uk/jfe/form/SV_6ihqgR0eD78g2HQ" target="_blank" rel="noopener">
-          Complete our survey →
-        </a>
-      </div>
-    </section>
   </div>
 
   <div class="hero-media">
