@@ -577,3 +577,36 @@ body {
   border: 0;
   box-shadow: none;
 }
+
+.agenda {
+  margin-top: 1rem;
+}
+
+.agenda summary {
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.agenda-grid {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 0.5rem 1rem;
+  margin-top: 1rem;
+  padding-left: 0.5rem;
+  border-left: 2px solid #e6e6e6;
+}
+
+.agenda-time {
+  font-size: 0.85rem;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.agenda-item {
+  font-size: 0.95rem;
+}
+
+.agenda-grid div {
+  padding: 0.35rem 0;
+}

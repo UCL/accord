@@ -12,4 +12,4 @@ For enquiries about the ACCoRD project, please reach out to:
 - **Project Co-Lead:** Dr Claire Ellul
 - **Project Co-Lead:** Dr James Wilson
 - **Research & Innovation Associate:** Katie Buntic
-- **Professional Enabling Staff:** Dr Rahil Alipour
+- **Research & Innovation Associate::** Dr Shipra Suman

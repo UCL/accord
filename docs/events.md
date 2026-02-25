@@ -80,6 +80,61 @@ permalink: /events/
 
   </article>
 
+    <article class="event-card flow">
+    <span class="upcoming-badge">Upcoming</span>
+    <h3>ACCoRD: Roadmapping Workshop</h3>
+    <p class="event-meta"><strong> 14 May 2026 · 13:30 – 16:00 </strong> · UCL Centre for Artificial Intelligence, London</p>
+    <p>For this final workshop we'd really love to bring together all the stakeholders across the whole data contracting process
+    </p>
+
+    <details class="agenda">
+      <summary>Agenda (click to expand)</summary>
+
+      <div class="agenda-grid">
+        <div class="agenda-time">13:00–13:30</div>
+        <div class="agenda-item">Tea/coffee and networking</div>
+
+        <div class="agenda-time">13:30–13:40</div>
+        <div class="agenda-item">Introductions and Welcome</div>
+
+        <div class="agenda-time">13:40–14:10</div>
+        <div class="agenda-item">ACCoRD – What we've found so far (with opportunities for further input)</div>
+
+        <div class="agenda-time">14:10–14:20</div>
+        <div class="agenda-item">Introducing the Breakout Session – Roadmap Prioritisation</div>
+
+        <div class="agenda-time">14:20–15:00</div>
+        <div class="agenda-item">Breakout 1 – Roadmap Prioritisation</div>
+
+        <div class="agenda-time">15:00–15:15</div>
+        <div class="agenda-item">Breakout 2 – Reporting Back</div>
+
+        <div class="agenda-time">15:15–15:30</div>
+        <div class="agenda-item">Next steps and wrap up</div>
+
+        <div class="agenda-time">15:30–16:30</div>
+        <div class="agenda-item">Tea/coffee and networking</div>
+
+      </div>
+
+    </details>
+
+    <p class="cta-row">
+      <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Join our community →</a>
+          <a
+      class="btn btn-primary"
+      href="https://www.eventbrite.co.uk/e/accord-a-community-for-contract-regulation-for-data-roadmapping-workshop-tickets-1982531827063?aff=oddtdtcreator"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Register here →
+    </a>
+    </p>
+
+    <p class="tiny">Parts of the event may be audio recorded for summary purposes; photos may be taken. Let us know if you prefer not to be photographed.</p>
+
+  </article>
+
 </section>
 
 <section class="flow">
@@ -87,7 +142,7 @@ permalink: /events/
   <p>We’ll share findings and invite feedback at relevant national events (details announced here).</p>
 
   <article class="event-card flow">
-    <span class="stay-tuned-badge">Stay tuned</span>
+    <span class="upcoming-badge">Upcoming</span>
     <h3>NFCS NetworkPlus Spring Conference 2026</h3>
     <p class="event-meta"><strong>26 & 27 February 2026</strong> · MShed, Princes Wharf, Wapping Rd, Bristol, BS1 4RN</p>
     <p>
@@ -116,7 +171,6 @@ permalink: /events/
 <section id="past" class="flow">
   <h2>Past events</h2>
   <p>Couldn’t make it? Browse summaries, slides, and resources from earlier sessions.</p>
-  <p><a class="btn btn-primary" href="{{ '/events/past/' | relative_url }}">See past events →</a></p>
 
   <article class="event-card flow">
     <span class="past-badge">Past</span>
