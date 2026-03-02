@@ -141,29 +141,6 @@ permalink: /events/
   <h3>Conferences</h3>
   <p>We’ll share findings and invite feedback at relevant national events (details announced here).</p>
 
-  <article class="event-card flow">
-    <span class="upcoming-badge">Upcoming</span>
-    <h3>NFCS NetworkPlus Spring Conference 2026</h3>
-    <p class="event-meta"><strong>26 & 27 February 2026</strong> · MShed, Princes Wharf, Wapping Rd, Bristol, BS1 4RN</p>
-    <p>
-      ACCoRD will be represented at the <strong>National Federated Compute Services (NFCS) NetworkPlus Spring Conference</strong>.
-      The conference brings together the UK’s federated compute community to share developments, lessons learned, and future
-      directions.
-    </p>
-
-    <p class="cta-row">
-      <a
-        class="btn btn-primary"
-        href="https://nfcs-networkplus.ac.uk/events/nfcs-networkplus-spring-conference-2026/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Conference details →
-      </a>
-    </p>
-
-</article>
-
 </section>
 
 <hr class="section-divider" />
@@ -171,6 +148,29 @@ permalink: /events/
 <section id="past" class="flow">
   <h2>Past events</h2>
   <p>Couldn’t make it? Browse summaries, slides, and resources from earlier sessions.</p>
+
+    <article class="event-card flow">
+      <span class="past-badge">Past</span>
+      <h3>NFCS NetworkPlus Spring Conference 2026</h3>
+      <p class="event-meta"><strong>26 & 27 February 2026</strong> · MShed, Princes Wharf, Wapping Rd, Bristol, BS1 4RN</p>
+      <p>
+        ACCoRD will be represented at the <strong>National Federated Compute Services (NFCS) NetworkPlus Spring Conference</strong>.
+        The conference brings together the UK’s federated compute community to share developments, lessons learned, and future
+        directions.
+      </p>
+
+      <p class="cta-row">
+        <a
+          class="btn btn-primary"
+          href="https://nfcs-networkplus.ac.uk/events/nfcs-networkplus-spring-conference-2026/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Conference details →
+        </a>
+      </p>
+
+  </article>
 
   <article class="event-card flow">
     <span class="past-badge">Past</span>
@@ -259,9 +259,3 @@ permalink: /events/
 
 <hr class="section-divider" />
 
-<section id="calendar" class="flow">
-  <h2>Interactive calendar</h2>
-  <p class="tiny">
-    We’ll embed a live calendar here. In the meantime, join the community to get invites and reminders.
-  </p>
-</section>
