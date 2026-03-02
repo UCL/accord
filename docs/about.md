@@ -50,7 +50,7 @@ permalink: /about/
 
     <!-- RIGHT: IMAGE -->
     <div class="about-image">
-      <img src="{{ '/assets/images/accord_team.jpg' | relative_url }}" 
+      <img src="{{ '/assets/images/accord_team.png' | relative_url }}" 
            alt="ACCoRD team presenting project poster">
     </div>
 
