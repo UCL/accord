@@ -1,0 +1,138 @@
+[
+  {
+    "id": "measuring-risk",
+    "title": "Measuring & Managing Risk",
+    "icon": "shield-alert",
+    "color": "#E8632A",
+    "gradient": "linear-gradient(135deg, #E8632A 0%, #F0893A 100%)",
+    "summary": "A summary of the stream's focus and objectives.",
+    "details": "A detailed description of the stream's goals, activities, and expected outcomes.",
+    "milestones": [
+      { "date": "YYYY-MM-DD", "label": "Label 1", "done": true },
+      { "date": "YYYY-MM-DD", "label": "Label 2", "done": true },
+      { "date": "YYYY-MM-DD", "label": "Label 3", "done": false },
+      { "date": "YYYY-MM-DD", "label": "Label 4", "done": false }
+    ],
+    "status": "In Progress",
+    "lead": "Lead person/team/organisation responsible for the stream"
+  },
+  {
+    "id": "communication",
+    "title": "Communication & Engagement",
+    "icon": "message-square",
+    "color": "#F09830",
+    "gradient": "linear-gradient(135deg, #F09830 0%, #F5B84A 100%)",
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "details": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "milestones": [
+      { "date": "YYYY-MM-DD", "label": "Label 1", "done": true },
+      { "date": "YYYY-MM-DD", "label": "Label 2", "done": true },
+      { "date": "YYYY-MM-DD", "label": "Label 3", "done": false },
+      { "date": "YYYY-MM-DD", "label": "Label 4", "done": false }
+    ],
+    "status": "In Progress",
+    "lead": "Lead person/team/organisation responsible for the stream"
+  },
+  {
+    "id": "training",
+    "title": "Training & Guidance",
+    "icon": "graduation-cap",
+    "color": "#F5B830",
+    "gradient": "linear-gradient(135deg, #F5B830 0%, #FAD060 100%)",
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "details": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "milestones": [
+      { "date": "YYYY-MM-DD", "label": "Label 1", "done": true },
+      { "date": "YYYY-MM-DD", "label": "Label 2", "done": false },
+      { "date": "YYYY-MM-DD", "label": "Label 3", "done": false },
+      { "date": "YYYY-MM-DD", "label": "Label 4", "done": false }
+    ],
+    "status": "Planning",
+    "lead": "Lead person/team/organisation responsible for the stream"
+  },
+  {
+    "id": "governance",
+    "title": "Governance",
+    "icon": "gavel",
+    "color": "#FAD060",
+    "gradient": "linear-gradient(135deg, #FAD060 0%, #FCE080 100%)",
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "details": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "milestones": [
+      { "date": "YYYY-MM-DD", "label": "Label 1", "done": true },
+      { "date": "YYYY-MM-DD", "label": "Label 2", "done": false },
+      { "date": "YYYY-MM-DD", "label": "Label 3", "done": false },
+      { "date": "YYYY-MM-DD", "label": "Label 4", "done": false }
+    ],
+    "status": "Planning",
+    "lead": "Lead person/team/organisation responsible for the stream"
+  },
+  {
+    "id": "procedure",
+    "title": "Procedure",
+    "icon": "clipboard-list",
+    "color": "#2AA89A",
+    "gradient": "linear-gradient(135deg, #2AA89A 0%, #3DC8B8 100%)",
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "details": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "milestones": [
+      { "date": "YYYY-MM-DD", "label": "Label 1", "done": true },
+      { "date": "YYYY-MM-DD", "label": "Label 2", "done": false },
+      { "date": "YYYY-MM-DD", "label": "Label 3", "done": false },
+      { "date": "YYYY-MM-DD", "label": "Label 4", "done": false }
+    ],
+    "status": "In Progress",
+    "lead": "Lead person/team/organisation responsible for the stream"
+  },
+  {
+    "id": "automation",
+    "title": "Automation & Tools",
+    "icon": "settings",
+    "color": "#1A9E90",
+    "gradient": "linear-gradient(135deg, #1A9E90 0%, #2ABCAA 100%)",
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "details": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "milestones": [
+      { "date": "YYYY-MM-DD", "label": "Label 1", "done": true },
+      { "date": "YYYY-MM-DD", "label": "Label 2", "done": false },
+      { "date": "YYYY-MM-DD", "label": "Label 3", "done": false },
+      { "date": "YYYY-MM-DD", "label": "Label 4", "done": false }
+    ],
+    "status": "Planning",
+    "lead": "Lead person/team/organisation responsible for the stream"
+  },
+  {
+    "id": "coordination",
+    "title": "High-level Co-ordination",
+    "icon": "git-merge",
+    "color": "#60C8D8",
+    "gradient": "linear-gradient(135deg, #60C8D8 0%, #80D8E8 100%)",
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "details": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "milestones": [
+      { "date": "YYYY-MM-DD", "label": "Label 1", "done": true },
+      { "date": "YYYY-MM-DD", "label": "Label 2", "done": false },
+      { "date": "YYYY-MM-DD", "label": "Label 3", "done": false },
+      { "date": "YYYY-MM-DD", "label": "Label 4", "done": false }
+    ],
+    "status": "In Progress",
+    "lead": "Lead person/team/organisation responsible for the stream"
+  },
+  {
+    "id": "culture",
+    "title": "Culture & Mindset",
+    "icon": "lightbulb",
+    "color": "#90D8E8",
+    "gradient": "linear-gradient(135deg, #90D8E8 0%, #B0E8F8 100%)",
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "details": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "milestones": [
+      { "date": "YYYY-MM-DD", "label": "Label 1", "done": true },
+      { "date": "YYYY-MM-DD", "label": "Label 2", "done": false },
+      { "date": "YYYY-MM-DD", "label": "Label 3", "done": false },
+      { "date": "YYYY-MM-DD", "label": "Label 4", "done": false }
+    ],
+    "status": "Planning",
+    "lead": "Lead person/team/organisation responsible for the stream"
+  }
+]
