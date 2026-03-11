@@ -168,6 +168,14 @@ permalink: /events/
         >
           Conference details →
         </a>
+        <a
+          class="btn btn-primary"
+          href="https://rdr.ucl.ac.uk/account/projects/272629/articles/31622893?file=62597452"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View ACCoRD's poster →
+        </a>
       </p>
 
   </article>
