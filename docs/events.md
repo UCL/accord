@@ -54,9 +54,9 @@ permalink: /events/
 
   <article class="event-card flow">
     <span class="upcoming-badge">Upcoming</span>
-    <h3>ACCoRD Online Focus Group: Data Centres + Related Stakeholders</h3>
+    <h3>ACCoRD Online Focus Group: Measuring and Managing Risk</h3>
     <p class="event-meta"><strong> 28 April 2026 · 10:00 – 11:30 </strong> · UCL, London</p>
-    <p> Join us for an ACCoRD's Online Focus Group dedicated to stakeholders working in data centres and related roles
+    <p> Join us for an ACCoRD's Online Focus Group dedicated to measuring and managing
     </p>
 
     <details class="agenda">
