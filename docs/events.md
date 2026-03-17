@@ -65,15 +65,7 @@ permalink: /events/
     </details>
 
     <p class="cta-row">
-      <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Join our community →</a>
-          <a
-      class="btn btn-primary"
-      href="https://www.eventbrite.co.uk/e/accord-online-focus-group-data-centres-related-stakeholders-tickets-1982526852183?aff=oddtdtcreator"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Register here →
-    </a>
+      <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Join our community to stayed tuned for updates→</a>
     </p>
 
     <p class="tiny">Parts of the event may be audio recorded for summary purposes; photos may be taken. Let us know if you prefer not to be photographed.</p>
