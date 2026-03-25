@@ -8,11 +8,34 @@ permalink: /roadmap/
 
 <div id="accord-roadmap">
   <h2 class="roadmap-heading">ACCoRD Workstreams</h2>
-  <p class="roadmap-subheading">Click any workstream to explore its scope, milestones, and status.</p>
+  <p class="roadmap-subheading">Click any workstream to explore its scope, recommendations, and status.</p>
   <div class="roadmap-grid" id="roadmap-grid" role="list">
     <!-- Tiles injected by JS -->
   </div>
 </div>
+
+<style>
+  .rec-list { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:6px; }
+  .rec-item { border:1px solid rgba(0,0,0,0.08); border-radius:8px; overflow:hidden; background:#fff; }
+  .rec-header { display:flex; align-items:center; gap:10px; padding:10px 12px; cursor:default; user-select:none; }
+  .rec-header.has-data { cursor:pointer; }
+  .rec-header.has-data:hover { background:rgba(0,0,0,0.03); }
+  .rec-dot { width:10px; height:10px; border-radius:50%; flex-shrink:0; border:2px solid #ccc; background:transparent; }
+  .rec-dot.done { border-color:var(--tile-color,#888); background:var(--tile-color,#888); }
+  .rec-label { flex:1; font-size:0.88rem; color:#333; font-weight:500; }
+  .rec-item.done .rec-label { color:#555; }
+  .rec-data-badge { font-size:0.72rem; font-weight:600; color:#666; background:#f0f0f0; border-radius:20px; padding:2px 8px; white-space:nowrap; }
+  .rec-download-all { display:inline-flex; align-items:center; gap:4px; font-size:0.75rem; font-weight:600; color:var(--tile-color,#555); background:none; border:1px solid var(--tile-color,#ccc); border-radius:4px; padding:2px 7px; cursor:pointer; flex-shrink:0; transition:background 0.15s,color 0.15s; }
+  .rec-download-all:hover { background:var(--tile-color,#555); color:#fff; }
+  .rec-download-all svg { width:11px; height:11px; stroke:currentColor; fill:none; stroke-width:2.5; stroke-linecap:round; stroke-linejoin:round; }
+  .rec-chevron { width:14px; height:14px; color:#888; flex-shrink:0; transition:transform 0.2s ease; }
+  .rec-chevron svg { width:100%; height:100%; stroke:currentColor; fill:none; stroke-width:2.5; stroke-linecap:round; stroke-linejoin:round; }
+  .rec-header[aria-expanded="true"] .rec-chevron { transform:rotate(90deg); }
+  .rec-datapoints { display:none; padding:0 12px 10px 32px; border-top:1px solid rgba(0,0,0,0.06); }
+  .rec-datapoints.open { display:block; }
+  .dp-list { list-style:none; margin:8px 0 0; padding:0; display:flex; flex-direction:column; gap:5px; }
+  .dp-item { background:#f7f7f7; border-radius:5px; padding:6px 10px; font-size:0.82rem; color:#444; }
+</style>
 
 <script>
 (function () {
@@ -28,8 +51,10 @@ permalink: /roadmap/
     "lightbulb": `<svg viewBox="0 0 24 24"><line x1="9" y1="18" x2="15" y2="18"/><line x1="10" y1="22" x2="14" y2="22"/><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"/></svg>`
   };
 
-  const ARROW = `<svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>`;
-  const CLOSE = `<svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>`;
+  const ARROW    = `<svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>`;
+  const CLOSE    = `<svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>`;
+  const CHEVRON  = `<svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>`;
+  const DOWNLOAD = `<svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>`;
 
   const DATA_URL = '{{ "/assets/data/roadmap-data.json" | relative_url }}';
   const grid = document.getElementById('roadmap-grid');
@@ -62,6 +87,86 @@ permalink: /roadmap/
     return btn;
   }
 
+  /* ── Download all data points for a recommendation ── */
+  function downloadAllDataPoints(streamTitle, recLabel, dataPoints) {
+    const lines = dataPoints.map((dp, i) => `Data Point ${i + 1}:\n${dp}`).join('\n\n');
+    const content = `Stream: ${streamTitle}\nRecommendation: ${recLabel}\n\n${lines}`;
+    const blob = new Blob([content], { type: 'text/plain' });
+    const url  = URL.createObjectURL(blob);
+    const a    = document.createElement('a');
+    a.href     = url;
+    a.download = `${streamTitle.replace(/\s+/g, '_')}_${recLabel.replace(/\s+/g, '_')}.txt`;
+    a.click();
+    URL.revokeObjectURL(url);
+  }
+
+  /* ── Build recommendation list ── */
+  function buildRecommendations(item) {
+    const ul = document.createElement('ul');
+    ul.className = 'rec-list';
+
+    item.recommendations.forEach((rec, ri) => {
+      const li = document.createElement('li');
+      li.className = `rec-item${rec.done ? ' done' : ''}`;
+
+      const hasData = rec.dataPoints && rec.dataPoints.length > 0;
+      const bodyId  = `rec-body-${item.id}-${ri}`;
+
+      const header = document.createElement('div');
+      header.className = `rec-header${hasData ? ' has-data' : ''}`;
+      header.setAttribute('aria-expanded', 'false');
+      if (hasData) {
+        header.setAttribute('aria-controls', bodyId);
+        header.setAttribute('role', 'button');
+        header.setAttribute('tabindex', '0');
+      }
+      header.innerHTML = `
+        <span class="rec-dot${rec.done ? ' done' : ''}" style="${rec.done ? `--tile-color:${item.color}` : ''}"></span>
+        <span class="rec-label">${rec.label}</span>
+        ${hasData ? `<span class="rec-data-badge">${rec.dataPoints.length} data point${rec.dataPoints.length !== 1 ? 's' : ''}</span>` : ''}
+        ${hasData ? `<button class="rec-download-all" style="--tile-color:${item.color}" title="Download all data points">${DOWNLOAD} Download all</button>` : ''}
+        ${hasData ? `<span class="rec-chevron">${CHEVRON}</span>` : ''}
+      `;
+      li.appendChild(header);
+
+      if (hasData) {
+        /* Download all button — stop propagation so it doesn't toggle the dropdown */
+        header.querySelector('.rec-download-all').addEventListener('click', e => {
+          e.stopPropagation();
+          downloadAllDataPoints(item.title, rec.label, rec.dataPoints);
+        });
+
+        const body = document.createElement('div');
+        body.className = 'rec-datapoints';
+        body.id = bodyId;
+
+        const dpUl = document.createElement('ul');
+        dpUl.className = 'dp-list';
+        rec.dataPoints.forEach(dp => {
+          const dpLi = document.createElement('li');
+          dpLi.className = 'dp-item';
+          dpLi.textContent = dp;
+          dpUl.appendChild(dpLi);
+        });
+        body.appendChild(dpUl);
+        li.appendChild(body);
+
+        const toggle = () => {
+          const isOpen = body.classList.contains('open');
+          body.classList.toggle('open', !isOpen);
+          header.setAttribute('aria-expanded', String(!isOpen));
+        };
+        header.addEventListener('click', toggle);
+        header.addEventListener('keydown', e => {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
+        });
+      }
+
+      ul.appendChild(li);
+    });
+    return ul;
+  }
+
   function buildPanel(item) {
     const wrapper = document.createElement('div');
     wrapper.className = 'panel-wrapper roadmap-panel';
@@ -70,14 +175,6 @@ permalink: /roadmap/
     wrapper.setAttribute('aria-label', item.title);
 
     const sc = statusClass(item.status);
-
-    const milestonesHtml = item.milestones.map(m => `
-      <li class="milestone-item ${m.done ? 'done' : ''}">
-        <span class="milestone-dot ${m.done ? 'done' : ''}" style="${m.done ? `--tile-color:${item.color}` : ''}"></span>
-        <span class="milestone-date">${m.date}</span>
-        <span class="milestone-label">${m.label}</span>
-      </li>
-    `).join('');
 
     wrapper.innerHTML = `
       <button class="panel-close" aria-label="Close panel">${CLOSE}</button>
@@ -97,22 +194,20 @@ permalink: /roadmap/
           <p class="panel-details">${item.details}</p>
         </div>
         <div>
-          <p class="panel-milestones-title">Milestones</p>
-          <ul class="milestones-list">${milestonesHtml}</ul>
+          <p class="panel-milestones-title">Recommendations</p>
+          <div class="rec-list-wrapper"></div>
         </div>
       </div>
     `;
 
+    wrapper.querySelector('.rec-list-wrapper').appendChild(buildRecommendations(item));
     wrapper.querySelector('.panel-close').addEventListener('click', () => closePanel());
     return wrapper;
   }
 
   function closePanel() {
     if (activePanel) {
-      activePanel.classList.remove('open');
-      activePanel.addEventListener('transitionend', () => {
-        if (!activePanel.classList.contains('open')) activePanel.remove();
-      }, { once: true });
+      activePanel.remove();
     }
     if (activeId) {
       const btn = grid.querySelector(`[data-id="${activeId}"]`);

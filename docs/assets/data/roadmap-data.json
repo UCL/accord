@@ -7,11 +7,11 @@
     "gradient": "linear-gradient(135deg, #E8632A 0%, #F0893A 100%)",
     "summary": "A summary of the stream's focus and objectives.",
     "details": "A detailed description of the stream's goals, activities, and expected outcomes.",
-    "milestones": [
-      { "date": "YYYY-MM-DD", "label": "Label 1", "done": true },
-      { "date": "YYYY-MM-DD", "label": "Label 2", "done": true },
-      { "date": "YYYY-MM-DD", "label": "Label 3", "done": false },
-      { "date": "YYYY-MM-DD", "label": "Label 4", "done": false }
+    "recommendations": [
+      { "label": "Recommendation 1", "done": true,  "dataPoints": ["Data point 1", "Data point 2", "Data point 3", "Data point 4", "Data point 5"] },
+      { "label": "Recommendation 2", "done": true,  "dataPoints": ["Data point 1"] },
+      { "label": "Recommendation 3", "done": false, "dataPoints": ["Data point 1", "Data point 2", "Data point 3"] },
+      { "label": "Recommendation 4", "done": false, "dataPoints": [] }
     ],
     "status": "In Progress",
     "lead": "Lead person/team/organisation responsible for the stream"
@@ -24,11 +24,11 @@
     "gradient": "linear-gradient(135deg, #F09830 0%, #F5B84A 100%)",
     "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "details": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "milestones": [
-      { "date": "YYYY-MM-DD", "label": "Label 1", "done": true },
-      { "date": "YYYY-MM-DD", "label": "Label 2", "done": true },
-      { "date": "YYYY-MM-DD", "label": "Label 3", "done": false },
-      { "date": "YYYY-MM-DD", "label": "Label 4", "done": false }
+    "recommendations": [
+      { "label": "Recommendation 1", "done": true,  "dataPoints": ["Data point 1"] },
+      { "label": "Recommendation 2", "done": true,  "dataPoints": ["Data point 1", "Data point 2"] },
+      { "label": "Recommendation 3", "done": false, "dataPoints": ["Data point 1"] },
+      { "label": "Recommendation 4", "done": false, "dataPoints": [] }
     ],
     "status": "In Progress",
     "lead": "Lead person/team/organisation responsible for the stream"
@@ -41,11 +41,11 @@
     "gradient": "linear-gradient(135deg, #F5B830 0%, #FAD060 100%)",
     "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "details": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "milestones": [
-      { "date": "YYYY-MM-DD", "label": "Label 1", "done": true },
-      { "date": "YYYY-MM-DD", "label": "Label 2", "done": false },
-      { "date": "YYYY-MM-DD", "label": "Label 3", "done": false },
-      { "date": "YYYY-MM-DD", "label": "Label 4", "done": false }
+    "recommendations": [
+      { "label": "Recommendation 1", "done": true,  "dataPoints": ["Data point 1", "Data point 2"] },
+      { "label": "Recommendation 2", "done": false, "dataPoints": ["Data point 1"] },
+      { "label": "Recommendation 3", "done": false, "dataPoints": [] },
+      { "label": "Recommendation 4", "done": false, "dataPoints": [] }
     ],
     "status": "Planning",
     "lead": "Lead person/team/organisation responsible for the stream"
@@ -58,11 +58,11 @@
     "gradient": "linear-gradient(135deg, #FAD060 0%, #FCE080 100%)",
     "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "details": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "milestones": [
-      { "date": "YYYY-MM-DD", "label": "Label 1", "done": true },
-      { "date": "YYYY-MM-DD", "label": "Label 2", "done": false },
-      { "date": "YYYY-MM-DD", "label": "Label 3", "done": false },
-      { "date": "YYYY-MM-DD", "label": "Label 4", "done": false }
+    "recommendations": [
+      { "label": "Recommendation 1", "done": true,  "dataPoints": ["Data point 1"] },
+      { "label": "Recommendation 2", "done": false, "dataPoints": ["Data point 1", "Data point 2"] },
+      { "label": "Recommendation 3", "done": false, "dataPoints": [] },
+      { "label": "Recommendation 4", "done": false, "dataPoints": [] }
     ],
     "status": "Planning",
     "lead": "Lead person/team/organisation responsible for the stream"
@@ -75,11 +75,11 @@
     "gradient": "linear-gradient(135deg, #2AA89A 0%, #3DC8B8 100%)",
     "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "details": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "milestones": [
-      { "date": "YYYY-MM-DD", "label": "Label 1", "done": true },
-      { "date": "YYYY-MM-DD", "label": "Label 2", "done": false },
-      { "date": "YYYY-MM-DD", "label": "Label 3", "done": false },
-      { "date": "YYYY-MM-DD", "label": "Label 4", "done": false }
+    "recommendations": [
+      { "label": "Recommendation 1", "done": true,  "dataPoints": ["Data point 1", "Data point 2"] },
+      { "label": "Recommendation 2", "done": false, "dataPoints": ["Data point 1"] },
+      { "label": "Recommendation 3", "done": false, "dataPoints": [] },
+      { "label": "Recommendation 4", "done": false, "dataPoints": [] }
     ],
     "status": "In Progress",
     "lead": "Lead person/team/organisation responsible for the stream"
@@ -92,11 +92,11 @@
     "gradient": "linear-gradient(135deg, #1A9E90 0%, #2ABCAA 100%)",
     "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "details": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "milestones": [
-      { "date": "YYYY-MM-DD", "label": "Label 1", "done": true },
-      { "date": "YYYY-MM-DD", "label": "Label 2", "done": false },
-      { "date": "YYYY-MM-DD", "label": "Label 3", "done": false },
-      { "date": "YYYY-MM-DD", "label": "Label 4", "done": false }
+    "recommendations": [
+      { "label": "Recommendation 1", "done": true,  "dataPoints": ["Data point 1"] },
+      { "label": "Recommendation 2", "done": false, "dataPoints": [] },
+      { "label": "Recommendation 3", "done": false, "dataPoints": ["Data point 1", "Data point 2"] },
+      { "label": "Recommendation 4", "done": false, "dataPoints": [] }
     ],
     "status": "Planning",
     "lead": "Lead person/team/organisation responsible for the stream"
@@ -109,11 +109,11 @@
     "gradient": "linear-gradient(135deg, #60C8D8 0%, #80D8E8 100%)",
     "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "details": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "milestones": [
-      { "date": "YYYY-MM-DD", "label": "Label 1", "done": true },
-      { "date": "YYYY-MM-DD", "label": "Label 2", "done": false },
-      { "date": "YYYY-MM-DD", "label": "Label 3", "done": false },
-      { "date": "YYYY-MM-DD", "label": "Label 4", "done": false }
+    "recommendations": [
+      { "label": "Recommendation 1", "done": true,  "dataPoints": ["Data point 1", "Data point 2"] },
+      { "label": "Recommendation 2", "done": false, "dataPoints": ["Data point 1"] },
+      { "label": "Recommendation 3", "done": false, "dataPoints": [] },
+      { "label": "Recommendation 4", "done": false, "dataPoints": [] }
     ],
     "status": "In Progress",
     "lead": "Lead person/team/organisation responsible for the stream"
@@ -126,11 +126,11 @@
     "gradient": "linear-gradient(135deg, #90D8E8 0%, #B0E8F8 100%)",
     "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "details": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "milestones": [
-      { "date": "YYYY-MM-DD", "label": "Label 1", "done": true },
-      { "date": "YYYY-MM-DD", "label": "Label 2", "done": false },
-      { "date": "YYYY-MM-DD", "label": "Label 3", "done": false },
-      { "date": "YYYY-MM-DD", "label": "Label 4", "done": false }
+    "recommendations": [
+      { "label": "Recommendation 1", "done": true,  "dataPoints": ["Data point 1"] },
+      { "label": "Recommendation 2", "done": false, "dataPoints": ["Data point 1", "Data point 2"] },
+      { "label": "Recommendation 3", "done": false, "dataPoints": [] },
+      { "label": "Recommendation 4", "done": false, "dataPoints": [] }
     ],
     "status": "Planning",
     "lead": "Lead person/team/organisation responsible for the stream"
