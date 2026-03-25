@@ -124,7 +124,7 @@ permalink: /roadmap/
         <span class="rec-dot${rec.done ? ' done' : ''}" style="${rec.done ? `--tile-color:${item.color}` : ''}"></span>
         <span class="rec-label">${rec.label}</span>
         ${hasData ? `<span class="rec-data-badge">${rec.dataPoints.length} data point${rec.dataPoints.length !== 1 ? 's' : ''}</span>` : ''}
-        ${hasData ? `<button class="rec-download-all" style="--tile-color:${item.color}" title="Export all data points">${DOWNLOAD} Export data</button>` : ''}
+        ${hasData ? `<button class="rec-download-all" style="--tile-color:${item.color}" title="Export all data points">${DOWNLOAD} Export</button>` : ''}
         ${hasData ? `<span class="rec-chevron">${CHEVRON}</span>` : ''}
       `;
       li.appendChild(header);
