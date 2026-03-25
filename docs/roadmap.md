@@ -124,7 +124,7 @@ permalink: /roadmap/
         <span class="rec-dot${rec.done ? ' done' : ''}" style="${rec.done ? `--tile-color:${item.color}` : ''}"></span>
         <span class="rec-label">${rec.label}</span>
         ${hasData ? `<span class="rec-data-badge">${rec.dataPoints.length} data point${rec.dataPoints.length !== 1 ? 's' : ''}</span>` : ''}
-        ${hasData ? `<button class="rec-download-all" style="--tile-color:${item.color}" title="Download all data points">${DOWNLOAD} Download all</button>` : ''}
+        ${hasData ? `<button class="rec-download-all" style="--tile-color:${item.color}" title="Export all data points">${DOWNLOAD} Export data</button>` : ''}
         ${hasData ? `<span class="rec-chevron">${CHEVRON}</span>` : ''}
       `;
       li.appendChild(header);
@@ -142,12 +142,20 @@ permalink: /roadmap/
 
         const dpUl = document.createElement('ul');
         dpUl.className = 'dp-list';
-        rec.dataPoints.forEach(dp => {
+        const MAX_VISIBLE = 5;
+        const visible = rec.dataPoints.slice(0, MAX_VISIBLE);
+        visible.forEach(dp => {
           const dpLi = document.createElement('li');
           dpLi.className = 'dp-item';
           dpLi.textContent = dp;
           dpUl.appendChild(dpLi);
         });
+        if (rec.dataPoints.length > MAX_VISIBLE) {
+          const overflow = document.createElement('li');
+          overflow.className = 'dp-item dp-overflow';
+          overflow.textContent = `+ ${rec.dataPoints.length - MAX_VISIBLE} more - export to see all data points`;
+          dpUl.appendChild(overflow);
+        }
         body.appendChild(dpUl);
         li.appendChild(body);
 
