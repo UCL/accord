@@ -1,33 +1,33 @@
 [
   {
     "id": "measuring-risk",
-    "title": "Measuring & Managing Risk",
+    "title": "Managing Risk",
     "icon": "shield-alert",
-    "color": "#E8632A",
-    "gradient": "linear-gradient(135deg, #E8632A 0%, #F0893A 100%)",
+    "color": "#D94F2A",
+    "gradient": "linear-gradient(135deg, #D94F2A 0%, #E8632A 100%)",
     "summary": "A summary of the stream's focus and objectives.",
     "details": "A detailed description of the stream's goals, activities, and expected outcomes.",
     "recommendations": [
-      { "label": "Recommendation 1 Lorem ipsum dolor sit amet", "done": true,  "dataPoints": ["Data point 1", "Data point 2", "Data point 3", "Data point 4", "Data point 5", "Data point 6", "Data point 7"] },
-      { "label": "Recommendation 2 Excepteur sint occaecat cupidatat non proident", "done": true,  "dataPoints": ["Data point 1"] },
-      { "label": "Recommendation 3", "done": false, "dataPoints": ["Data point 1", "Data point 2", "Data point 3"] },
-      { "label": "Recommendation 4", "done": false, "dataPoints": [] }
+      { "label": "Lorem ipsum recommendation 1", "done": true, "dataPoints": ["Data point 1", "Data point 2", "Data point 3", "Data point 4", "Data point 5", "Data point 6", "Data point 7"] },
+      { "label": "Lorem ipsum recommendation 2", "done": false, "dataPoints": ["Data point 1", "Data point 2", "Data point 3", "Data point 4", "Data point 5"] },
+      { "label": "Lorem ipsum recommendation 3", "done": false, "dataPoints": ["Data point 1", "Data point 2"] },
+      { "label": "Lorem ipsum recommendation 4", "done": false, "dataPoints": ["Data point 1"] }
     ],
     "status": "In Progress",
     "lead": "Lead person/team/organisation responsible for the stream"
   },
   {
     "id": "communication",
-    "title": "Communication & Engagement",
+    "title": "Communications and Engagement",
     "icon": "message-square",
-    "color": "#F09830",
-    "gradient": "linear-gradient(135deg, #F09830 0%, #F5B84A 100%)",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "details": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "color": "#E8832A",
+    "gradient": "linear-gradient(135deg, #E8832A 0%, #F0A030 100%)",
+    "summary": "A summary of the stream's focus and objectives.",
+    "details": "A detailed description of the stream's goals, activities, and expected outcomes.",
     "recommendations": [
-      { "label": "Recommendation 1", "done": true,  "dataPoints": ["Data point 1"] },
-      { "label": "Recommendation 2", "done": true,  "dataPoints": ["Data point 1", "Data point 2"] },
-      { "label": "Recommendation 3", "done": false, "dataPoints": ["Data point 1"] },
+      { "label": "Recommendation 1", "done": true, "dataPoints": ["Data point 1"] },
+      { "label": "Recommendation 2", "done": false, "dataPoints": [] },
+      { "label": "Recommendation 3", "done": false, "dataPoints": [] },
       { "label": "Recommendation 4", "done": false, "dataPoints": [] }
     ],
     "status": "In Progress",
@@ -35,15 +35,49 @@
   },
   {
     "id": "training",
-    "title": "Training & Guidance",
+    "title": "Training and Guidance",
     "icon": "graduation-cap",
-    "color": "#F5B830",
-    "gradient": "linear-gradient(135deg, #F5B830 0%, #FAD060 100%)",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "details": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "color": "#E8B830",
+    "gradient": "linear-gradient(135deg, #E8B830 0%, #F5D040 100%)",
+    "summary": "A summary of the stream's focus and objectives.",
+    "details": "A detailed description of the stream's goals, activities, and expected outcomes.",
     "recommendations": [
-      { "label": "Recommendation 1", "done": true,  "dataPoints": ["Data point 1", "Data point 2"] },
-      { "label": "Recommendation 2", "done": false, "dataPoints": ["Data point 1"] },
+      { "label": "Recommendation 1", "done": true, "dataPoints": ["Data point 1"] },
+      { "label": "Recommendation 2", "done": false, "dataPoints": [] },
+      { "label": "Recommendation 3", "done": false, "dataPoints": [] },
+      { "label": "Recommendation 4", "done": false, "dataPoints": [] }
+    ],
+    "status": "Planning",
+    "lead": "Lead person/team/organisation responsible for the stream"
+  },
+  {
+    "id": "policy-procedures",
+    "title": "Policy and Procedures",
+    "icon": "clipboard-list",
+    "color": "#2AA89A",
+    "gradient": "linear-gradient(135deg, #2AA89A 0%, #3DC8B8 100%)",
+    "summary": "A summary of the stream's focus and objectives.",
+    "details": "A detailed description of the stream's goals, activities, and expected outcomes.",
+    "recommendations": [
+      { "label": "Recommendation 1", "done": true, "dataPoints": ["Data point 1"] },
+      { "label": "Recommendation 2", "done": false, "dataPoints": [] },
+      { "label": "Recommendation 3", "done": false, "dataPoints": [] },
+      { "label": "Recommendation 4", "done": false, "dataPoints": [] }
+    ],
+    "status": "In Progress",
+    "lead": "Lead person/team/organisation responsible for the stream"
+  },
+  {
+    "id": "automation",
+    "title": "Automation and Tools",
+    "icon": "settings",
+    "color": "#1A88C8",
+    "gradient": "linear-gradient(135deg, #1A88C8 0%, #2AAAE8 100%)",
+    "summary": "A summary of the stream's focus and objectives.",
+    "details": "A detailed description of the stream's goals, activities, and expected outcomes.",
+    "recommendations": [
+      { "label": "Recommendation 1", "done": true, "dataPoints": ["Data point 1"] },
+      { "label": "Recommendation 2", "done": false, "dataPoints": [] },
       { "label": "Recommendation 3", "done": false, "dataPoints": [] },
       { "label": "Recommendation 4", "done": false, "dataPoints": [] }
     ],
@@ -54,85 +88,17 @@
     "id": "governance",
     "title": "Governance",
     "icon": "gavel",
-    "color": "#FAD060",
-    "gradient": "linear-gradient(135deg, #FAD060 0%, #FCE080 100%)",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "details": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "color": "#1A4EA8",
+    "gradient": "linear-gradient(135deg, #1A4EA8 0%, #2A6AC8 100%)",
+    "summary": "A summary of the stream's focus and objectives.",
+    "details": "A detailed description of the stream's goals, activities, and expected outcomes.",
     "recommendations": [
-      { "label": "Recommendation 1", "done": true,  "dataPoints": ["Data point 1"] },
-      { "label": "Recommendation 2", "done": false, "dataPoints": ["Data point 1", "Data point 2"] },
-      { "label": "Recommendation 3", "done": false, "dataPoints": [] },
-      { "label": "Recommendation 4", "done": false, "dataPoints": [] }
-    ],
-    "status": "Planning",
-    "lead": "Lead person/team/organisation responsible for the stream"
-  },
-  {
-    "id": "procedure",
-    "title": "Procedure",
-    "icon": "clipboard-list",
-    "color": "#2AA89A",
-    "gradient": "linear-gradient(135deg, #2AA89A 0%, #3DC8B8 100%)",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "details": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "recommendations": [
-      { "label": "Recommendation 1", "done": true,  "dataPoints": ["Data point 1", "Data point 2"] },
-      { "label": "Recommendation 2", "done": false, "dataPoints": ["Data point 1"] },
-      { "label": "Recommendation 3", "done": false, "dataPoints": [] },
-      { "label": "Recommendation 4", "done": false, "dataPoints": [] }
-    ],
-    "status": "In Progress",
-    "lead": "Lead person/team/organisation responsible for the stream"
-  },
-  {
-    "id": "automation",
-    "title": "Automation & Tools",
-    "icon": "settings",
-    "color": "#1A9E90",
-    "gradient": "linear-gradient(135deg, #1A9E90 0%, #2ABCAA 100%)",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "details": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "recommendations": [
-      { "label": "Recommendation 1", "done": true,  "dataPoints": ["Data point 1"] },
+      { "label": "Recommendation 1", "done": true, "dataPoints": ["Data point 1"] },
       { "label": "Recommendation 2", "done": false, "dataPoints": [] },
-      { "label": "Recommendation 3", "done": false, "dataPoints": ["Data point 1", "Data point 2"] },
-      { "label": "Recommendation 4", "done": false, "dataPoints": [] }
-    ],
-    "status": "Planning",
-    "lead": "Lead person/team/organisation responsible for the stream"
-  },
-  {
-    "id": "coordination",
-    "title": "High-level Co-ordination",
-    "icon": "git-merge",
-    "color": "#60C8D8",
-    "gradient": "linear-gradient(135deg, #60C8D8 0%, #80D8E8 100%)",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "details": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "recommendations": [
-      { "label": "Recommendation 1", "done": true,  "dataPoints": ["Data point 1", "Data point 2"] },
-      { "label": "Recommendation 2", "done": false, "dataPoints": ["Data point 1"] },
       { "label": "Recommendation 3", "done": false, "dataPoints": [] },
       { "label": "Recommendation 4", "done": false, "dataPoints": [] }
     ],
     "status": "In Progress",
-    "lead": "Lead person/team/organisation responsible for the stream"
-  },
-  {
-    "id": "culture",
-    "title": "Culture & Mindset",
-    "icon": "lightbulb",
-    "color": "#90D8E8",
-    "gradient": "linear-gradient(135deg, #90D8E8 0%, #B0E8F8 100%)",
-    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "details": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "recommendations": [
-      { "label": "Recommendation 1", "done": true,  "dataPoints": ["Data point 1"] },
-      { "label": "Recommendation 2", "done": false, "dataPoints": ["Data point 1", "Data point 2"] },
-      { "label": "Recommendation 3", "done": false, "dataPoints": [] },
-      { "label": "Recommendation 4", "done": false, "dataPoints": [] }
-    ],
-    "status": "Planning",
     "lead": "Lead person/team/organisation responsible for the stream"
   }
 ]

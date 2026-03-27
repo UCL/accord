@@ -271,9 +271,9 @@ permalink: /roadmap/
 
   function getComputedColumns() {
     const w = grid.offsetWidth;
-    if (w < 480) return 1;
-    if (w < 800) return 2;
-    return 4;
+    if (w < 400) return 1;
+    if (w < 640) return 2;
+    return 3;
   }
 
   // Re-insert panel on resize so it's always after the correct row
