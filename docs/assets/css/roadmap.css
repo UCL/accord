@@ -185,7 +185,9 @@
 }
 
 .roadmap-panel.open {
-  max-height: 600px;
+  /* Cap at 60vh so it never exceeds the visible screen; scroll within the panel for the rest */
+  max-height: min(620px, 60vh);
+  overflow-y: auto;
   opacity: 1;
   margin-top: 4px;
   pointer-events: auto;
@@ -275,7 +277,7 @@
   margin-top: 0.75rem;
 }
 
-/* Milestones */
+/* Recommendations heading */
 .panel-milestones-title {
   font-family: 'Sora', sans-serif;
   font-size: 0.85rem;
@@ -284,67 +286,6 @@
   text-transform: uppercase;
   letter-spacing: 0.06em;
   margin: 0 0 1rem 0;
-}
-
-.milestones-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.65rem;
-}
-
-.milestone-item {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  font-size: 0.875rem;
-}
-
-.milestone-dot {
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  flex-shrink: 0;
-  border: 2px solid #ddd;
-  background: #fff;
-  position: relative;
-  transition: border-color 0.2s, background 0.2s;
-}
-
-.milestone-dot.done {
-  background: var(--tile-color, #2AA89A);
-  border-color: var(--tile-color, #2AA89A);
-}
-
-.milestone-dot.done::after {
-  content: '';
-  position: absolute;
-  left: 3px;
-  top: 1px;
-  width: 6px;
-  height: 9px;
-  border: 2px solid #fff;
-  border-top: none;
-  border-left: none;
-  transform: rotate(45deg);
-}
-
-.milestone-date {
-  font-size: 0.75rem;
-  color: #aaa;
-  font-weight: 500;
-  min-width: 52px;
-}
-
-.milestone-label {
-  color: #444;
-}
-
-.milestone-item.done .milestone-label {
-  color: #222;
-  font-weight: 500;
 }
 
 /* Close button */

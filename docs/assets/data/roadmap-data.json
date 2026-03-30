@@ -7,148 +7,280 @@
     "gradient": "linear-gradient(135deg, #D94F2A 0%, #E8632A 100%)",
     "summary": "A summary of the stream's focus and objectives.",
     "details": "A detailed description of the stream's goals, activities, and expected outcomes.",
+    "status": "In Progress",
+    "lead": "Lead person/team/organisation",
     "recommendations": [
       {
         "label": "Lorem ipsum recommendation 1",
         "done": true,
-        "dataPoints": [
-          "Data point 1",
-          "Data point 2",
-          "Data point 3",
-          "Data point 4",
-          "Data point 5",
-          "Data point 6",
-          "Data point 7"
+        "summaryPoints": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+          "Duis aute irure dolor in reprehenderit in voluptate velit.",
+          "Excepteur sint occaecat cupidatat non proident in culpa."
+        ],
+        "rawData": [
+          "Raw data point 1 — lorem ipsum dolor sit amet",
+          "Raw data point 2 — consectetur adipiscing elit",
+          "Raw data point 3 — sed do eiusmod tempor incididunt",
+          "Raw data point 4 — ut labore et dolore magna aliqua",
+          "Raw data point 5 — quis nostrud exercitation ullamco",
+          "Raw data point 6 — duis aute irure dolor in reprehenderit",
+          "Raw data point 7 — excepteur sint occaecat cupidatat"
         ]
       },
       {
         "label": "Lorem ipsum recommendation 2",
         "done": false,
-        "dataPoints": [
-          "Data point 1",
-          "Data point 2",
-          "Data point 3",
-          "Data point 4",
-          "Data point 5"
+        "summaryPoints": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Sed do eiusmod tempor incididunt ut labore et dolore.",
+          "Ut enim ad minim veniam, quis nostrud exercitation."
+        ],
+        "rawData": [
+          "Raw data point 1 — lorem ipsum dolor sit amet",
+          "Raw data point 2 — consectetur adipiscing elit",
+          "Raw data point 3 — sed do eiusmod tempor",
+          "Raw data point 4 — ut labore et dolore magna"
         ]
       },
       {
         "label": "Lorem ipsum recommendation 3",
         "done": false,
-        "dataPoints": ["Data point 1", "Data point 2"]
+        "summaryPoints": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Sed do eiusmod tempor incididunt ut labore."
+        ],
+        "rawData": [
+          "Raw data point 1 — lorem ipsum dolor sit amet",
+          "Raw data point 2 — consectetur adipiscing elit"
+          "Raw data point 3 — lorem ipsum dolor sit amet",
+          "Raw data point 4 — consectetur adipiscing elit"
+          "Raw data point 5 — lorem ipsum dolor sit amet",
+          "Raw data point 6 — consectetur adipiscing elit"
+        ]
       },
       {
         "label": "Lorem ipsum recommendation 4",
         "done": false,
-        "dataPoints": ["Data point 1"]
+        "summaryPoints": [],
+        "rawData": []
       }
-    ],
-    "status": "In Progress",
-    "lead": "Lead person/team/organisation responsible for the stream"
+    ]
   },
   {
     "id": "communication",
-    "title": "Communications and Engagement",
+    "title": "Communications & Engagement",
     "icon": "message-square",
     "color": "#E8832A",
     "gradient": "linear-gradient(135deg, #E8832A 0%, #F0A030 100%)",
     "summary": "A summary of the stream's focus and objectives.",
     "details": "A detailed description of the stream's goals, activities, and expected outcomes.",
+    "status": "In Progress",
+    "lead": "Lead person/team/organisation",
     "recommendations": [
       {
-        "label": "Recommendation 1",
+        "label": "Lorem ipsum recommendation 1",
         "done": true,
-        "dataPoints": ["Data point 1"]
+        "summaryPoints": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Sed do eiusmod tempor incididunt ut labore et dolore magna.",
+          "Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+        ],
+        "rawData": [
+          "Raw data point 1 — lorem ipsum dolor sit amet",
+          "Raw data point 2 — consectetur adipiscing elit",
+          "Raw data point 3 — sed do eiusmod tempor incididunt",
+          "Raw data point 4 — ut labore et dolore magna aliqua"
+        ]
       },
-      { "label": "Recommendation 2", "done": false, "dataPoints": [] },
-      { "label": "Recommendation 3", "done": false, "dataPoints": [] },
-      { "label": "Recommendation 4", "done": false, "dataPoints": [] }
-    ],
-    "status": "In Progress",
-    "lead": "Lead person/team/organisation responsible for the stream"
+      {
+        "label": "Lorem ipsum recommendation 2",
+        "done": false,
+        "summaryPoints": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        ],
+        "rawData": [
+          "Raw data point 1 — lorem ipsum dolor sit amet",
+          "Raw data point 2 — consectetur adipiscing elit"
+        ]
+      },
+      {
+        "label": "Lorem ipsum recommendation 3",
+        "done": false,
+        "summaryPoints": [],
+        "rawData": []
+      },
+      {
+        "label": "Lorem ipsum recommendation 4",
+        "done": false,
+        "summaryPoints": [],
+        "rawData": []
+      }
+    ]
   },
   {
     "id": "training",
-    "title": "Training and Guidance",
+    "title": "Training & Guidance",
     "icon": "graduation-cap",
     "color": "#E8B830",
     "gradient": "linear-gradient(135deg, #E8B830 0%, #F5D040 100%)",
     "summary": "A summary of the stream's focus and objectives.",
     "details": "A detailed description of the stream's goals, activities, and expected outcomes.",
+    "status": "Planning",
+    "lead": "Lead person/team/organisation",
     "recommendations": [
       {
-        "label": "Recommendation 1",
-        "done": true,
-        "dataPoints": ["Data point 1"]
+        "label": "Lorem ipsum recommendation 1",
+        "done": false,
+        "summaryPoints": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Sed do eiusmod tempor incididunt ut labore et dolore.",
+          "Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+        ],
+        "rawData": [
+          "Raw data point 1 — lorem ipsum dolor sit amet",
+          "Raw data point 2 — consectetur adipiscing elit",
+          "Raw data point 3 — sed do eiusmod tempor incididunt"
+        ]
       },
-      { "label": "Recommendation 2", "done": false, "dataPoints": [] },
-      { "label": "Recommendation 3", "done": false, "dataPoints": [] },
-      { "label": "Recommendation 4", "done": false, "dataPoints": [] }
-    ],
-    "status": "Planning",
-    "lead": "Lead person/team/organisation responsible for the stream"
+      {
+        "label": "Lorem ipsum recommendation 2",
+        "done": false,
+        "summaryPoints": [],
+        "rawData": []
+      },
+      {
+        "label": "Lorem ipsum recommendation 3",
+        "done": false,
+        "summaryPoints": [],
+        "rawData": []
+      }
+    ]
   },
   {
     "id": "policy-procedures",
-    "title": "Policy and Procedures",
+    "title": "Policy & Procedures",
     "icon": "clipboard-list",
     "color": "#2AA89A",
     "gradient": "linear-gradient(135deg, #2AA89A 0%, #3DC8B8 100%)",
     "summary": "A summary of the stream's focus and objectives.",
     "details": "A detailed description of the stream's goals, activities, and expected outcomes.",
+    "status": "In Progress",
+    "lead": "Lead person/team/organisation",
     "recommendations": [
       {
-        "label": "Recommendation 1",
+        "label": "Lorem ipsum recommendation 1",
         "done": true,
-        "dataPoints": ["Data point 1"]
+        "summaryPoints": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Sed do eiusmod tempor incididunt ut labore et dolore magna.",
+          "Ut enim ad minim veniam, quis nostrud exercitation."
+        ],
+        "rawData": [
+          "Raw data point 1 — lorem ipsum dolor sit amet",
+          "Raw data point 2 — consectetur adipiscing elit",
+          "Raw data point 3 — sed do eiusmod tempor",
+          "Raw data point 4 — ut labore et dolore magna"
+        ]
       },
-      { "label": "Recommendation 2", "done": false, "dataPoints": [] },
-      { "label": "Recommendation 3", "done": false, "dataPoints": [] },
-      { "label": "Recommendation 4", "done": false, "dataPoints": [] }
-    ],
-    "status": "In Progress",
-    "lead": "Lead person/team/organisation responsible for the stream"
+      {
+        "label": "Lorem ipsum recommendation 2",
+        "done": false,
+        "summaryPoints": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        ],
+        "rawData": ["Raw data point 1 — lorem ipsum dolor sit amet"]
+      },
+      {
+        "label": "Lorem ipsum recommendation 3",
+        "done": false,
+        "summaryPoints": [],
+        "rawData": []
+      }
+    ]
   },
   {
     "id": "automation",
-    "title": "Automation and Tools",
+    "title": "Automation & Tools",
     "icon": "settings",
     "color": "#1A88C8",
     "gradient": "linear-gradient(135deg, #1A88C8 0%, #2AAAE8 100%)",
     "summary": "A summary of the stream's focus and objectives.",
     "details": "A detailed description of the stream's goals, activities, and expected outcomes.",
+    "status": "Planning",
+    "lead": "Lead person/team/organisation",
     "recommendations": [
       {
-        "label": "Recommendation 1",
-        "done": true,
-        "dataPoints": ["Data point 1"]
+        "label": "Lorem ipsum recommendation 1",
+        "done": false,
+        "summaryPoints": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Sed do eiusmod tempor incididunt ut labore et dolore.",
+          "Ut enim ad minim veniam, quis nostrud exercitation."
+        ],
+        "rawData": [
+          "Raw data point 1 — lorem ipsum dolor sit amet",
+          "Raw data point 2 — consectetur adipiscing elit",
+          "Raw data point 3 — sed do eiusmod tempor incididunt",
+          "Raw data point 4 — ut labore et dolore magna"
+        ]
       },
-      { "label": "Recommendation 2", "done": false, "dataPoints": [] },
-      { "label": "Recommendation 3", "done": false, "dataPoints": [] },
-      { "label": "Recommendation 4", "done": false, "dataPoints": [] }
-    ],
-    "status": "Planning",
-    "lead": "Lead person/team/organisation responsible for the stream"
+      {
+        "label": "Lorem ipsum recommendation 2",
+        "done": false,
+        "summaryPoints": [],
+        "rawData": []
+      },
+      {
+        "label": "Lorem ipsum recommendation 3",
+        "done": false,
+        "summaryPoints": [],
+        "rawData": []
+      }
+    ]
   },
   {
     "id": "governance",
     "title": "Governance",
     "icon": "gavel",
-    "color": "#1A4EA8",
-    "gradient": "linear-gradient(135deg, #1A4EA8 0%, #2A6AC8 100%)",
+    "color": "#3A6FC9",
+    "gradient": "linear-gradient(135deg, #3A6FC9 0%, #5A8FEA 100%)",
     "summary": "A summary of the stream's focus and objectives.",
     "details": "A detailed description of the stream's goals, activities, and expected outcomes.",
+    "status": "In Progress",
+    "lead": "Lead person/team/organisation",
     "recommendations": [
       {
-        "label": "Recommendation 1",
+        "label": "Lorem ipsum recommendation 1",
         "done": true,
-        "dataPoints": ["Data point 1"]
+        "summaryPoints": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Sed do eiusmod tempor incididunt ut labore et dolore.",
+          "Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+        ],
+        "rawData": [
+          "Raw data point 1 — lorem ipsum dolor sit amet",
+          "Raw data point 2 — consectetur adipiscing elit",
+          "Raw data point 3 — sed do eiusmod tempor",
+          "Raw data point 4 — ut labore et dolore magna aliqua"
+        ]
       },
-      { "label": "Recommendation 2", "done": false, "dataPoints": [] },
-      { "label": "Recommendation 3", "done": false, "dataPoints": [] },
-      { "label": "Recommendation 4", "done": false, "dataPoints": [] }
-    ],
-    "status": "In Progress",
-    "lead": "Lead person/team/organisation responsible for the stream"
+      {
+        "label": "Lorem ipsum recommendation 2",
+        "done": false,
+        "summaryPoints": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        ],
+        "rawData": ["Raw data point 1 — lorem ipsum dolor sit amet"]
+      },
+      {
+        "label": "Lorem ipsum recommendation 3",
+        "done": false,
+        "summaryPoints": [],
+        "rawData": []
+      }
+    ]
   }
 ]
