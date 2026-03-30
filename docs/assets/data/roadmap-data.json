@@ -54,9 +54,9 @@
         ],
         "rawData": [
           "Raw data point 1 — lorem ipsum dolor sit amet",
-          "Raw data point 2 — consectetur adipiscing elit"
+          "Raw data point 2 — consectetur adipiscing elit",
           "Raw data point 3 — lorem ipsum dolor sit amet",
-          "Raw data point 4 — consectetur adipiscing elit"
+          "Raw data point 4 — consectetur adipiscing elit",
           "Raw data point 5 — lorem ipsum dolor sit amet",
           "Raw data point 6 — consectetur adipiscing elit"
         ]
