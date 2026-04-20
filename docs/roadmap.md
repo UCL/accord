@@ -10,38 +10,13 @@ permalink: /roadmap/
   <h2 class="roadmap-heading">ACCoRD Workstreams</h2>
   <p class="roadmap-subheading">Click any workstream to explore its scope, recommendations, and evidence.</p>
   <div class="roadmap-grid" id="roadmap-grid" role="list"></div>
+  <div class="export-all-bar">
+    <button id="export-all-btn" class="export-all-btn" disabled>
+      <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Export All Data
+    </button>
+  </div>
 </div>
-
-<style>
-  .rec-list { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:6px; }
-  .rec-item { border:1px solid rgba(0,0,0,0.08); border-radius:8px; overflow:hidden; background:#fff; }
-
-  .rec-header { display:flex; align-items:center; gap:10px; padding:10px 12px; cursor:default; user-select:none; }
-  .rec-header.expandable { cursor:pointer; }
-  .rec-header.expandable:hover { background:rgba(0,0,0,0.03); }
-  .rec-dot { width:10px; height:10px; border-radius:50%; flex-shrink:0; border:2px solid #ccc; background:transparent; }
-  .rec-dot.done { border-color:var(--tile-color,#888); background:var(--tile-color,#888); }
-  .rec-label { flex:1; font-size:0.88rem; color:#333; font-weight:500; }
-  .rec-item.done .rec-label { color:#555; }
-  .rec-chevron { width:14px; height:14px; color:#888; flex-shrink:0; transition:transform 0.2s ease; }
-  .rec-chevron svg { width:100%; height:100%; stroke:currentColor; fill:none; stroke-width:2.5; stroke-linecap:round; stroke-linejoin:round; }
-  .rec-header[aria-expanded="true"] .rec-chevron { transform:rotate(90deg); }
-
-  .rec-body { display:none; border-top:1px solid rgba(0,0,0,0.06); }
-  .rec-body.open { display:block; }
-
-  .summary-section { padding:10px 12px 10px 32px; }
-  .summary-label { font-size:0.72rem; font-weight:600; text-transform:uppercase; letter-spacing:0.06em; color:#999; margin-bottom:6px; }
-  .summary-list { list-style:none; display:flex; flex-direction:column; gap:5px; }
-  .summary-item { background:#f7f7f7; border-radius:5px; padding:6px 10px; font-size:0.82rem; color:#444; line-height:1.5; }
-
-  .export-bar { display:flex; align-items:center; justify-content:space-between; padding:8px 12px 10px 32px; border-top:1px solid rgba(0,0,0,0.05); gap:8px; }
-  .raw-count { font-size:0.78rem; color:#888; }
-  .raw-count strong { color:#555; }
-  .export-btn { display:inline-flex; align-items:center; gap:5px; font-size:0.78rem; font-weight:600; color:var(--tile-color,#555); background:none; border:1px solid var(--tile-color,#ccc); border-radius:5px; padding:4px 10px; cursor:pointer; transition:background 0.15s,color 0.15s; white-space:nowrap; }
-  .export-btn:hover { background:var(--tile-color,#555); color:#fff; }
-  .export-btn svg { width:12px; height:12px; stroke:currentColor; fill:none; stroke-width:2.5; stroke-linecap:round; stroke-linejoin:round; }
-</style>
 
 <script>
 (function () {
@@ -62,6 +37,7 @@ permalink: /roadmap/
 
   const DATA_URL = '{{ "/assets/data/roadmap-data.json" | relative_url }}';
   const grid = document.getElementById('roadmap-grid');
+  const exportAllBtn = document.getElementById('export-all-btn');
 
   let activeId = null;
   let activePanel = null;
@@ -83,6 +59,49 @@ permalink: /roadmap/
     a.click();
     URL.revokeObjectURL(url);
   }
+
+  function exportAllData() {
+    const sections = [];
+    let totalItems = 0;
+
+    data.forEach(stream => {
+      const streamSections = [];
+      stream.recommendations.forEach(rec => {
+        if (rec.rawData && rec.rawData.length > 0) {
+          const lines = rec.rawData.map((d, i) => `  [${i + 1}] ${d}`).join('\n');
+          streamSections.push(`  Recommendation: ${rec.label}\n${lines}`);
+          totalItems += rec.rawData.length;
+        }
+      });
+      if (streamSections.length > 0) {
+        sections.push(`${'═'.repeat(60)}\nSTREAM: ${stream.title}\n${'═'.repeat(60)}\n\n${streamSections.join('\n\n')}`);
+      }
+    });
+
+    if (totalItems === 0) {
+      alert('No raw data attached to any workstream yet.');
+      return;
+    }
+
+    const header = [
+      'ACCoRD — Full Raw Evidence Export',
+      `Exported: ${new Date().toLocaleString()}`,
+      `Total items: ${totalItems} across ${sections.length} workstream${sections.length !== 1 ? 's' : ''}`,
+      '─'.repeat(60),
+      ''
+    ].join('\n');
+
+    const content = header + '\n' + sections.join('\n\n');
+    const blob = new Blob([content], { type: 'text/plain' });
+    const url  = URL.createObjectURL(blob);
+    const a    = document.createElement('a');
+    a.href     = url;
+    a.download = `ACCoRD_All_Raw_Evidence_${new Date().toISOString().slice(0,10)}.txt`;
+    a.click();
+    URL.revokeObjectURL(url);
+  }
+
+  exportAllBtn.addEventListener('click', exportAllData);
 
   function buildRecommendations(item) {
     const ul = document.createElement('ul');
@@ -279,6 +298,9 @@ permalink: /roadmap/
     .then(json => {
       data = json;
       json.forEach(item => grid.appendChild(buildTile(item)));
+      // Enable the button only if there's actually some raw data to export
+      const hasAnyRaw = json.some(s => s.recommendations.some(r => r.rawData && r.rawData.length > 0));
+      exportAllBtn.disabled = !hasAnyRaw;
     })
     .catch(err => {
       grid.innerHTML = `<p style="color:#c00;grid-column:1/-1">Could not load roadmap data. (${err.message})</p>`;

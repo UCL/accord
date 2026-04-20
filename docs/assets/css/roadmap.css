@@ -185,7 +185,6 @@
 }
 
 .roadmap-panel.open {
-  /* Cap at 60vh so it never exceeds the visible screen; scroll within the panel for the rest */
   max-height: min(620px, 60vh);
   overflow-y: auto;
   opacity: 1;
@@ -312,3 +311,80 @@
 .panel-wrapper {
   position: relative;
 }
+
+/* ─── Export All button ─── */
+.export-all-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+}
+
+.export-all-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #fff;
+  background: var(--accord-blue, #1a3a6b);
+  border: none;
+  border-radius: 7px;
+  padding: 7px 14px;
+  cursor: pointer;
+  transition: background 0.18s, opacity 0.18s, transform 0.15s;
+  white-space: nowrap;
+  flex-shrink: 0;
+  font-family: inherit;
+}
+.export-all-btn:hover:not(:disabled) {
+  background: #2a5aab;
+  transform: translateY(-1px);
+}
+.export-all-btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+.export-all-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.export-all-btn svg {
+  width: 13px;
+  height: 13px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  flex-shrink: 0;
+}
+
+/* ─── Recommendation list ─── */
+.rec-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.rec-item { border: 1px solid rgba(0,0,0,0.08); border-radius: 8px; overflow: hidden; background: #fff; }
+
+.rec-header { display: flex; align-items: center; gap: 10px; padding: 10px 12px; cursor: default; user-select: none; }
+.rec-header.expandable { cursor: pointer; }
+.rec-header.expandable:hover { background: rgba(0,0,0,0.03); }
+.rec-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; border: 2px solid #ccc; background: transparent; }
+.rec-dot.done { border-color: var(--tile-color, #888); background: var(--tile-color, #888); }
+.rec-label { flex: 1; font-size: 0.88rem; color: #333; font-weight: 500; }
+.rec-item.done .rec-label { color: #555; }
+.rec-chevron { width: 14px; height: 14px; color: #888; flex-shrink: 0; transition: transform 0.2s ease; }
+.rec-chevron svg { width: 100%; height: 100%; stroke: currentColor; fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.rec-header[aria-expanded="true"] .rec-chevron { transform: rotate(90deg); }
+
+.rec-body { display: none; border-top: 1px solid rgba(0,0,0,0.06); }
+.rec-body.open { display: block; }
+
+.summary-section { padding: 10px 12px 10px 32px; }
+.summary-label { font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: #999; margin-bottom: 6px; }
+.summary-list { list-style: none; display: flex; flex-direction: column; gap: 5px; }
+.summary-item { background: #f7f7f7; border-radius: 5px; padding: 6px 10px; font-size: 0.82rem; color: #444; line-height: 1.5; }
+
+/* ─── Per-recommendation export bar ─── */
+.export-bar { display: flex; align-items: center; justify-content: space-between; padding: 8px 12px 10px 32px; border-top: 1px solid rgba(0,0,0,0.05); gap: 8px; }
+.raw-count { font-size: 0.78rem; color: #888; }
+.raw-count strong { color: #555; }
+.export-btn { display: inline-flex; align-items: center; gap: 5px; font-size: 0.78rem; font-weight: 600; color: var(--tile-color, #555); background: none; border: 1px solid var(--tile-color, #ccc); border-radius: 5px; padding: 4px 10px; cursor: pointer; transition: background 0.15s, color 0.15s; white-space: nowrap; }
+.export-btn:hover { background: var(--tile-color, #555); color: #fff; }
+.export-btn svg { width: 12px; height: 12px; stroke: currentColor; fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
