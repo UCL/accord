@@ -1,6 +1,6 @@
 # How to Update the Roadmap Data
 
-This guide explains how to edit the roadmap content — adding new streams, updating recommendations, and marking progress — without needing any technical background.
+This guide explains how to edit the roadmap content - adding new streams, updating recommendations, and marking progress - without needing any technical background.
 
 ---
 
