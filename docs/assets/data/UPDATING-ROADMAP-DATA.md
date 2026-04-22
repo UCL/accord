@@ -209,4 +209,4 @@ Every opening `"`, `[`, or `{` needs a matching closing one. If something looks 
 
 ## Getting help
 
-If you're unsure about anything, don't worry — you can't accidentally break the live website. Because your changes go through a pull request on a separate branch, nothing goes live until a collaborator reviews and approves it. If something looks wrong, you can simply close the pull request without merging. Feel free to reach out to the ACCoRD team if you'd like a hand.
+If you're unsure about anything, don't worry, you can't accidentally break the live website. Because your changes go through a pull request on a separate branch, nothing goes live until a collaborator reviews and approves it. If something looks wrong, you can simply close the pull request without merging. Feel free to reach out to the ACCoRD team if you'd like a hand.
