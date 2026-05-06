@@ -7,9 +7,128 @@ permalink: /roadmap/
 <link rel="stylesheet" href="{{ '/assets/css/roadmap.css' | relative_url }}">
 
 <div id="accord-roadmap">
-  <h2 class="roadmap-heading">ACCoRD Workstreams</h2>
-  <p class="roadmap-subheading">Click any workstream to explore its scope, recommendations, and evidence.</p>
+  <h2 class="roadmap-heading">ACCoRD Recommendation Pillars</h2>
+  <p class="roadmap-subheading">The diagram below shows how all eight pillars interrelate. Click any segment or card to explore recommendations and evidence.</p>
+
+  <!-- ── Interactive pillar diagram ── -->
+  <div class="diagram-wrapper">
+    <p class="diagram-caption">How the pillars interrelate — click a segment to jump to that pillar</p>
+    <div class="diagram-scroll">
+      <svg class="accord-diagram" viewBox="0 0 820 470" xmlns="http://www.w3.org/2000/svg"
+           role="img" aria-label="ACCoRD recommendation pillars diagram">
+        <defs>
+          <marker id="arr" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+            <polygon points="0 0, 7 3.5, 0 7" fill="rgba(255,255,255,0.55)"/>
+          </marker>
+          <marker id="arr-soft" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+            <polygon points="0 0, 7 3.5, 0 7" fill="rgba(255,255,255,0.3)"/>
+          </marker>
+          <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur stdDeviation="4" result="blur"/>
+            <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+        </defs>
+
+        <!-- ── Outer donut segments ── -->
+
+        <!-- NW: Policy #6B38C8 -->
+        <path class="diag-seg" data-pillar="policy" tabindex="0" role="button" aria-label="Policy pillar"
+          d="M 245 235 A 165 165 0 0 1 410 70 L 410 145 A 90 90 0 0 0 320 235 Z"
+          fill="#6B38C8"/>
+
+        <!-- NE: Professional Development #228A50 -->
+        <path class="diag-seg" data-pillar="professional-development" tabindex="0" role="button" aria-label="Professional Development and Guidance pillar"
+          d="M 410 70 A 165 165 0 0 1 575 235 L 500 235 A 90 90 0 0 0 410 145 Z"
+          fill="#228A50"/>
+
+        <!-- SE: People #1E68CC -->
+        <path class="diag-seg" data-pillar="people-community" tabindex="0" role="button" aria-label="People – Community and Resourcing pillar"
+          d="M 575 235 A 165 165 0 0 1 410 400 L 410 325 A 90 90 0 0 0 500 235 Z"
+          fill="#1E68CC"/>
+
+        <!-- SW: Provisioning #C02898 -->
+        <path class="diag-seg" data-pillar="provisioning" tabindex="0" role="button" aria-label="Provisioning and Funding pillar"
+          d="M 410 400 A 165 165 0 0 1 245 235 L 320 235 A 90 90 0 0 0 410 325 Z"
+          fill="#C02898"/>
+
+        <!-- ── Inner circle: Advisory Service ── -->
+        <circle class="diag-seg" data-pillar="advisory-service" tabindex="0" role="button" aria-label="Advisory Service pillar"
+          cx="410" cy="235" r="89"
+          fill="#2AB8E0" fill-opacity="0.22"/>
+        <circle cx="410" cy="235" r="89"
+          fill="none" stroke="#2AB8E0" stroke-width="2" stroke-dasharray="5 4" stroke-opacity="0.7"/>
+
+        <!-- ── Templates centre box ── -->
+        <rect class="diag-seg" data-pillar="templates" tabindex="0" role="button" aria-label="Templates pillar"
+          x="341" y="203" width="138" height="64" rx="9"
+          fill="#1BAAA0"/>
+
+        
+
+        <!-- ── External boxes ── -->
+
+        <!-- Triage (left) -->
+        <rect class="diag-seg" data-pillar="triage" tabindex="0" role="button" aria-label="Triage pillar"
+          x="165" y="203" width="138" height="64" rx="11"
+          fill="#E8522A"/>
+
+        <!-- Technical Audits (right) -->
+        <rect class="diag-seg" data-pillar="technical-audits" tabindex="0" role="button" aria-label="Technical Audits and Compliance pillar"
+          x="540" y="203" width="138" height="64" rx="11"
+          fill="#C8387A"/>
+
+        <!-- ── Arrows drawn last so they sit in front of everything ── -->
+        <!-- Triage → Templates -->
+        <line x1="304" y1="235" x2="338" y2="235"
+              stroke="white" stroke-width="2.5" stroke-opacity="0.75" marker-end="url(#arr)"/>
+        <!-- Templates → Technical Audits -->
+        <line x1="480" y1="235" x2="537" y2="235"
+              stroke="white" stroke-width="2.5" stroke-opacity="0.75" marker-end="url(#arr)"/>
+
+        <!-- ── Segment text labels ── -->
+
+        <!-- Policy (NW) — midpoint (320, 145) -->
+        <text x="320" y="149" text-anchor="middle" class="seg-label" font-size="13" fill="white" pointer-events="none">Policy</text>
+
+        <!-- Professional Dev (NE) — midpoint (500, 145) -->
+        <text x="500" y="139" text-anchor="middle" class="seg-label" font-size="12" fill="white" pointer-events="none">Professional</text>
+        <text x="500" y="155" text-anchor="middle" class="seg-label" font-size="12" fill="white" pointer-events="none">Dev. &amp; Guidance</text>
+
+        <!-- People (SE) — midpoint (500, 325) -->
+        <text x="500" y="315" text-anchor="middle" class="seg-label" font-size="12" fill="white" pointer-events="none">People –</text>
+        <text x="500" y="331" text-anchor="middle" class="seg-label" font-size="12" fill="white" pointer-events="none">Community &amp;</text>
+        <text x="500" y="347" text-anchor="middle" class="seg-label" font-size="12" fill="white" pointer-events="none">Resourcing</text>
+
+        <!-- Provisioning (SW) — midpoint (320, 325) -->
+        <text x="320" y="319" text-anchor="middle" class="seg-label" font-size="12" fill="white" pointer-events="none">Provisioning</text>
+        <text x="320" y="335" text-anchor="middle" class="seg-label" font-size="12" fill="white" pointer-events="none">&amp; Funding</text>
+
+        <!-- Advisory Service (inner ring) — centred in ring above Templates box -->
+        <text x="410" y="196" text-anchor="middle" class="seg-label advisory-label" font-size="13" fill="#2AB8E0" pointer-events="none">Advisory Service</text>
+
+        <!-- Templates (centre box) — box centre y=235 -->
+        <text x="410" y="229" text-anchor="middle" class="seg-label" font-size="13" fill="white" font-weight="700" pointer-events="none">Template</text>
+        <text x="410" y="246" text-anchor="middle" class="seg-label" font-size="13" fill="white" font-weight="700" pointer-events="none">"Modules"</text>
+
+        <!-- Triage (left box) — box centre y=235 -->
+        <text x="234" y="229" text-anchor="middle" class="seg-label" font-size="13" fill="white" pointer-events="none">Triage /</text>
+        <text x="234" y="246" text-anchor="middle" class="seg-label" font-size="12" fill="white" pointer-events="none">Info Gathering</text>
+
+        <!-- Technical Audits (right box) — box centre y=235 -->
+        <text x="609" y="221" text-anchor="middle" class="seg-label" font-size="13" fill="white" pointer-events="none">Technical</text>
+        <text x="609" y="237" text-anchor="middle" class="seg-label" font-size="13" fill="white" pointer-events="none">Audits &amp;</text>
+        <text x="609" y="253" text-anchor="middle" class="seg-label" font-size="12" fill="white" pointer-events="none">Compliance</text>
+
+        <!-- ── Hover pulse ring (hidden by default, shown via JS) ── -->
+        <circle id="diag-pulse" cx="410" cy="235" r="170"
+          fill="none" stroke="white" stroke-width="0" stroke-opacity="0" pointer-events="none"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- ── Pillar tiles grid ── -->
   <div class="roadmap-grid" id="roadmap-grid" role="list"></div>
+
   <div class="export-all-bar">
     <button id="export-all-btn" class="export-all-btn" disabled>
       <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
@@ -22,12 +141,14 @@ permalink: /roadmap/
 (function () {
 
   const ICONS = {
-    "shield-alert": `<svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>`,
-    "message-square": `<svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>`,
+    "filter": `<svg viewBox="0 0 24 24"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>`,
+    "layout": `<svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>`,
+    "check-square": `<svg viewBox="0 0 24 24"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>`,
+    "life-buoy": `<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><line x1="4.93" y1="4.93" x2="9.17" y2="9.17"/><line x1="14.83" y1="14.83" x2="19.07" y2="19.07"/><line x1="14.83" y1="9.17" x2="19.07" y2="4.93"/><line x1="4.93" y1="19.07" x2="9.17" y2="14.83"/></svg>`,
+    "book-open": `<svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>`,
     "graduation-cap": `<svg viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>`,
-    "clipboard-list": `<svg viewBox="0 0 24 24"><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><line x1="12" y1="11" x2="16" y2="11"/><line x1="12" y1="16" x2="16" y2="16"/><line x1="8" y1="11" x2="8.01" y2="11"/><line x1="8" y1="16" x2="8.01" y2="16"/></svg>`,
-    "settings": `<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>`,
-    "gavel": `<svg viewBox="0 0 24 24"><path d="m14 13-8.5 8.5a2.12 2.12 0 0 1-3-3L11 10"/><path d="m16 16 6-6"/><path d="m8 8 6-6"/><path d="m9 7 8 8"/><path d="m21 11-8-8"/></svg>`
+    "package": `<svg viewBox="0 0 24 24"><path d="M16.5 9.4l-9-5.19M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>`,
+    "users": `<svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>`
   };
 
   const ARROW    = `<svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>`;
@@ -43,6 +164,25 @@ permalink: /roadmap/
   let activePanel = null;
   let data = [];
 
+  // ── Diagram click → scroll to tile ──
+  document.querySelectorAll('.diag-seg').forEach(seg => {
+    const activate = () => {
+      const pillarId = seg.dataset.pillar;
+      const tile = grid.querySelector(`[data-id="${pillarId}"]`);
+      if (!tile) return;
+      // Flash the segment
+      seg.classList.add('diag-active');
+      setTimeout(() => seg.classList.remove('diag-active'), 600);
+      // Scroll tile into view then open its panel
+      tile.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      setTimeout(() => {
+        if (activeId !== pillarId) tile.click();
+      }, 350);
+    };
+    seg.addEventListener('click', activate);
+    seg.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); } });
+  });
+
   function statusClass(s) {
     return s === 'In Progress' ? 'in-progress' : 'planning';
   }
@@ -50,7 +190,7 @@ permalink: /roadmap/
   function exportRawData(streamTitle, recLabel, rawData) {
     if (!rawData || !rawData.length) return;
     const lines = rawData.map((d, i) => `[${i + 1}] ${d}`).join('\n\n');
-    const content = `ACCoRD — Raw Evidence Export\nStream: ${streamTitle}\nRecommendation: ${recLabel}\nExported: ${new Date().toLocaleString()}\n${'─'.repeat(60)}\n\n${lines}`;
+    const content = `ACCoRD — Raw Evidence Export\nPillar: ${streamTitle}\nRecommendation: ${recLabel}\nExported: ${new Date().toLocaleString()}\n${'─'.repeat(60)}\n\n${lines}`;
     const blob = new Blob([content], { type: 'text/plain' });
     const url  = URL.createObjectURL(blob);
     const a    = document.createElement('a');
@@ -63,7 +203,6 @@ permalink: /roadmap/
   function exportAllData() {
     const sections = [];
     let totalItems = 0;
-
     data.forEach(stream => {
       const streamSections = [];
       stream.recommendations.forEach(rec => {
@@ -74,25 +213,12 @@ permalink: /roadmap/
         }
       });
       if (streamSections.length > 0) {
-        sections.push(`${'═'.repeat(60)}\nSTREAM: ${stream.title}\n${'═'.repeat(60)}\n\n${streamSections.join('\n\n')}`);
+        sections.push(`${'═'.repeat(60)}\nPILLAR: ${stream.title}\n${'═'.repeat(60)}\n\n${streamSections.join('\n\n')}`);
       }
     });
-
-    if (totalItems === 0) {
-      alert('No raw data attached to any workstream yet.');
-      return;
-    }
-
-    const header = [
-      'ACCoRD — Full Raw Evidence Export',
-      `Exported: ${new Date().toLocaleString()}`,
-      `Total items: ${totalItems} across ${sections.length} workstream${sections.length !== 1 ? 's' : ''}`,
-      '─'.repeat(60),
-      ''
-    ].join('\n');
-
-    const content = header + '\n' + sections.join('\n\n');
-    const blob = new Blob([content], { type: 'text/plain' });
+    if (totalItems === 0) { alert('No raw data attached to any pillar yet.'); return; }
+    const header = [`ACCoRD — Full Raw Evidence Export`, `Exported: ${new Date().toLocaleString()}`, `Total items: ${totalItems} across ${sections.length} pillar${sections.length !== 1 ? 's' : ''}`, '─'.repeat(60), ''].join('\n');
+    const blob = new Blob([header + '\n' + sections.join('\n\n')], { type: 'text/plain' });
     const url  = URL.createObjectURL(blob);
     const a    = document.createElement('a');
     a.href     = url;
@@ -106,16 +232,13 @@ permalink: /roadmap/
   function buildRecommendations(item) {
     const ul = document.createElement('ul');
     ul.className = 'rec-list';
-
     item.recommendations.forEach((rec, ri) => {
       const li = document.createElement('li');
       li.className = `rec-item${rec.done ? ' done' : ''}`;
-
       const hasSummary = rec.summaryPoints && rec.summaryPoints.length > 0;
       const hasRaw     = rec.rawData && rec.rawData.length > 0;
       const expandable = hasSummary || hasRaw;
       const bodyId     = `rec-body-${item.id}-${ri}`;
-
       const header = document.createElement('div');
       header.className = `rec-header${expandable ? ' expandable' : ''}`;
       if (expandable) {
@@ -130,12 +253,10 @@ permalink: /roadmap/
         ${expandable ? `<span class="rec-chevron">${CHEVRON}</span>` : ''}
       `;
       li.appendChild(header);
-
       if (expandable) {
         const body = document.createElement('div');
         body.className = 'rec-body';
         body.id = bodyId;
-
         if (hasSummary) {
           const sec = document.createElement('div');
           sec.className = 'summary-section';
@@ -151,14 +272,13 @@ permalink: /roadmap/
           sec.appendChild(sumUl);
           body.appendChild(sec);
         }
-
         const bar = document.createElement('div');
         bar.className = 'export-bar';
         bar.style.setProperty('--tile-color', item.color);
         const rawCount = rec.rawData ? rec.rawData.length : 0;
         bar.innerHTML = `
           <span class="raw-count">${rawCount > 0 ? `<strong>${rawCount}</strong> raw evidence item${rawCount !== 1 ? 's' : ''}` : 'No raw data attached yet'}</span>
-          ${rawCount > 0 ? `<button class="export-btn" style="--tile-color:${item.color}">${DOWNLOAD} Export all raw data</button>` : ''}
+          ${rawCount > 0 ? `<button class="export-btn" style="--tile-color:${item.color}">${DOWNLOAD} Export raw data</button>` : ''}
         `;
         if (rawCount > 0) {
           bar.querySelector('.export-btn').addEventListener('click', e => {
@@ -168,18 +288,14 @@ permalink: /roadmap/
         }
         body.appendChild(bar);
         li.appendChild(body);
-
         const toggle = () => {
           const open = body.classList.contains('open');
           body.classList.toggle('open', !open);
           header.setAttribute('aria-expanded', String(!open));
         };
         header.addEventListener('click', toggle);
-        header.addEventListener('keydown', e => {
-          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
-        });
+        header.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); } });
       }
-
       ul.appendChild(li);
     });
     return ul;
@@ -234,7 +350,7 @@ permalink: /roadmap/
     const w = grid.offsetWidth;
     if (w < 400) return 1;
     if (w < 640) return 2;
-    return 3;
+    return 4;
   }
 
   function togglePanel(item, btn) {
@@ -298,7 +414,6 @@ permalink: /roadmap/
     .then(json => {
       data = json;
       json.forEach(item => grid.appendChild(buildTile(item)));
-      // Enable the button only if there's actually some raw data to export
       const hasAnyRaw = json.some(s => s.recommendations.some(r => r.rawData && r.rawData.length > 0));
       exportAllBtn.disabled = !hasAnyRaw;
     })

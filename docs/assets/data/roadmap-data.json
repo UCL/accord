@@ -1,68 +1,49 @@
 [
   {
-    "id": "measuring-risk",
-    "title": "Managing Risk",
-    "icon": "shield-alert",
-    "color": "#D94F2A",
-    "gradient": "linear-gradient(135deg, #D94F2A 0%, #E8632A 100%)",
-    "summary": "A summary of the stream's focus and objectives.",
-    "details": "A detailed description of the stream's goals, activities, and expected outcomes.",
+    "id": "triage",
+    "title": "Triage",
+    "icon": "filter",
+    "color": "#E8522A",
+    "gradient": "linear-gradient(135deg, #E8522A 0%, #F07848 100%)",
+    "summary": "Triage is the critical first step in research data contracting, capturing comprehensive upfront information about the data, stakeholders, legal requirements, and risks to prevent costly delays and back-and-forth further down the line.",
+    "details": "",
     "status": "In Progress",
     "lead": "Lead person/team/organisation",
     "recommendations": [
       {
-        "label": "Lorem ipsum recommendation 1",
-        "done": true,
+        "label": "Map out who is involved",
+        "done": false,
         "summaryPoints": [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-          "Duis aute irure dolor in reprehenderit in voluptate velit.",
-          "Excepteur sint occaecat cupidatat non proident in culpa."
+          "Who are the international partners and countries",
+          "Within the organisation",
+          "Data users - who will use the data and what do they need to do to gain access (give roles and grades)",
+          "List one named main contact for each institution as an 'external' representative ",
+          "What is the risk of the partner disappearing"
         ],
         "rawData": [
           "Raw data point 1 — lorem ipsum dolor sit amet",
           "Raw data point 2 — consectetur adipiscing elit",
           "Raw data point 3 — sed do eiusmod tempor incididunt",
           "Raw data point 4 — ut labore et dolore magna aliqua",
-          "Raw data point 5 — quis nostrud exercitation ullamco",
-          "Raw data point 6 — duis aute irure dolor in reprehenderit",
-          "Raw data point 7 — excepteur sint occaecat cupidatat"
+          "Raw data point 5 — quis nostrud exercitation ullamco"
         ]
       },
       {
-        "label": "Lorem ipsum recommendation 2",
+        "label": "Information Governance",
         "done": false,
         "summaryPoints": [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          "Sed do eiusmod tempor incididunt ut labore et dolore.",
-          "Ut enim ad minim veniam, quis nostrud exercitation."
+          "Questions about liability",
+          "What indemnities should be put in place within the organisation that is hosting the data?",
+          "Risk - what type, who reponsible to assess/mitigate?",
+          "Are there any (national) information governance requirements for this data?"
         ],
         "rawData": [
           "Raw data point 1 — lorem ipsum dolor sit amet",
-          "Raw data point 2 — consectetur adipiscing elit",
-          "Raw data point 3 — sed do eiusmod tempor",
-          "Raw data point 4 — ut labore et dolore magna"
+          "Raw data point 2 — consectetur adipiscing elit"
         ]
       },
       {
         "label": "Lorem ipsum recommendation 3",
-        "done": false,
-        "summaryPoints": [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          "Sed do eiusmod tempor incididunt ut labore."
-        ],
-        "rawData": [
-          "Raw data point 1 — lorem ipsum dolor sit amet",
-          "Raw data point 2 — consectetur adipiscing elit",
-          "Raw data point 3 — lorem ipsum dolor sit amet",
-          "Raw data point 4 — consectetur adipiscing elit",
-          "Raw data point 5 — lorem ipsum dolor sit amet",
-          "Raw data point 6 — consectetur adipiscing elit"
-        ]
-      },
-      {
-        "label": "Lorem ipsum recommendation 4",
         "done": false,
         "summaryPoints": [],
         "rawData": []
@@ -70,13 +51,13 @@
     ]
   },
   {
-    "id": "communication",
-    "title": "Communications & Engagement",
-    "icon": "message-square",
-    "color": "#E8832A",
-    "gradient": "linear-gradient(135deg, #E8832A 0%, #F0A030 100%)",
-    "summary": "A summary of the stream's focus and objectives.",
-    "details": "A detailed description of the stream's goals, activities, and expected outcomes.",
+    "id": "templates",
+    "title": "Templates",
+    "icon": "layout",
+    "color": "#1BAAA0",
+    "gradient": "linear-gradient(135deg, #1BAAA0 0%, #2ECFC4 100%)",
+    "summary": "A summary of the pillar's focus and objectives.",
+    "details": "A detailed description of the pillar's goals, activities, and expected outcomes.",
     "status": "In Progress",
     "lead": "Lead person/team/organisation",
     "recommendations": [
@@ -99,11 +80,13 @@
         "label": "Lorem ipsum recommendation 2",
         "done": false,
         "summaryPoints": [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Sed do eiusmod tempor incididunt ut labore."
         ],
         "rawData": [
           "Raw data point 1 — lorem ipsum dolor sit amet",
-          "Raw data point 2 — consectetur adipiscing elit"
+          "Raw data point 2 — consectetur adipiscing elit",
+          "Raw data point 3 — sed do eiusmod tempor"
         ]
       },
       {
@@ -121,13 +104,13 @@
     ]
   },
   {
-    "id": "training",
-    "title": "Training & Guidance",
-    "icon": "graduation-cap",
-    "color": "#E8B830",
-    "gradient": "linear-gradient(135deg, #E8B830 0%, #F5D040 100%)",
-    "summary": "A summary of the stream's focus and objectives.",
-    "details": "A detailed description of the stream's goals, activities, and expected outcomes.",
+    "id": "technical-audits",
+    "title": "Technical Audits and Compliance",
+    "icon": "check-square",
+    "color": "#C8387A",
+    "gradient": "linear-gradient(135deg, #C8387A 0%, #E05090 100%)",
+    "summary": "A summary of the pillar's focus and objectives.",
+    "details": "A detailed description of the pillar's goals, activities, and expected outcomes.",
     "status": "Planning",
     "lead": "Lead person/team/organisation",
     "recommendations": [
@@ -137,7 +120,7 @@
         "summaryPoints": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "Sed do eiusmod tempor incididunt ut labore et dolore.",
-          "Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+          "Ut enim ad minim veniam, quis nostrud exercitation."
         ],
         "rawData": [
           "Raw data point 1 — lorem ipsum dolor sit amet",
@@ -160,13 +143,13 @@
     ]
   },
   {
-    "id": "policy-procedures",
-    "title": "Policy & Procedures",
-    "icon": "clipboard-list",
-    "color": "#2AA89A",
-    "gradient": "linear-gradient(135deg, #2AA89A 0%, #3DC8B8 100%)",
-    "summary": "A summary of the stream's focus and objectives.",
-    "details": "A detailed description of the stream's goals, activities, and expected outcomes.",
+    "id": "advisory-service",
+    "title": "Advisory Service",
+    "icon": "life-buoy",
+    "color": "#2AB8E0",
+    "gradient": "linear-gradient(135deg, #2AB8E0 0%, #48D0F8 100%)",
+    "summary": "A summary of the pillar's focus and objectives.",
+    "details": "A detailed description of the pillar's goals, activities, and expected outcomes.",
     "status": "In Progress",
     "lead": "Lead person/team/organisation",
     "recommendations": [
@@ -202,53 +185,13 @@
     ]
   },
   {
-    "id": "automation",
-    "title": "Automation & Tools",
-    "icon": "settings",
-    "color": "#1A88C8",
-    "gradient": "linear-gradient(135deg, #1A88C8 0%, #2AAAE8 100%)",
-    "summary": "A summary of the stream's focus and objectives.",
-    "details": "A detailed description of the stream's goals, activities, and expected outcomes.",
-    "status": "Planning",
-    "lead": "Lead person/team/organisation",
-    "recommendations": [
-      {
-        "label": "Lorem ipsum recommendation 1",
-        "done": false,
-        "summaryPoints": [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          "Sed do eiusmod tempor incididunt ut labore et dolore.",
-          "Ut enim ad minim veniam, quis nostrud exercitation."
-        ],
-        "rawData": [
-          "Raw data point 1 — lorem ipsum dolor sit amet",
-          "Raw data point 2 — consectetur adipiscing elit",
-          "Raw data point 3 — sed do eiusmod tempor incididunt",
-          "Raw data point 4 — ut labore et dolore magna"
-        ]
-      },
-      {
-        "label": "Lorem ipsum recommendation 2",
-        "done": false,
-        "summaryPoints": [],
-        "rawData": []
-      },
-      {
-        "label": "Lorem ipsum recommendation 3",
-        "done": false,
-        "summaryPoints": [],
-        "rawData": []
-      }
-    ]
-  },
-  {
-    "id": "governance",
-    "title": "Governance",
-    "icon": "gavel",
-    "color": "#3A6FC9",
-    "gradient": "linear-gradient(135deg, #3A6FC9 0%, #5A8FEA 100%)",
-    "summary": "A summary of the stream's focus and objectives.",
-    "details": "A detailed description of the stream's goals, activities, and expected outcomes.",
+    "id": "policy",
+    "title": "Policy",
+    "icon": "book-open",
+    "color": "#6B38C8",
+    "gradient": "linear-gradient(135deg, #6B38C8 0%, #8A58E0 100%)",
+    "summary": "A summary of the pillar's focus and objectives.",
+    "details": "A detailed description of the pillar's goals, activities, and expected outcomes.",
     "status": "In Progress",
     "lead": "Lead person/team/organisation",
     "recommendations": [
@@ -277,6 +220,151 @@
       },
       {
         "label": "Lorem ipsum recommendation 3",
+        "done": false,
+        "summaryPoints": [],
+        "rawData": []
+      }
+    ]
+  },
+  {
+    "id": "professional-development",
+    "title": "Professional Development and Guidance",
+    "icon": "graduation-cap",
+    "color": "#228A50",
+    "gradient": "linear-gradient(135deg, #228A50 0%, #30B068 100%)",
+    "summary": "A summary of the pillar's focus and objectives.",
+    "details": "A detailed description of the pillar's goals, activities, and expected outcomes.",
+    "status": "Planning",
+    "lead": "Lead person/team/organisation",
+    "recommendations": [
+      {
+        "label": "Lorem ipsum recommendation 1",
+        "done": false,
+        "summaryPoints": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Sed do eiusmod tempor incididunt ut labore et dolore.",
+          "Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+        ],
+        "rawData": [
+          "Raw data point 1 — lorem ipsum dolor sit amet",
+          "Raw data point 2 — consectetur adipiscing elit",
+          "Raw data point 3 — sed do eiusmod tempor incididunt",
+          "Raw data point 4 — ut labore et dolore magna"
+        ]
+      },
+      {
+        "label": "Lorem ipsum recommendation 2",
+        "done": false,
+        "summaryPoints": [],
+        "rawData": []
+      },
+      {
+        "label": "Lorem ipsum recommendation 3",
+        "done": false,
+        "summaryPoints": [],
+        "rawData": []
+      }
+    ]
+  },
+  {
+    "id": "provisioning",
+    "title": "Provisioning and Funding",
+    "icon": "package",
+    "color": "#C02898",
+    "gradient": "linear-gradient(135deg, #C02898 0%, #DC40B4 100%)",
+    "summary": "A summary of the pillar's focus and objectives.",
+    "details": "A detailed description of the pillar's goals, activities, and expected outcomes.",
+    "status": "Planning",
+    "lead": "Lead person/team/organisation",
+    "recommendations": [
+      {
+        "label": "Lorem ipsum recommendation 1",
+        "done": false,
+        "summaryPoints": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Sed do eiusmod tempor incididunt ut labore et dolore.",
+          "Ut enim ad minim veniam, quis nostrud exercitation."
+        ],
+        "rawData": [
+          "Raw data point 1 — lorem ipsum dolor sit amet",
+          "Raw data point 2 — consectetur adipiscing elit",
+          "Raw data point 3 — sed do eiusmod tempor incididunt"
+        ]
+      },
+      {
+        "label": "Lorem ipsum recommendation 2",
+        "done": false,
+        "summaryPoints": [],
+        "rawData": []
+      }
+    ]
+  },
+  {
+    "id": "people-community",
+    "title": "People – Community and Resourcing",
+    "icon": "users",
+    "color": "#1E68CC",
+    "gradient": "linear-gradient(135deg, #1E68CC 0%, #3088E8 100%)",
+    "summary": "The specialist roles, networks, and institutional capacity that make effective research data contracting possible at scale.",
+    "details": "A detailed description of the pillar's goals, activities, and expected outcomes.",
+    "status": "In Progress",
+    "lead": "Lead person/team/organisation",
+    "recommendations": [
+      {
+        "label": "Stakeholder mapping [national and/or organisational]",
+        "done": true,
+        "summaryPoints": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Sed do eiusmod tempor incididunt ut labore et dolore.",
+          "Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+        ],
+        "rawData": [
+          "Raw data point 1 — lorem ipsum dolor sit amet",
+          "Raw data point 2 — consectetur adipiscing elit",
+          "Raw data point 3 — sed do eiusmod tempor",
+          "Raw data point 4 — ut labore et dolore magna aliqua"
+        ]
+      },
+      {
+        "label": "Share best practice/previous experience with similar situations, via monthly 'I have a challenging situation' meeting and as case studies etc",
+        "done": false,
+        "summaryPoints": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        ],
+        "rawData": ["Raw data point 1 — lorem ipsum dolor sit amet"]
+      },
+      {
+        "label": "With ICO, generate best practice exampls re: data protection",
+        "done": false,
+        "summaryPoints": [],
+        "rawData": []
+      },
+      {
+        "label": "Share best practice for internal and external communication",
+        "done": false,
+        "summaryPoints": [],
+        "rawData": []
+      },
+      {
+        "label": "Be the central group who generates all the policy and guidance and training and triage and template and compliance processes",
+        "done": false,
+        "summaryPoints": [],
+        "rawData": []
+      },
+      {
+        "label": "Share best practice for data retention",
+        "done": false,
+        "summaryPoints": [],
+        "rawData": []
+      },
+      {
+        "label": "Spend time developing working relationships with partners",
+        "done": false,
+        "summaryPoints": [],
+        "rawData": []
+      },
+      {
+        "label": "Identify further training requirements",
         "done": false,
         "summaryPoints": [],
         "rawData": []
