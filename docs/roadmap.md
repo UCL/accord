@@ -8,11 +8,11 @@ permalink: /roadmap/
 
 <div id="accord-roadmap">
   <h2 class="roadmap-heading">ACCoRD Recommendation Pillars</h2>
-  <p class="roadmap-subheading">The diagram below shows how all eight pillars interrelate. Click any segment or card to explore recommendations and evidence.</p>
+  <p class="roadmap-subheading">Eight recommendation pillars form the ACCoRD roadmap. The diagram shows how they connect: a triage and information-gathering process feeds into modular contract templates, which in turn inform technical audits and compliance - all supported by an advisory service, enabling policy, professional development, provisioning and a growing community. Click any segment or card to explore the recommendations and evidence behind each pillar.</p>
 
   <!-- ── Interactive pillar diagram ── -->
   <div class="diagram-wrapper">
-    <p class="diagram-caption">How the pillars interrelate — click a segment to jump to that pillar</p>
+    <p class="diagram-caption">How the pillars interrelate - click a segment to jump to that pillar</p>
     <div class="diagram-scroll">
       <svg class="accord-diagram" viewBox="0 0 820 470" xmlns="http://www.w3.org/2000/svg"
            role="img" aria-label="ACCoRD recommendation pillars diagram">
@@ -248,7 +248,7 @@ permalink: /roadmap/
         header.setAttribute('aria-controls', bodyId);
       }
       header.innerHTML = `
-        <span class="rec-dot${rec.done ? ' done' : ''}" style="${rec.done ? `--tile-color:${item.color}` : ''}"></span>
+        <span class="rec-num${rec.done ? ' done' : ''}" style="${rec.done ? `--tile-color:${item.color}` : ''}">${ri + 1}.</span>
         <span class="rec-label">${rec.label}</span>
         ${expandable ? `<span class="rec-chevron">${CHEVRON}</span>` : ''}
       `;
