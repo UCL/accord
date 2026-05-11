@@ -32,34 +32,6 @@ permalink: /events/
 
   <article class="event-card flow">
     <span class="upcoming-badge">Upcoming</span>
-    <h3>ACCoRD Online Focus Group: Measuring and Managing Risk</h3>
-    <p class="event-meta"><strong> 28 April 2026 · 10:00 – 11:30 </strong> · UCL, London</p>
-    <p> Join us for an ACCoRD's Online Focus Group dedicated to measuring and managing
-    </p>
-
-    <details class="agenda">
-      <summary>Agenda (click to expand)</summary>
-      <p class="tiny">To be confirmed</p>
-    </details>
-
-    <p class="cta-row">
-      <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Join our community →</a>
-          <a
-      class="btn btn-primary"
-      href="https://www.eventbrite.co.uk/e/accord-online-focus-group-managing-risk-tickets-1982526852183?aff=oddtdtcreator"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Register here →
-    </a>
-    </p>
-
-    <p class="tiny">Parts of the event may be audio recorded for summary purposes; photos may be taken. Let us know if you prefer not to be photographed.</p>
-
-  </article>
-
-    <article class="event-card flow">
-    <span class="upcoming-badge">Upcoming</span>
     <h3>ACCoRD: Roadmapping Workshop</h3>
     <p class="event-meta"><strong> 14 May 2026 · 13:30 – 16:00 </strong> · UCL Centre for Artificial Intelligence, London</p>
     <p>For this final workshop we'd really love to bring together all the stakeholders across the whole data contracting process
@@ -121,7 +93,22 @@ permalink: /events/
   <h2>Past events</h2>
   <p>Couldn’t make it? Browse summaries, slides, and resources from earlier sessions.</p>
 
-    <article class="event-card flow">
+  <article class="event-card flow">
+    <span class="past-badge">Past</span>
+    <h3>ACCoRD Online Focus Group: Measuring and Managing Risk</h3>
+    <p class="event-meta"><strong>28 April 2026 · 10:00 – 11:30</strong> · UCL, London</p>
+    <p>An ACCoRD Online Focus Group dedicated to measuring and managing risk in research data contracts.</p>
+
+    <details class="agenda">
+      <summary>Agenda (click to expand)</summary>
+      <p class="tiny">To be confirmed</p>
+    </details>
+
+    <p class="tiny">Parts of the event may be audio recorded for summary purposes; photos may be taken. Let us know if you prefer not to be photographed.</p>
+
+  </article>
+
+  <article class="event-card flow">
     <span class="past-badge">Past</span>
     <h3>ACCoRD Legal Perspectives Webinar</h3>
     <p class="event-meta"><strong>27 March 2026 · 09:30 – 10:30</strong> · Online</p>
