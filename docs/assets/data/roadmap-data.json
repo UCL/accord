@@ -62,7 +62,7 @@
     "lead": "Lead person/team/organisation",
     "recommendations": [
       {
-        "label": "Lorem ipsum recommendation 1",
+        "label": "IP and Licensing",
         "done": true,
         "summaryPoints": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -77,7 +77,7 @@
         ]
       },
       {
-        "label": "Lorem ipsum recommendation 2",
+        "label": "Personal Data",
         "done": false,
         "summaryPoints": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -90,16 +90,86 @@
         ]
       },
       {
-        "label": "Lorem ipsum recommendation 3",
+        "label": "Storage/Access/TRE",
         "done": false,
         "summaryPoints": [],
-        "rawData": []
+        "rawData": [
+          "Raw data point 1 — lorem ipsum dolor sit amet",
+          "Raw data point 2 — consectetur adipiscing elit"
+        ]
       },
       {
-        "label": "Lorem ipsum recommendation 4",
+        "label": "Finance",
+        "done": false,
+        "summaryPoints": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Sed do eiusmod tempor incididunt ut labore."
+        ],
+        "rawData": [
+          "Raw data point 1 — lorem ipsum dolor sit amet",
+          "Raw data point 2 — consectetur adipiscing elit"
+        ]
+      },
+      {
+        "label": "Other",
+        "done": false,
+        "summaryPoints": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Sed do eiusmod tempor incididunt ut labore."
+        ],
+        "rawData": [
+          "Raw data point 1 — lorem ipsum dolor sit amet",
+          "Raw data point 2 — consectetur adipiscing elit"
+        ]
+      },
+      {
+        "label": "Insurance and liabilities/indemnities",
         "done": false,
         "summaryPoints": [],
-        "rawData": []
+        "rawData": [
+          "Raw data point 1 — lorem ipsum dolor sit amet",
+          "Raw data point 2 — consectetur adipiscing elit",
+          "Raw data point 3 — sed do eiusmod tempor incididunt"
+        ]
+      },
+      {
+        "label": "Compliance",
+        "done": false,
+        "summaryPoints": [],
+        "rawData": [
+          "Raw data point 1 — lorem ipsum dolor sit amet",
+          "Raw data point 2 — consectetur adipiscing elit",
+          "Raw data point 3 — sed do eiusmod tempor incididunt"
+        ]
+      },
+      {
+        "label": "Data",
+        "done": false,
+        "summaryPoints": [],
+        "rawData": [
+          "Raw data point 1 — lorem ipsum dolor sit amet",
+          "Raw data point 2 — consectetur adipiscing elit",
+          "Raw data point 3 — sed do eiusmod tempor incididunt"
+        ]
+      },
+      {
+        "label": "International",
+        "done": false,
+        "summaryPoints": [],
+        "rawData": [
+          "Raw data point 1 — lorem ipsum dolor sit amet",
+          "Raw data point 2 — consectetur adipiscing elit",
+          "Raw data point 3 — sed do eiusmod tempor incididunt",
+          "Raw data point 3 — sed do eiusmod tempor"
+        ]
+      },
+      {
+        "label": "Risk",
+        "done": false,
+        "summaryPoints": [],
+        "rawData": [
+          "Raw data point 1 — lorem ipsum dolor sit amet"
+        ]
       }
     ]
   },
