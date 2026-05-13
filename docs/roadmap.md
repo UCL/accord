@@ -260,7 +260,7 @@ permalink: /roadmap/
         if (hasSummary) {
           const sec = document.createElement('div');
           sec.className = 'summary-section';
-          sec.innerHTML = `<div class="summary-label">Key findings</div>`;
+          sec.innerHTML = `<div class="summary-label">Sub-recommendations</div>`;
           const sumUl = document.createElement('ul');
           sumUl.className = 'summary-list';
           rec.summaryPoints.forEach(pt => {
