@@ -170,6 +170,15 @@
         "rawData": [
           "Raw data point 1 — lorem ipsum dolor sit amet"
         ]
+      },
+      {
+        "label": "Partners",
+        "done": false,
+        "summaryPoints": [],
+        "rawData": [
+          "Raw data point 1 — lorem ipsum dolor sit amet",
+          "Raw data point 2 — consectetur adipiscing elit"
+        ]
       }
     ]
   },
