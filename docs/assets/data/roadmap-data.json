@@ -379,6 +379,41 @@
     ]
   },
   {
+    "id": "automation",
+    "title": "Automation",
+    "icon": "zap",
+    "color": "#E08030",
+    "gradient": "linear-gradient(135deg, #E08030 0%, #F0A050 100%)",
+    "summary": "A summary of the pillar's focus and objectives.",
+    "details": "A detailed description of the pillar's goals, activities, and expected outcomes.",
+    "status": "Planning",
+    "lead": "Lead person/team/organisation",
+    "recommendations": [
+      {
+        "label": "Lorem ipsum recommendation 1",
+        "done": false,
+        "summaryPoints": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Sed do eiusmod tempor incididunt ut labore et dolore.",
+          "Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+        ],
+        "rawData": []
+      },
+      {
+        "label": "Lorem ipsum recommendation 2",
+        "done": false,
+        "summaryPoints": [],
+        "rawData": []
+      },
+      {
+        "label": "Lorem ipsum recommendation 3",
+        "done": false,
+        "summaryPoints": [],
+        "rawData": []
+      }
+    ]
+  },
+  {
     "id": "people-community",
     "title": "People – Community and Resourcing",
     "icon": "users",

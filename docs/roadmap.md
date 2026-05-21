@@ -8,7 +8,7 @@ permalink: /roadmap/
 
 <div id="accord-roadmap">
   <h2 class="roadmap-heading">ACCoRD Recommendation Pillars</h2>
-  <p class="roadmap-subheading">Eight recommendation pillars form the ACCoRD roadmap. The diagram shows how they connect: a triage and information-gathering process feeds into modular contract templates, which in turn inform technical audits and compliance - all supported by an advisory service, enabling policy, professional development, provisioning and a growing community. Click any segment or card to explore the recommendations and evidence behind each pillar.</p>
+  <p class="roadmap-subheading">Nine recommendation pillars form the ACCoRD roadmap. The diagram shows how they connect: a triage and information-gathering process feeds into modular contract templates, which in turn inform technical audits and compliance - all supported by an advisory service and automation capabilities, enabling policy, professional development, provisioning and a growing community. Click any segment or card to explore the recommendations and evidence behind each pillar.</p>
 
   <!-- ── Interactive pillar diagram ── -->
   <div class="diagram-wrapper">
@@ -51,12 +51,23 @@ permalink: /roadmap/
           d="M 410 400 A 165 165 0 0 1 245 235 L 320 235 A 90 90 0 0 0 410 325 Z"
           fill="#C02898"/>
 
-        <!-- ── Inner circle: Advisory Service ── -->
-        <circle class="diag-seg" data-pillar="advisory-service" tabindex="0" role="button" aria-label="Advisory Service pillar"
-          cx="410" cy="235" r="89"
+        <!-- ── Inner circle: top semi-circle Advisory Service ── -->
+        <path class="diag-seg" data-pillar="advisory-service" tabindex="0" role="button" aria-label="Advisory Service pillar"
+          d="M 321 235 A 89 89 0 0 1 499 235 Z"
           fill="#2AB8E0" fill-opacity="0.22"/>
-        <circle cx="410" cy="235" r="89"
+        <path d="M 321 235 A 89 89 0 0 1 499 235 Z"
           fill="none" stroke="#2AB8E0" stroke-width="2" stroke-dasharray="5 4" stroke-opacity="0.7"/>
+
+        <!-- ── Inner circle: bottom semi-circle Automation ── -->
+        <path class="diag-seg" data-pillar="automation" tabindex="0" role="button" aria-label="Automation pillar"
+          d="M 321 235 A 89 89 0 0 0 499 235 Z"
+          fill="#E08030" fill-opacity="0.22"/>
+        <path d="M 321 235 A 89 89 0 0 0 499 235 Z"
+          fill="none" stroke="#E08030" stroke-width="2" stroke-dasharray="5 4" stroke-opacity="0.7"/>
+
+        <!-- Semi-circle dividing line -->
+        <line x1="321" y1="235" x2="499" y2="235"
+          stroke="rgba(255,255,255,0.35)" stroke-width="1.5" stroke-dasharray="4 3"/>
 
         <!-- ── Templates centre box ── -->
         <rect class="diag-seg" data-pillar="templates" tabindex="0" role="button" aria-label="Templates pillar"
@@ -103,8 +114,12 @@ permalink: /roadmap/
         <text x="320" y="319" text-anchor="middle" class="seg-label" font-size="12" fill="white" pointer-events="none">Provisioning</text>
         <text x="320" y="335" text-anchor="middle" class="seg-label" font-size="12" fill="white" pointer-events="none">&amp; Funding</text>
 
-        <!-- Advisory Service (inner ring) — centred in ring above Templates box -->
-        <text x="410" y="196" text-anchor="middle" class="seg-label advisory-label" font-size="13" fill="#2AB8E0" pointer-events="none">Advisory Service</text>
+        <!-- Advisory Service (top semi-circle) — above Templates box -->
+        <text x="410" y="177" text-anchor="middle" class="seg-label advisory-label" font-size="12" fill="#2AB8E0" pointer-events="none">Advisory</text>
+        <text x="410" y="191" text-anchor="middle" class="seg-label advisory-label" font-size="12" fill="#2AB8E0" pointer-events="none">Service</text>
+
+        <!-- Automation (bottom semi-circle) — below Templates box -->
+        <text x="410" y="285" text-anchor="middle" class="seg-label automation-label" font-size="13" fill="#E08030" pointer-events="none">Automation</text>
 
         <!-- Templates (centre box) — box centre y=235 -->
         <text x="410" y="229" text-anchor="middle" class="seg-label" font-size="13" fill="white" font-weight="700" pointer-events="none">Template</text>
@@ -148,7 +163,8 @@ permalink: /roadmap/
     "book-open": `<svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>`,
     "graduation-cap": `<svg viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5-10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>`,
     "package": `<svg viewBox="0 0 24 24"><path d="M16.5 9.4l-9-5.19M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>`,
-    "users": `<svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>`
+    "users": `<svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>`,
+    "zap": `<svg viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>`
   };
 
   const ARROW    = `<svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>`;
@@ -349,8 +365,8 @@ permalink: /roadmap/
   function getComputedColumns() {
     const w = grid.offsetWidth;
     if (w < 400) return 1;
-    if (w < 640) return 2;
-    return 4;
+    if (w < 780) return 2;
+    return 3;
   }
 
   function togglePanel(item, btn) {
