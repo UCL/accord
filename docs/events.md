@@ -28,14 +28,21 @@ permalink: /events/
 
 <section class="flow">
   <h3>Workshops</h3>
-  <p>Hands-on sessions that map current contracting workflows, identify challenges, and prototype improvements to wording and process. Outcomes feed directly into the ACCoRD framework.</p>
+  <p>ACCoRD has now finished running workshops for this round - thank you to everyone who took part! Look out for our results coming soon.</p>
+
+</section>
+
+<hr class="section-divider" />
+
+<section id="past" class="flow">
+  <h2>Past events</h2>
+  <p>Couldn’t make it? Browse summaries, slides, and resources from earlier sessions.</p>
 
   <article class="event-card flow">
-    <span class="upcoming-badge">Upcoming</span>
+    <span class="past-badge">Past</span>
     <h3>ACCoRD: Roadmapping Workshop</h3>
-    <p class="event-meta"><strong> 14 May 2026 · 13:30 – 16:00 </strong> · UCL Centre for Artificial Intelligence, London</p>
-    <p>For this final workshop we'd really love to bring together all the stakeholders across the whole data contracting process
-    </p>
+    <p class="event-meta"><strong>14 May 2026 · 13:30 – 16:00</strong> · UCL Centre for Artificial Intelligence, London</p>
+    <p>For this final workshop we brought together all the stakeholders across the whole data contracting process.</p>
 
     <details class="agenda">
       <summary>Agenda (click to expand)</summary>
@@ -64,34 +71,13 @@ permalink: /events/
 
         <div class="agenda-time">15:30–16:30</div>
         <div class="agenda-item">Tea/coffee and networking</div>
-
       </div>
 
     </details>
 
-    <p class="cta-row">
-      <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Join our community →</a>
-          <a
-      class="btn btn-primary"
-      href="https://www.eventbrite.co.uk/e/accord-a-community-for-contract-regulation-for-data-roadmapping-workshop-tickets-1982531827063?aff=oddtdtcreator"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Register here →
-    </a>
-    </p>
-
     <p class="tiny">Parts of the event may be audio recorded for summary purposes; photos may be taken. Let us know if you prefer not to be photographed.</p>
 
   </article>
-
-</section>
-
-<hr class="section-divider" />
-
-<section id="past" class="flow">
-  <h2>Past events</h2>
-  <p>Couldn’t make it? Browse summaries, slides, and resources from earlier sessions.</p>
 
   <article class="event-card flow">
     <span class="past-badge">Past</span>
