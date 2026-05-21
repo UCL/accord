@@ -54,16 +54,16 @@ permalink: /roadmap/
         <!-- ── Inner circle: top semi-circle Advisory Service ── -->
         <path class="diag-seg" data-pillar="advisory-service" tabindex="0" role="button" aria-label="Advisory Service pillar"
           d="M 321 235 A 89 89 0 0 1 499 235 Z"
-          fill="#2AB8E0" fill-opacity="0.22"/>
+          fill="#a8b4c8" fill-opacity="0.2"/>
         <path d="M 321 235 A 89 89 0 0 1 499 235 Z"
-          fill="none" stroke="#2AB8E0" stroke-width="2" stroke-dasharray="5 4" stroke-opacity="0.7"/>
+          fill="none" stroke="#8899bb" stroke-width="2" stroke-dasharray="5 4" stroke-opacity="0.55"/>
 
         <!-- ── Inner circle: bottom semi-circle Automation ── -->
         <path class="diag-seg" data-pillar="automation" tabindex="0" role="button" aria-label="Automation pillar"
           d="M 321 235 A 89 89 0 0 0 499 235 Z"
-          fill="#E08030" fill-opacity="0.22"/>
+          fill="#a8b4c8" fill-opacity="0.2"/>
         <path d="M 321 235 A 89 89 0 0 0 499 235 Z"
-          fill="none" stroke="#E08030" stroke-width="2" stroke-dasharray="5 4" stroke-opacity="0.7"/>
+          fill="none" stroke="#8899bb" stroke-width="2" stroke-dasharray="5 4" stroke-opacity="0.55"/>
 
         <!-- Semi-circle dividing line -->
         <line x1="321" y1="235" x2="499" y2="235"
