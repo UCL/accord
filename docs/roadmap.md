@@ -251,7 +251,7 @@ permalink: /roadmap/
     item.recommendations.forEach((rec, ri) => {
       const li = document.createElement('li');
       li.className = `rec-item${rec.done ? ' done' : ''}`;
-      const hasSummary = rec.summaryPoints && rec.summaryPoints.length > 0;
+      const hasSummary = rec.subRecommendations && rec.subRecommendations.length > 0;
       const hasRaw     = rec.rawData && rec.rawData.length > 0;
       const expandable = hasSummary || hasRaw;
       const bodyId     = `rec-body-${item.id}-${ri}`;
@@ -279,7 +279,7 @@ permalink: /roadmap/
           sec.innerHTML = `<div class="summary-label">Sub-recommendations</div>`;
           const sumUl = document.createElement('ul');
           sumUl.className = 'summary-list';
-          rec.summaryPoints.forEach(pt => {
+          rec.subRecommendations.forEach(pt => {
             const pli = document.createElement('li');
             pli.className = 'summary-item';
             pli.textContent = pt;

@@ -13,7 +13,7 @@
       {
         "label": "Map out who is involved",
         "done": false,
-        "summaryPoints": [
+        "subRecommendations": [
           "Who are the international partners and countries",
           "Within the organisation",
           "Data users - who will use the data and what do they need to do to gain access (give roles and grades)",
@@ -31,7 +31,7 @@
       {
         "label": "Information Governance",
         "done": false,
-        "summaryPoints": [
+        "subRecommendations": [
           "Questions about liability",
           "What indemnities should be put in place within the organisation that is hosting the data?",
           "Risk - what type, who reponsible to assess/mitigate?",
@@ -45,7 +45,7 @@
       {
         "label": "Lorem ipsum recommendation 3",
         "done": false,
-        "summaryPoints": [],
+        "subRecommendations": [],
         "rawData": []
       }
     ]
@@ -64,7 +64,7 @@
       {
         "label": "IP and Licensing",
         "done": true,
-        "summaryPoints": [
+        "subRecommendations": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "Sed do eiusmod tempor incididunt ut labore et dolore magna.",
           "Ut enim ad minim veniam, quis nostrud exercitation ullamco."
@@ -79,7 +79,7 @@
       {
         "label": "Personal Data",
         "done": false,
-        "summaryPoints": [
+        "subRecommendations": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "Sed do eiusmod tempor incididunt ut labore."
         ],
@@ -92,7 +92,7 @@
       {
         "label": "Storage/Access/TRE",
         "done": false,
-        "summaryPoints": [],
+        "subRecommendations": [],
         "rawData": [
           "Raw data point 1 — lorem ipsum dolor sit amet",
           "Raw data point 2 — consectetur adipiscing elit"
@@ -101,7 +101,7 @@
       {
         "label": "Finance",
         "done": false,
-        "summaryPoints": [
+        "subRecommendations": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "Sed do eiusmod tempor incididunt ut labore."
         ],
@@ -113,7 +113,7 @@
       {
         "label": "Other",
         "done": false,
-        "summaryPoints": [
+        "subRecommendations": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "Sed do eiusmod tempor incididunt ut labore."
         ],
@@ -125,7 +125,7 @@
       {
         "label": "Insurance and liabilities/indemnities",
         "done": false,
-        "summaryPoints": [],
+        "subRecommendations": [],
         "rawData": [
           "Raw data point 1 — lorem ipsum dolor sit amet",
           "Raw data point 2 — consectetur adipiscing elit",
@@ -135,7 +135,7 @@
       {
         "label": "Compliance",
         "done": false,
-        "summaryPoints": [],
+        "subRecommendations": [],
         "rawData": [
           "Raw data point 1 — lorem ipsum dolor sit amet",
           "Raw data point 2 — consectetur adipiscing elit",
@@ -145,7 +145,7 @@
       {
         "label": "Data",
         "done": false,
-        "summaryPoints": [],
+        "subRecommendations": [],
         "rawData": [
           "Raw data point 1 — lorem ipsum dolor sit amet",
           "Raw data point 2 — consectetur adipiscing elit",
@@ -155,7 +155,7 @@
       {
         "label": "International",
         "done": false,
-        "summaryPoints": [],
+        "subRecommendations": [],
         "rawData": [
           "Raw data point 1 — lorem ipsum dolor sit amet",
           "Raw data point 2 — consectetur adipiscing elit",
@@ -166,7 +166,7 @@
       {
         "label": "Risk",
         "done": false,
-        "summaryPoints": [],
+        "subRecommendations": [],
         "rawData": [
           "Raw data point 1 — lorem ipsum dolor sit amet"
         ]
@@ -174,7 +174,7 @@
       {
         "label": "Partners",
         "done": false,
-        "summaryPoints": [],
+        "subRecommendations": [],
         "rawData": [
           "Raw data point 1 — lorem ipsum dolor sit amet",
           "Raw data point 2 — consectetur adipiscing elit"
@@ -196,7 +196,7 @@
       {
         "label": "Lorem ipsum recommendation 1",
         "done": false,
-        "summaryPoints": [
+        "subRecommendations": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "Sed do eiusmod tempor incididunt ut labore et dolore.",
           "Ut enim ad minim veniam, quis nostrud exercitation."
@@ -210,13 +210,13 @@
       {
         "label": "Lorem ipsum recommendation 2",
         "done": false,
-        "summaryPoints": [],
+        "subRecommendations": [],
         "rawData": []
       },
       {
         "label": "Lorem ipsum recommendation 3",
         "done": false,
-        "summaryPoints": [],
+        "subRecommendations": [],
         "rawData": []
       }
     ]
@@ -235,7 +235,7 @@
       {
         "label": "Lorem ipsum recommendation 1",
         "done": true,
-        "summaryPoints": [
+        "subRecommendations": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "Sed do eiusmod tempor incididunt ut labore et dolore magna.",
           "Ut enim ad minim veniam, quis nostrud exercitation."
@@ -250,7 +250,7 @@
       {
         "label": "Lorem ipsum recommendation 2",
         "done": false,
-        "summaryPoints": [
+        "subRecommendations": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         ],
         "rawData": ["Raw data point 1 — lorem ipsum dolor sit amet"]
@@ -258,7 +258,7 @@
       {
         "label": "Lorem ipsum recommendation 3",
         "done": false,
-        "summaryPoints": [],
+        "subRecommendations": [],
         "rawData": []
       }
     ]
@@ -277,7 +277,7 @@
       {
         "label": "Lorem ipsum recommendation 1",
         "done": true,
-        "summaryPoints": [
+        "subRecommendations": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "Sed do eiusmod tempor incididunt ut labore et dolore.",
           "Ut enim ad minim veniam, quis nostrud exercitation ullamco."
@@ -292,7 +292,7 @@
       {
         "label": "Lorem ipsum recommendation 2",
         "done": false,
-        "summaryPoints": [
+        "subRecommendations": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         ],
         "rawData": ["Raw data point 1 — lorem ipsum dolor sit amet"]
@@ -300,7 +300,7 @@
       {
         "label": "Lorem ipsum recommendation 3",
         "done": false,
-        "summaryPoints": [],
+        "subRecommendations": [],
         "rawData": []
       }
     ]
@@ -319,7 +319,7 @@
       {
         "label": "Lorem ipsum recommendation 1",
         "done": false,
-        "summaryPoints": [
+        "subRecommendations": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "Sed do eiusmod tempor incididunt ut labore et dolore.",
           "Ut enim ad minim veniam, quis nostrud exercitation ullamco."
@@ -334,13 +334,13 @@
       {
         "label": "Lorem ipsum recommendation 2",
         "done": false,
-        "summaryPoints": [],
+        "subRecommendations": [],
         "rawData": []
       },
       {
         "label": "Lorem ipsum recommendation 3",
         "done": false,
-        "summaryPoints": [],
+        "subRecommendations": [],
         "rawData": []
       }
     ]
@@ -359,7 +359,7 @@
       {
         "label": "Lorem ipsum recommendation 1",
         "done": false,
-        "summaryPoints": [
+        "subRecommendations": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "Sed do eiusmod tempor incididunt ut labore et dolore.",
           "Ut enim ad minim veniam, quis nostrud exercitation."
@@ -373,7 +373,7 @@
       {
         "label": "Lorem ipsum recommendation 2",
         "done": false,
-        "summaryPoints": [],
+        "subRecommendations": [],
         "rawData": []
       }
     ]
@@ -392,7 +392,7 @@
       {
         "label": "Lorem ipsum recommendation 1",
         "done": false,
-        "summaryPoints": [
+        "subRecommendations": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "Sed do eiusmod tempor incididunt ut labore et dolore.",
           "Ut enim ad minim veniam, quis nostrud exercitation ullamco."
@@ -402,13 +402,13 @@
       {
         "label": "Lorem ipsum recommendation 2",
         "done": false,
-        "summaryPoints": [],
+        "subRecommendations": [],
         "rawData": []
       },
       {
         "label": "Lorem ipsum recommendation 3",
         "done": false,
-        "summaryPoints": [],
+        "subRecommendations": [],
         "rawData": []
       }
     ]
@@ -427,7 +427,7 @@
       {
         "label": "Stakeholder mapping [national and/or organisational]",
         "done": true,
-        "summaryPoints": [
+        "subRecommendations": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           "Sed do eiusmod tempor incididunt ut labore et dolore.",
           "Ut enim ad minim veniam, quis nostrud exercitation ullamco."
@@ -442,7 +442,7 @@
       {
         "label": "Share best practice/previous experience with similar situations, via monthly 'I have a challenging situation' meeting and as case studies etc",
         "done": false,
-        "summaryPoints": [
+        "subRecommendations": [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         ],
         "rawData": ["Raw data point 1 — lorem ipsum dolor sit amet"]
@@ -450,37 +450,37 @@
       {
         "label": "With ICO, generate best practice exampls re: data protection",
         "done": false,
-        "summaryPoints": [],
+        "subRecommendations": [],
         "rawData": []
       },
       {
         "label": "Share best practice for internal and external communication",
         "done": false,
-        "summaryPoints": [],
+        "subRecommendations": [],
         "rawData": []
       },
       {
         "label": "Be the central group who generates all the policy and guidance and training and triage and template and compliance processes",
         "done": false,
-        "summaryPoints": [],
+        "subRecommendations": [],
         "rawData": []
       },
       {
         "label": "Share best practice for data retention",
         "done": false,
-        "summaryPoints": [],
+        "subRecommendations": [],
         "rawData": []
       },
       {
         "label": "Spend time developing working relationships with partners",
         "done": false,
-        "summaryPoints": [],
+        "subRecommendations": [],
         "rawData": []
       },
       {
         "label": "Identify further training requirements",
         "done": false,
-        "summaryPoints": [],
+        "subRecommendations": [],
         "rawData": []
       }
     ]

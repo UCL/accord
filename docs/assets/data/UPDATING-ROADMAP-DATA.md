@@ -76,7 +76,7 @@ Each pillar contains a list of **recommendations**, which look like this:
 {
   "label": "The recommendation title",
   "done": false,
-  "summaryPoints": [
+  "subRecommendations": [
     "Sub-recommendation.",
     "Another bullet point."
   ],
@@ -122,12 +122,12 @@ Find the pillar and replace the text inside the quotes for `"summary"` or `"deta
 "details": "Your updated longer description here."
 ```
 
-### Add a new summary point to a recommendation
+### Add a new sub-recommendation to a recommendation
 
-Find the `"summaryPoints"` list for that recommendation and add a new line inside the square brackets. Each point must be in quotes and separated by a comma:
+Find the `"subRecommendations"` list for that recommendation and add a new line inside the square brackets. Each point must be in quotes and separated by a comma:
 
 ```json
-"summaryPoints": [
+"subRecommendations": [
   "Existing point.",
   "Another existing point.",
   "Your new point goes here."
@@ -156,13 +156,13 @@ Find the `"recommendations"` list for the pillar you want to update. Add a new r
   {
     "label": "Existing recommendation",
     "done": false,
-    "summaryPoints": [],
+    "subRecommendations": [],
     "rawData": []
   },
   {
     "label": "Your new recommendation title",
     "done": false,
-    "summaryPoints": [
+    "subRecommendations": [
       "First summary point.",
       "Second summary point."
     ],
@@ -203,7 +203,7 @@ JSON is strict about formatting. Here are the most common errors and how to avoi
 Every item in a list needs a comma after it — except the very last one.
 
 ```json
-"summaryPoints": [
+"subRecommendations": [
   "First point.",   ← comma here because it's not last
   "Second point."   ← no comma here because it's last
 ]
