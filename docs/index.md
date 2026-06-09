@@ -26,6 +26,7 @@ title: Home
 
     <div class="cta-row">
       <a class="btn btn-primary" href="{{ '/about/' | relative_url }}">About the ACCoRD project at UCL →</a>
+      <a class="btn btn-primary" href="{{ '/roadmap/' | relative_url }}">View the roadmap →</a>
       <a class="btn btn-primary" href="https://forms.office.com/pages/responsepage.aspx?id=_oivH5ipW0yTySEKEdmlwvNrS4lV5ilIsuG4plfelThUNVkxRlZZTlhPOTU0NkZUQkVWNTBZUjUwVS4u&route=shorturl" target="_blank" rel="noopener">
       Join the community →
       </a>
@@ -39,5 +40,3 @@ title: Home
       alt="Hands raised together representing community and partnership at UCL’s ACCoRD Project">
   </div>
 </section>
-
-<hr class="section-divider" />

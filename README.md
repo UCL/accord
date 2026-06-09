@@ -8,6 +8,8 @@ ACCoRD aims to address barriers in data access and contracting that delay or blo
 
 For ACCoRD project management, a private repository, please go to: [accord_project_management](https://github.com/UCL-ARC/accord_project_management)
 
+To update the roadmap data on the website, see: [How to update roadmap-data.json](docs/assets/data/UPDATING-ROADMAP-DATA.md)
+
 ---
 
 ### Team

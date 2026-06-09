@@ -31,7 +31,7 @@ body {
 .page-content h3,
 .page-content h4 {
   font-weight: bold;
-  color: var(--clr-wash);
+  color: var(--accord-blue);
 }
 
 .page-content h2 {

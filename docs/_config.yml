@@ -11,6 +11,7 @@ lang: "en"
 # --- Navigation ---
 header_pages:
   - about.md
+  - roadmap.md
   - events.md
   - join.md
 
