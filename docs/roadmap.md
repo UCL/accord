@@ -51,7 +51,7 @@ permalink: /roadmap/
           d="M 410 400 A 165 165 0 0 1 245 235 L 320 235 A 90 90 0 0 0 410 325 Z"
           fill="#C02898"/>
 
-        <!-- ── Inner circle: top semi-circle Advisory Service ── -->
+        <!-- ── Inner circle: top semi-circle Advisory Services ── -->
         <path class="diag-seg" data-pillar="advisory-service" tabindex="0" role="button" aria-label="Advisory Service pillar"
           d="M 321 235 A 89 89 0 0 1 499 235 Z"
           fill="#a8b4c8" fill-opacity="0.2"/>
