@@ -306,45 +306,24 @@
     ]
   },
   {
-    "id": "professional-development",
-    "title": "Professional Development and Guidance",
-    "icon": "graduation-cap",
-    "color": "#228A50",
-    "gradient": "linear-gradient(135deg, #228A50 0%, #30B068 100%)",
-    "summary": "A summary of the pillar's focus and objectives.",
-    "details": "A detailed description of the pillar's goals, activities, and expected outcomes.",
-    "status": "Planning",
-    "lead": "Lead person/team/organisation",
-    "recommendations": [
+    "id":"professional-develompent",
+    "title":"Professional Development & Guidance",
+    "icon":"graduation-cap",
+    "color":"#228A50",
+    "gradient":"linear-gradient(135deg, #228A50 0%, #30B068 100%)",
+    "summary":"summary to complete",
+    "details":"deails to complete",
+    "status":"In progress",
+    "lead":"lead person / team/organisation",
+    "recommendations":[
       {
-        "label": "Lorem ipsum recommendation 1",
-        "done": false,
-        "subRecommendations": [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-          "Sed do eiusmod tempor incididunt ut labore et dolore.",
-          "Ut enim ad minim veniam, quis nostrud exercitation ullamco."
-        ],
-        "rawData": [
-          "Raw data point 1 — lorem ipsum dolor sit amet",
-          "Raw data point 2 — consectetur adipiscing elit",
-          "Raw data point 3 — sed do eiusmod tempor incididunt",
-          "Raw data point 4 — ut labore et dolore magna"
-        ]
-      },
-      {
-        "label": "Lorem ipsum recommendation 2",
-        "done": false,
-        "subRecommendations": [],
-        "rawData": []
-      },
-      {
-        "label": "Lorem ipsum recommendation 3",
-        "done": false,
-        "subRecommendations": [],
-        "rawData": []
-      }
-    ]
-  },
+        "label":"Professional Devel & Guidance",
+        "done":false,
+        "subRecommendation":"[Institution-Specific GuidanceNational GuidanceFor External Data Providers]",
+        "rawData":"[Recommendation: Glossary/Guidance [documents/web pages]: For External Data Providers - Specific guidance for third-sector/small enterprises on sharing data with academic institutions: Raw data:Challenge: 3rd sector data providers often lack the legal resource needed for complex deposition negotiations.\nRecommendation: Glossary/Guidance [documents/web pages]: For External Data Providers - Benefits of sharing data: Raw data:Challenge: Accepting high-risk \"non-negotiable\" terms from high-profile partners.\n]"
+        }
+      ]
+    }, 
   {
     "id": "provisioning",
     "title": "Provisioning and Funding",
