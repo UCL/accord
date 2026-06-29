@@ -8,7 +8,15 @@ permalink: /roadmap/
 
 <div id="accord-roadmap">
   <h2 class="roadmap-heading">ACCoRD Recommendation Pillars</h2>
-  <p class="roadmap-subheading">Nine recommendation pillars form the ACCoRD roadmap. The diagram shows how they connect: a triage and information-gathering process feeds into modular contract templates, which in turn inform technical audits and compliance - all supported by an advisory service and automation capabilities, enabling policy, professional development, provisioning and a growing community. Click any segment or card to explore the recommendations and evidence behind each pillar.</p>
+  <p class="roadmap-subheading">Nine recommendation pillars form the ACCoRD roadmap, divided into three sub groupings.
+
+    <ul>
+    <li><b>ACCoRD-R1: </b>Firstly <b>national strategy and governance</b> recommendations focus on enabling research data contracting in the long term, addressing the high level systemic approach that will ensure that improvements to data contracting are sustained in the long term.  These include establishing a national advisory service and a new research technical professional, as well as ensuring that ACCoRD takes account of the fact that Digital Research Infrastructure is evolving and will continue to do so.  Automation forms the fourth element of this group – while our work shows that research data contracting will never be fully automatable, use of Large Language Models in contracting can provide benefits, leaving the experts to focus on those elements of a contract that cannot be automated.</li>
+    <li><b>ACCoRD-R2:</b> Our second group of recommendations delivers the <b>national and institutional enablers</b> underpinning ACCoRD – i.e. these are the catalysts without which the more practical recommendations arising from the project cannot be delivered.   The four interlinked recommendations within this group cover policy, such as the use of templates and developing better understanding of institutional risk and liabilities, people – both in terms of the resources required to remove contracting bottlenecks and those required to continue the ACCoRD community work and deliver on the roadmap, professional development (training and guidance) to ensure that all stakeholders are appropriately skilled and have access to relevant information in a timely manner, and provisioning – providing the funding required to deliver on the roadmap, to develop templates, training and much more. </li>
+    <li><b>ACCoRD-R3:</b> The final group of recommendations relate to <b>standardisation and institutional processes and governance</b> and cover the delivery of key approaches to facilitate contracting on a day-to-day basis, within institutions; these include a robust triage process, the use of templates for contracting terms and a clearly defined technical audit and compliance process post-contract signature.</li>
+    </ul>
+
+<br>  The diagram shows how they connect: a triage and information-gathering process feeds into modular contract templates, which in turn inform technical audits and compliance - all supported by an advisory service and automation capabilities, enabling policy, professional development, provisioning and a growing community. Click any segment or card to explore the recommendations and evidence behind each pillar.</p>
 
   <!-- ── Interactive pillar diagram ── -->
   <div class="diagram-wrapper">
@@ -115,18 +123,19 @@ permalink: /roadmap/
         <text x="320" y="335" text-anchor="middle" class="seg-label" font-size="12" fill="white" pointer-events="none">&amp; Funding</text>
 
         <!-- Advisory Service (top semi-circle) — above Templates box -->
-        <text x="410" y="177" text-anchor="middle" class="seg-label advisory-label" font-size="12" fill="#2AB8E0" pointer-events="none">Advisory</text>
-        <text x="410" y="191" text-anchor="middle" class="seg-label advisory-label" font-size="12" fill="#2AB8E0" pointer-events="none">Service</text>
-
+        <text x="410" y="175" text-anchor="middle" class="seg-label advisory-label" font-size="12" fill="#2AB8E0" pointer-events="none">Advisory Service</text>
+        <text x="410" y="189" text-anchor="middle" class="seg-label advisory-label" font-size="12" fill="#2AB8E0" pointer-events="none">New RTP Role</text>
+        
         <!-- Automation (bottom semi-circle) — below Templates box -->
         <text x="410" y="285" text-anchor="middle" class="seg-label automation-label" font-size="13" fill="#E08030" pointer-events="none">Automation</text>
+        <text x="410" y="299" text-anchor="middle" class="seg-label automation-label" font-size="13" fill="#E08030" pointer-events="none">Evolving DRI</text>
 
         <!-- Templates (centre box) — box centre y=235 -->
         <text x="410" y="229" text-anchor="middle" class="seg-label" font-size="13" fill="white" font-weight="700" pointer-events="none">Template</text>
         <text x="410" y="246" text-anchor="middle" class="seg-label" font-size="13" fill="white" font-weight="700" pointer-events="none">"Modules"</text>
 
         <!-- Triage (left box) — box centre y=235 -->
-        <text x="234" y="229" text-anchor="middle" class="seg-label" font-size="13" fill="white" pointer-events="none">Triage /</text>
+        <text x="234" y="229" text-anchor="middle" class="seg-label" font-size="13" fill="white" pointer-events="none">Triage </text>
         <text x="234" y="246" text-anchor="middle" class="seg-label" font-size="12" fill="white" pointer-events="none">Info Gathering</text>
 
         <!-- Technical Audits (right box) — box centre y=235 -->
@@ -276,7 +285,7 @@ permalink: /roadmap/
         if (hasSummary) {
           const sec = document.createElement('div');
           sec.className = 'summary-section';
-          sec.innerHTML = `<div class="summary-label">Sub-recommendations</div>`;
+          sec.innerHTML = `<div class="summary-label">Example sub-tasks:</div>`;
           const sumUl = document.createElement('ul');
           sumUl.className = 'summary-list';
           rec.subRecommendations.forEach(pt => {
@@ -333,8 +342,8 @@ permalink: /roadmap/
             <div class="panel-title-block">
               <h3 class="panel-title">${item.title}</h3>
               <div class="panel-meta">
-                <span class="panel-status ${sc}">${item.status}</span>
-                <span class="panel-lead">Lead: ${item.lead}</span>
+                <!--<span class="panel-status ${sc}">${item.status}</span> -->
+                <!--<span class="panel-lead">Lead: ${item.lead}</span> -->
               </div>
             </div>
           </div>
