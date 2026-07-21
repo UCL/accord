@@ -168,6 +168,14 @@ permalink: /events/
         >
           Conference details →
         </a>
+        <a
+        class="btn btn-primary"
+        href="https://doi.org/10.5522/04/31622893"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View ACCoRD Poster →
+      </a>
       </p>
 
   </article>
