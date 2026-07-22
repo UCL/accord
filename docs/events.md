@@ -28,64 +28,21 @@ permalink: /events/
 
 <section class="flow">
   <h3>Workshops</h3>
-  <p>Hands-on sessions that map current contracting workflows, identify challenges, and prototype improvements to wording and process. Outcomes feed directly into the ACCoRD framework.</p>
+  <p>ACCoRD has now finished running workshops for this round - thank you to everyone who took part! Look out for our results coming soon.</p>
+
+</section>
+
+<hr class="section-divider" />
+
+<section id="past" class="flow">
+  <h2>Past events</h2>
+  <p>Couldn’t make it? Browse summaries, slides, and resources from earlier sessions.</p>
 
   <article class="event-card flow">
-    <span class="upcoming-badge">Upcoming</span>
-    <h3>ACCoRD Legal Perspectives Webinar</h3>
-    <p class="event-meta"><strong>27 March 2026 · 09:30 – 10:30</strong> · Online</p>
-    <p>
-      A focused webinar-style workshop exploring legal perspectives on research data contracts, hosted in collaboration
-      with the Association of University Legal Practitioners (AULP). This session is for AULP members, providing space for legal insight, discussion, and reflection on current challenges and good practice.
-    </p>
-
-    <details class="agenda">
-      <summary>Agenda (click to expand)</summary>
-      <p class="tiny">To be confirmed</p>
-    </details>
-
-    <p class="cta-row">
-      <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Register for updates →</a>
-    </p>
-
-    <p class="tiny">Parts of the event may be audio recorded for summary purposes; photos may be taken. Let us know if you prefer not to be photographed.</p>
-
-  </article>
-
-  <article class="event-card flow">
-    <span class="upcoming-badge">Upcoming</span>
-    <h3>ACCoRD Online Focus Group: Data Centres + Related Stakeholders</h3>
-    <p class="event-meta"><strong> 28 April 2026 · 10:00 – 11:30 </strong> · UCL, London</p>
-    <p> Join us for an ACCoRD's Online Focus Group dedicated to stakeholders working in data centres and related roles
-    </p>
-
-    <details class="agenda">
-      <summary>Agenda (click to expand)</summary>
-      <p class="tiny">To be confirmed</p>
-    </details>
-
-    <p class="cta-row">
-      <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Join our community →</a>
-          <a
-      class="btn btn-primary"
-      href="https://www.eventbrite.co.uk/e/accord-online-focus-group-data-centres-related-stakeholders-tickets-1982526852183?aff=oddtdtcreator"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Register here →
-    </a>
-    </p>
-
-    <p class="tiny">Parts of the event may be audio recorded for summary purposes; photos may be taken. Let us know if you prefer not to be photographed.</p>
-
-  </article>
-
-    <article class="event-card flow">
-    <span class="upcoming-badge">Upcoming</span>
+    <span class="past-badge">Past</span>
     <h3>ACCoRD: Roadmapping Workshop</h3>
-    <p class="event-meta"><strong> 14 May 2026 · 13:30 – 16:00 </strong> · UCL Centre for Artificial Intelligence, London</p>
-    <p>For this final workshop we'd really love to bring together all the stakeholders across the whole data contracting process
-    </p>
+    <p class="event-meta"><strong>14 May 2026 · 13:30 – 16:00</strong> · UCL Centre for Artificial Intelligence, London</p>
+    <p>For this final workshop we brought together all the stakeholders across the whole data contracting process.</p>
 
     <details class="agenda">
       <summary>Agenda (click to expand)</summary>
@@ -114,40 +71,50 @@ permalink: /events/
 
         <div class="agenda-time">15:30–16:30</div>
         <div class="agenda-item">Tea/coffee and networking</div>
-
       </div>
 
     </details>
-
-    <p class="cta-row">
-      <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Join our community →</a>
-          <a
-      class="btn btn-primary"
-      href="https://www.eventbrite.co.uk/e/accord-a-community-for-contract-regulation-for-data-roadmapping-workshop-tickets-1982531827063?aff=oddtdtcreator"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Register here →
-    </a>
-    </p>
 
     <p class="tiny">Parts of the event may be audio recorded for summary purposes; photos may be taken. Let us know if you prefer not to be photographed.</p>
 
   </article>
 
-</section>
+  <article class="event-card flow">
+    <span class="past-badge">Past</span>
+    <h3>ACCoRD Online Focus Group: Measuring and Managing Risk</h3>
+    <p class="event-meta"><strong>28 April 2026 · 10:00 – 11:30</strong> · UCL, London</p>
+    <p>An ACCoRD Online Focus Group dedicated to measuring and managing risk in research data contracts.</p>
 
-<section class="flow">
-  <h3>Conferences</h3>
-  <p>We’ll share findings and invite feedback at relevant national events (details announced here).</p>
+    <details class="agenda">
+      <summary>Agenda (click to expand)</summary>
+      <p class="tiny">To be confirmed</p>
+    </details>
 
-</section>
+    <p class="tiny">Parts of the event may be audio recorded for summary purposes; photos may be taken. Let us know if you prefer not to be photographed.</p>
 
-<hr class="section-divider" />
+  </article>
 
-<section id="past" class="flow">
-  <h2>Past events</h2>
-  <p>Couldn’t make it? Browse summaries, slides, and resources from earlier sessions.</p>
+  <article class="event-card flow">
+    <span class="past-badge">Past</span>
+    <h3>ACCoRD Legal Perspectives Webinar</h3>
+    <p class="event-meta"><strong>27 March 2026 · 09:30 – 10:30</strong> · Online</p>
+    <p>
+      A focused webinar-style workshop exploring legal perspectives on research data contracts, hosted in collaboration
+      with the Association of University Legal Practitioners (AULP). This session is for AULP members, providing space for legal insight, discussion, and reflection on current challenges and good practice.
+    </p>
+
+    <details class="agenda">
+      <summary>Agenda (click to expand)</summary>
+      <p class="tiny">To be confirmed</p>
+    </details>
+
+    <p class="cta-row">
+      <a class="btn btn-primary" href="{{ '/join/' | relative_url }}">Register for updates →</a>
+    </p>
+
+    <p class="tiny">Parts of the event may be audio recorded for summary purposes; photos may be taken. Let us know if you prefer not to be photographed.</p>
+
+  </article>
 
     <article class="event-card flow">
       <span class="past-badge">Past</span>
