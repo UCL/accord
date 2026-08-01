@@ -22,6 +22,15 @@ permalink: /roadmap/
     </ul>
 
 <br>  The diagram shows how they connect: a triage and information-gathering process feeds into modular contract templates, which in turn inform technical audits and compliance - all supported by an advisory service and automation capabilities, enabling policy, professional development, provisioning and a growing community. Click any segment or card to explore the recommendations and evidence behind each pillar.</p>
+<br>
+
+
+      <div class="cta-row">
+      <a class="btn btn-primary" href="https://forms.cloud.microsoft/e/ZqVmA0f0Tp" target="_blank" rel="noopener">
+      Share your thoughts/give feedback →
+      </a>
+    </div>
+<br>
 
   <!-- ── Interactive pillar diagram ── -->
   <div class="diagram-wrapper">
@@ -64,7 +73,7 @@ permalink: /roadmap/
           d="M 410 400 A 165 165 0 0 1 245 235 L 320 235 A 90 90 0 0 0 410 325 Z"
           fill="#C02898"/>
 
-        <!-- ── Inner circle: top semi-circle Advisory Services ── -->
+        <!-- ── Inner circle: top semi-circle Advisory Service ── -->
         <path class="diag-seg" data-pillar="advisory-service" tabindex="0" role="button" aria-label="Advisory Service pillar"
           d="M 321 235 A 89 89 0 0 1 499 235 Z"
           fill="#a8b4c8" fill-opacity="0.2"/>
@@ -164,6 +173,14 @@ permalink: /roadmap/
       Export All Data
     </button>
   </div>
+
+
+      <div class="cta-row">
+      <a class="btn btn-primary" href="https://forms.cloud.microsoft/e/ZqVmA0f0Tp" target="_blank" rel="noopener">
+      Share your thoughts/give feedback →
+      </a>
+    </div>
+
 </div>
 
 <script>
