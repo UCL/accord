@@ -11,12 +11,26 @@ permalink: /roadmap/
   <p class="roadmap-subheading">Nine recommendation pillars form the ACCoRD roadmap, divided into three sub groupings.
 
     <ul>
-    <li><b>ACCoRD-R1: </b>Firstly <b>national strategy and governance</b> recommendations focus on enabling research data contracting in the long term, addressing the high level systemic approach that will ensure that improvements to data contracting are sustained in the long term.  These include establishing a national advisory service and a new research technical professional, as well as ensuring that ACCoRD takes account of the fact that Digital Research Infrastructure is evolving and will continue to do so.  Automation forms the fourth element of this group – while our work shows that research data contracting will never be fully automatable, use of Large Language Models in contracting can provide benefits, leaving the experts to focus on those elements of a contract that cannot be automated.</li>
-    <li><b>ACCoRD-R2:</b> Our second group of recommendations delivers the <b>national and institutional enablers</b> underpinning ACCoRD – i.e. these are the catalysts without which the more practical recommendations arising from the project cannot be delivered.   The four interlinked recommendations within this group cover policy, such as the use of templates and developing better understanding of institutional risk and liabilities, people – both in terms of the resources required to remove contracting bottlenecks and those required to continue the ACCoRD community work and deliver on the roadmap, professional development (training and guidance) to ensure that all stakeholders are appropriately skilled and have access to relevant information in a timely manner, and provisioning – providing the funding required to deliver on the roadmap, to develop templates, training and much more. </li>
-    <li><b>ACCoRD-R3:</b> The final group of recommendations relate to <b>standardisation and institutional processes and governance</b> and cover the delivery of key approaches to facilitate contracting on a day-to-day basis, within institutions; these include a robust triage process, the use of templates for contracting terms and a clearly defined technical audit and compliance process post-contract signature.</li>
+    <li><b>ACCoRD-R1:</b> The first group of recommendations relate to <b>standardisation and institutional processes</b> and governance and covers the delivery of key approaches to facilitate contracting on a day-to-day basis, within institutions; these include a robust <b>triage</b> process, the use of <b>templates</b> for contracting terms and a clearly defined <b>technical audit and compliance process</b> post-contract signature.  To ensure economies of scale in terms of effort to deliver these recommendations, and to develop associated training and guidance and software, it is suggested that collaborative standard processes are developed nationally and then adapted by each institution.  Having standardised approaches also facilitates third-party engagement with multiple institutions.   The overall flow through these recommendations broadly reflects the research data contracting process steps identified early on during ACCoRD.</li>
+
+
+
+    <li><b>ACCoRD-R2:</b> Our second group of recommendations delivers the <b>national and institutional enablers</b> underpinning ACCoRD – i.e. these are the catalysts without which the more practical recommendations arising from the project cannot be delivered.   The four interlinked recommendations within this group cover <b>policy</b>, such as the use of templates and developing better understanding of institutional risk and liabilities, <b>people</b> – both in terms of the resources required to remove contracting bottlenecks and those required to continue the ACCoRD community work and deliver on the roadmap, <b>professional development (training and guidance)</b> to ensure that all stakeholders are appropriately skilled and have access to relevant information in a timely manner, and <b>provisioning</b> – providing the funding required to deliver on the roadmap, to develop templates, training and much more.  </li>
+    
+
+    <li><b>ACCoRD-R3: </b>Finally, <b>strategy and governance</b> recommendations at national level should focus on enabling research data contracting in the long term, addressing the high level systemic approach that will ensure that improvements to data contracting are sustained.  These include establishing a <b>national advisory service</b> and a <b>new research technical professional role – a Research Data Partnerships Coordinator</b>, as well as ensuring that ACCoRD takes account of the fact that Digital Research Infrastructure is evolving and will continue to do so.  <b>Automation</b> is also key– while our work shows that research data contracting will never be fully automatable, the identification/creation of software to support the contracting process, and potentially the use of Large Language Models in contracting can both provide benefits, leaving the experts to focus on those elements of a contract that cannot be automated.</li>
     </ul>
 
 <br>  The diagram shows how they connect: a triage and information-gathering process feeds into modular contract templates, which in turn inform technical audits and compliance - all supported by an advisory service and automation capabilities, enabling policy, professional development, provisioning and a growing community. Click any segment or card to explore the recommendations and evidence behind each pillar.</p>
+<br>
+
+
+      <div class="cta-row">
+      <a class="btn btn-primary" href="https://forms.cloud.microsoft/e/ZqVmA0f0Tp" target="_blank" rel="noopener">
+      Share your thoughts/give feedback →
+      </a>
+    </div>
+<br>
 
   <!-- ── Interactive pillar diagram ── -->
   <div class="diagram-wrapper">
@@ -59,7 +73,7 @@ permalink: /roadmap/
           d="M 410 400 A 165 165 0 0 1 245 235 L 320 235 A 90 90 0 0 0 410 325 Z"
           fill="#C02898"/>
 
-        <!-- ── Inner circle: top semi-circle Advisory Services ── -->
+        <!-- ── Inner circle: top semi-circle Advisory Service ── -->
         <path class="diag-seg" data-pillar="advisory-service" tabindex="0" role="button" aria-label="Advisory Service pillar"
           d="M 321 235 A 89 89 0 0 1 499 235 Z"
           fill="#a8b4c8" fill-opacity="0.2"/>
@@ -159,6 +173,14 @@ permalink: /roadmap/
       Export All Data
     </button>
   </div>
+
+
+      <div class="cta-row">
+      <a class="btn btn-primary" href="https://forms.cloud.microsoft/e/ZqVmA0f0Tp" target="_blank" rel="noopener">
+      Share your thoughts/give feedback →
+      </a>
+    </div>
+
 </div>
 
 <script>
